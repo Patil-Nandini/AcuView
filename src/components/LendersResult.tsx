@@ -13,19 +13,19 @@ tabletGradient: string;
 
 const cards: Card[] = [
 {
- title: "70% Reduction & Growing",
- desc: "In loan stacking-related defaults",
+ title: "67% Reduction",
+ desc: "In loan stacking",
  icon: "/70-Reduction-Growing.webp",
  bg: "/RectangleBg.webp",
- gradient: "linear-gradient(to bottom, white 20%, #FFE8E8 80%)",
+ gradient: "linear-gradient(to bottom, white 30%, #FFE8E8 70%)",
  tabletGradient: "linear-gradient(to bottom, white 30%, #FFE8E8 70%)",
 },
 {
  title: "Industry-Wide Visibility",
- desc: "Go beyond your own customer base to see complete borrowing patterns",
+ desc: "See your customer borrowing pattern with other Lenders",
  icon: "/Industry-Wide-Visibility.webp",
  bg: "/RectangleBg.webp",
- gradient: "linear-gradient(to bottom, white 20%, #FEF4DC 80%)",
+ gradient: "linear-gradient(to bottom, white 30%, #FEF4DC 70%)",
  tabletGradient: "linear-gradient(to bottom, white 30%, #FEF4DC 70%)",
 },
 {
@@ -33,7 +33,7 @@ const cards: Card[] = [
  desc: "Customer verification",
  icon: "/99-Faster-.webp",
  bg: "/RectangleBg.webp",
- gradient: "linear-gradient(to bottom, white 20%, #E5E5FF 80%)",
+ gradient: "linear-gradient(to bottom, white 30%, #E5E5FF 70%)",
  tabletGradient: "linear-gradient(to bottom, white 30%, #E5E5FF 70%)",
 },
 {
@@ -41,15 +41,15 @@ const cards: Card[] = [
  desc: "You stay anonymous, and your portfolio stays protected",
  icon: "/Privacy-focused-Design.webp",
  bg: "/RectangleBg.webp",
- gradient: "linear-gradient(to bottom, white 20%, #CBEDF9 80%)",
+ gradient: "linear-gradient(to bottom, white 30%, #CBEDF9 70%)",
  tabletGradient: "linear-gradient(to bottom, white 30%, #CBEDF9 70%)",
 },
 {
- title: "3ms Processing",
+ title: "1 < second Processing",
  desc: "Lightning-fast and unbreakable",
  icon: "/3ms-Processing.webp",
  bg: "/RectangleBg.webp",
- gradient: "linear-gradient(to bottom, white 20%, #CDF9EE 80%)",
+ gradient: "linear-gradient(to bottom, white 30%, #CDF9EE 70%)",
  tabletGradient: "linear-gradient(to bottom, white 30%, #CDF9EE 70%)",
 },
 {
@@ -57,7 +57,7 @@ const cards: Card[] = [
  desc: "Grow stronger every day with each new lender",
  icon: "/Lender-Network-Effect.webp",
  bg: "/RectangleBg.webp",
- gradient: "linear-gradient(to bottom, white 20%, #FFE6E6 80%)",
+ gradient: "linear-gradient(to bottom, white 30%, #FFE6E6 70%)",
  tabletGradient: "linear-gradient(to bottom, white 30%, #FFE6E6 70%)",
 },
 ];
@@ -79,9 +79,9 @@ return (
        {cards.map((c, idx) => (
          <div key={idx} className="bg-white rounded-[40px] shadow-[0_6px_12px_rgba(0,0,0,0.12)] p-1.5 md:bg-transparent md:rounded-none md:shadow-none md:p-0 lg:bg-white lg:rounded-[40px] lg:shadow-[0_6px_12px_rgba(0,0,0,0.12)] lg:p-1.5">
            <article
-             className="relative rounded-[36px] shadow-none md:shadow-[0_10px_20px_rgba(12,18,39,0.08)] lg:shadow-none overflow-hidden bg-white min-h-[260px] md:min-h-[320px] lg:min-h-[260px] md:max-w-[320px] lg:max-w-none md:mx-auto lg:mx-0 flex flex-col justify-between p-8"
+             className="relative rounded-[36px] shadow-none md:shadow-[0_10px_20px_rgba(12,18,39,0.08)] lg:shadow-none overflow-hidden bg-white min-h-[320px] md:min-h-[380px] lg:min-h-[320px] md:max-w-[320px] lg:max-w-none md:mx-auto lg:mx-0 flex flex-col justify-between p-8"
              style={{
-               backgroundImage: `url('${c.bg}'), ${typeof window !== 'undefined' && window.innerWidth >= 768 && window.innerWidth < 1024 ? c.tabletGradient : c.gradient}`,
+               backgroundImage: `linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.3)), url('${c.bg}'), ${typeof window !== 'undefined' && window.innerWidth >= 768 && window.innerWidth < 1024 ? c.tabletGradient : c.gradient}`,
                backgroundRepeat: "no-repeat",
                backgroundPosition: "center",
                backgroundSize: "cover",
@@ -92,9 +92,9 @@ return (
                <p className="mt-3 text-[15px] md:text-[13px] lg:text-[15px] text-[#252529] max-w-[80%]">{c.desc}</p>
              </div>
 
-             <div className="relative mt-3 flex items-end justify-center">
-               <div className="relative z-10 w-20 h-20 rounded-full flex items-center justify-center">
-                 <Image src={c.icon} width={220} height={220} alt={c.title} />
+             <div className="relative mt-6 flex items-end justify-center">
+               <div className="relative z-10 w-32 h-32 rounded-full flex items-center justify-center">
+                 <Image src={c.icon} width={128} height={128} alt={c.title} />
                </div>
              </div>
            </article>
