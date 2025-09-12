@@ -64,12 +64,12 @@ const cards: Card[] = [
 
 const LendersResult: React.FC = () => {
 return (
- <section className="w-full font-sans bg-[RectangleBg.webp')] bg-norepeat pt-8 pb-28">
+ <section className="w-full font-sans bg-[url('/Indroducing-Section-bg.png')] bg-norepeat pt-8 pb-28">
    <div className="max-w-7xl mx-auto px-6">
      <div className="text-center">
-       <h1 className="text-[34px] sm:text-[36px] font-extrabold text-[#07102A] leading-tight">
+       <h2 className="text-[34px] sm:text-[36px] font-extrabold text-[#07102A] leading-tight">
          Lender Results That Speak Volumes
-       </h1>
+       </h2>
        <p className="mt-4 text-gray-600 text-[17px]">
          Real numbers from lenders using <span className="font-semibold">AcuView</span>
        </p>
