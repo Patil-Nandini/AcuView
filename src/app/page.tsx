@@ -1,16 +1,27 @@
+import ComparisonSection from "@/components/ComparisionSection";
 import Footer from "@/components/Footer";
-import Header from "@/components/Header";
+import FoundingBenefits from "@/components/FoundingMember";
 import Industries from "@/components/IndustriesWeServe";
 import LendersResult from "@/components/LendersResult";
+import SetupSteps from "@/components/SetupSteps";
+import Testimonials from "@/components/Testimonial";
+import WhoisAcuViewBuiltFor from "@/components/WhoisAcuviewBuiltFor";
 import DontFundBlind from "@/components/DontFundBlind";
+import IntroducingTheFirst from "@/components/Introducingthefirst";
 
 export default function Home() {
   return (
     <main className="bg-white flex justify-center">
-      <div className="w-full max-w-[1920px]">
+      <div className="w-full ">
         {/* <Header /> */}
+        <IntroducingTheFirst />
         <DontFundBlind />
         <LendersResult />
+        {/* <WhoisAcuViewBuiltFor/> */}
+        <FoundingBenefits />
+        {/* <ComparisonSection /> */}
+        {/* <SetupSteps /> */}
+        <Testimonials />
         <Industries/>
         <Footer />
       </div>
