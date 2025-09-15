@@ -8,6 +8,7 @@ import Testimonials from "@/components/Testimonial";
 import WhoisAcuViewBuiltFor from "@/components/WhoisAcuviewBuiltFor";
 import DontFundBlind from "@/components/DontFundBlind";
 import IntroducingTheFirst from "@/components/Introducingthefirst";
+import TheEarlyBird from "@/components/TheEarlyBird";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <FoundingBenefits />
         {/* <ComparisonSection /> */}
         {/* <SetupSteps /> */}
+        <TheEarlyBird />
         <Testimonials />
         <Industries/>
         <Footer />
