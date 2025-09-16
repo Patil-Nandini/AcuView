@@ -1,18 +1,21 @@
-import React from 'react';
-import Image from 'next/image';
+"use client"
+import React from "react";
+import Image from "next/image";
 
 const ThirtyDaysFree: React.FC = () => {
   return (
-    <div className="min-h-screen bg-white px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
+    <div className="min-h-screen bg-white px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20 font-sarabun bg-[url('/Indroducing-Section-bg.png')] flex flex-col justtify-center items-center">
       <div className="max-w-7xl mx-auto">
         {/* Heading and subtitle */}
         <div className="text-center mb-12 sm:mb-16">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-black mb-6">
+          <h1 className="text-[40px] font-bold text-black mb-6">
             30 Days FREE — No Strings Attached
           </h1>
-          <p className="text-lg sm:text-xl text-gray-700 max-w-3xl mx-auto">
-            We're so confident <span className="font-semibold">AcuView</span> will transform your lending that we're{' '}
-            giving you <span className="font-semibold">30 days</span> completely <span className="font-semibold">FREE</span>.
+          <p className="text-[18px] text-[#0F1720] max-w-3xl mx-auto">
+            We're so confident <span className="font-semibold">AcuView</span>{" "}
+            will transform your lending that we're giving you{" "}
+            <span className="font-semibold">30 days</span> completely{" "}
+            <span className="font-semibold">FREE</span>.
           </p>
         </div>
 
@@ -27,7 +30,7 @@ const ThirtyDaysFree: React.FC = () => {
                 className="object-contain"
               />
             </div>
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-black text-center">
+            <h2 className="text-[28px] font-bold text-black text-center">
               Your 30-Day Risk-Free Trial Includes:
             </h2>
           </div>
@@ -147,6 +150,89 @@ const ThirtyDaysFree: React.FC = () => {
           />
         </div>
       </div>
+      <div className="flex flex-col justify-center items-center w-[100%] pt-10">
+        <div className="bg-black text-white flex justify-center items-center rounded-[40px] py-3 px-10 mb-16 text-sm sm:text-base max-w-5xl">
+          <span className="font-semibold flex items-center justify-center gap-2">
+            <Image
+              src="/affiliate-marketing.svg"
+              alt="Rocket Icon"
+              width={20}
+              height={20}
+            />
+            Your participation doesn&apos;t just help your business, it helps
+            build the infrastructure that will protect the entire industry.
+          </span>
+        </div>
+
+        <div className="text-center mb-16">
+          <h2 className="text-2xl sm:text-3xl font-bold text-black mb-4">
+            Building the Future of Lending Intelligence
+          </h2>
+          <p className="text-[20px] text-[#0F1720] max-w-3xl mx-auto">
+            <span className="font-semibold">AcuFi</span> created{" "}
+            <span className="font-semibold">AcuView</span> to solve the
+            industry&apos;s biggest blind spot, real-time borrower activity
+            across all lenders.
+          </p>
+        </div>
+
+        <div className="bg-white border border-[#BDBDBD] rounded-2xl p-8 max-w-3xl mx-auto mb-12 shadow-[0px_2px_2px_0px_#00000026]">
+          <div className="flex flex-col items-center text-center">
+            <div className="flex items-center gap-3 mb-4">
+              <div className="relative w-10 h-10 flex-shrink-0">
+                <Image
+                  src="/OurVision.svg"
+                  alt="Vision Icon"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+              <h3 className="text-xl sm:text-2xl font-bold text-[#0F1720]">
+                Our vision
+              </h3>
+            </div>
+
+            <p className="text-[#504E4E] text-[18px]">
+              A world where lenders make decisions based on real-time
+              intelligence, not outdated credit reports.
+            </p>
+          </div>
+        </div>
+
+        <div className="text-center">
+          <p className="text-[18px] text-[#0F1720] mb-6">
+            Become a founding member of the world’s first real-time lending
+            network.
+          </p>
+          <h3 className="text-xl sm:text-2xl font-bold text-[#0F1720] mb-6">
+            Join the Revolution!
+          </h3>
+          <div className="w-[100%] flex justify-center items0-center">
+          <button
+            type="button"
+            className="flex items-center justify-center h-[90px] text-white font-semibold cursor-pointer w-[270px] sm:w-[290px] px-7"
+            style={{
+              backgroundImage: "url('/AcuViewButtonBg.webp')",
+              backgroundSize: "100% 100%",
+              backgroundRepeat: "no-repeat",
+              paddingBottom: "25px",
+            }}
+            aria-label="Start Your Free 90-Day Trial"
+            onClick={() =>
+              (window.location.href = "https://acufi.com/lets-connect/")
+            }
+          >
+            <Image
+              src="/RocketIcon.png"
+              alt="Rocket Icon"
+              width={20}
+              height={20}
+            />
+            <span className="ml-2 whitespace-nowrap">Start Your FREE 30-Day Trial!</span>
+          </button>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
@@ -163,15 +249,12 @@ interface CardProps {
 const Card: React.FC<CardProps> = ({ icon, alt, title, subtitle }) => (
   <div className="bg-white border-2 border-gray-200 rounded-2xl p-6 w-full h-full flex flex-col items-center justify-center text-center hover:shadow-lg transition-shadow">
     <div className="w-16 h-16 mb-4 relative flex-shrink-0">
-      <Image
-        src={icon}
-        alt={alt}
-        fill
-        className="object-contain"
-      />
+      <Image src={icon} alt={alt} fill className="object-contain" />
     </div>
-    <h3 className="text-base font-semibold text-black leading-tight">
-      {title}<br />{subtitle}
+    <h3 className="text-[16px] font-semibold text-[#17012C] leading-tight">
+      {title}
+      <br />
+      {subtitle}
     </h3>
   </div>
 );
