@@ -53,11 +53,11 @@ export default function HowAcuViewWorks() {
           <div className="relative bg-white rounded-xl shadow-lg px-6 py-8 w-[277px] h-[270px]  mb-6 md:mb-0 rotate-[-7deg]">
             <div className="absolute -top-12 left-1/2 -translate-x-1/2 ">
               <Image
-                src="/IconSubmitDetails.png"
+                src="/IconYellow.png"
                 alt="Submit Details"
                 width={48}
                 height={48}
-                className="w-[100]"
+                className="w-[80] h-[80]"
               />
             </div>
             <h3 className="text-lg font-bold text-center mb-2 mt-3 border-b border-[#E9E9E9] pb-5">
@@ -71,12 +71,13 @@ export default function HowAcuViewWorks() {
           </div>
           {/* Step 2 */}
           <div className="relative bg-white rounded-xl shadow-lg px-6 py-8 w-[286px] h-[180px]  mb-6 md:mb-0 rotate-[-3deg]">
-            <div className="absolute -bottom-6 left-1/2 -translate-x-1/2">
+            <div className="absolute -bottom-12 left-1/2 -translate-x-1/2">
               <Image
-                src="/Scan-Network.webp"
+                src="/IconGreen.png"
                 alt="Scan Network"
                 width={48}
                 height={48}
+                className="w-[80] h-[80]"
               />
             </div>
             <h3 className="text-lg font-bold text-center mb-2 mt-3 border-b border-[#E9E9E9] pb-5">
@@ -88,12 +89,13 @@ export default function HowAcuViewWorks() {
           </div>
           {/* Step 3 */}
           <div className="relative bg-white rounded-xl shadow-lg px-6 py-8 w-[286px] h-[180px] mb-6 md:mb-0 rotate-[2deg]">
-            <div className="absolute -bottom-6 left-1/2 -translate-x-1/2">
+            <div className="absolute -bottom-12 left-1/2 -translate-x-1/2">
               <Image
-                src="/Get-Results.webp"
+                src="/IconPink.png"
                 alt="Get Results"
                 width={48}
                 height={48}
+                 className="w-[80] h-[80]"
               />
             </div>
             <h3 className="text-lg font-bold text-center mb-2 mt-3 border-b border-[#E9E9E9] pb-5">
@@ -105,12 +107,13 @@ export default function HowAcuViewWorks() {
           </div>
           {/* Step 4 */}
           <div className="relative bg-white rounded-xl shadow-lg px-6 py-8 w-[277px] h-[270px] mb-6 md:mb-0 rotate-[7deg]">
-            <div className="absolute -top-6 left-1/2 -translate-x-1/2">
+            <div className="absolute -top-12 left-1/2 -translate-x-1/2">
               <Image
-                src="/Make-Decisions.webp"
+                src="/IconBlue.png"
                 alt="Make Decisions"
                 width={48}
                 height={48}
+                 className="w-[80] h-[80]"
               />
             </div>
             <h3 className="text-lg font-bold text-center mb-2 mt-3 border-b border-[#E9E9E9] pb-5">
