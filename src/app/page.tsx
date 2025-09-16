@@ -11,6 +11,8 @@ import StatsSection from "@/components/Impact";
 import LenderNetworkEffect from "@/components/LenderNetworkAction";
 import HiddenCrisisSection from "@/components/HiddenCrysis";
 import FlexibleIntegrationOptions from "@/components/FlexibleIntegration";
+import TheEarlyBird from "@/components/TheEarlyBird";
+
 export default function Home() {
   return (
     <main className="bg-white flex justify-center">
@@ -28,6 +30,7 @@ export default function Home() {
         <FlexibleIntegrationOptions />
         <ComparisonSection />
         {/* <SetupSteps /> */}
+        <TheEarlyBird />
         <Testimonials />
         <Footer />
       </div>
