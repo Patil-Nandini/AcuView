@@ -15,6 +15,7 @@ import TheEarlyBird from "@/components/TheEarlyBird";
 import LendingBanner from "@/components/JoinFoundingLenders";
 import FaqSection from "@/components/FAQS";
 import AcuviewBanner from "@/components/AcuView";
+import ThirtyDaysFree from "@/components/30DaysFree";
 
 export default function Home() {
   return (
@@ -34,6 +35,7 @@ export default function Home() {
         <ComparisonSection />
         {/* <SetupSteps /> */}
         <TheEarlyBird />
+        <ThirtyDaysFree/>
         <Testimonials />
         <AcuviewBanner />
         <FaqSection />
