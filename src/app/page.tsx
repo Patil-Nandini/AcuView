@@ -9,6 +9,7 @@ import WhoisAcuViewBuiltFor from "@/components/WhoisAcuviewBuiltFor";
 import DontFundBlind from "@/components/DontFundBlind";
 import IntroducingTheFirst from "@/components/Introducingthefirst";
 import TheEarlyBird from "@/components/TheEarlyBird";
+import ThirtyDaysFree from "@/components/30DaysFree";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         {/* <ComparisonSection /> */}
         {/* <SetupSteps /> */}
         <TheEarlyBird />
+        <ThirtyDaysFree/>
         <Testimonials />
         <Industries/>
         <Footer />
