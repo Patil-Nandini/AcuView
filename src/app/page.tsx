@@ -29,7 +29,7 @@ export default function Home() {
         <HiddenCrisisSection />
         <DontFundBlind />
         <LendersResult />
-        <WhoisAcuViewBuiltFor />
+        {/* <WhoisAcuViewBuiltFor /> */}
         <FoundingBenefits />
         <FlexibleIntegrationOptions />
         <ComparisonSection />
