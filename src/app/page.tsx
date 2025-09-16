@@ -12,6 +12,9 @@ import LenderNetworkEffect from "@/components/LenderNetworkAction";
 import HiddenCrisisSection from "@/components/HiddenCrysis";
 import FlexibleIntegrationOptions from "@/components/FlexibleIntegration";
 import TheEarlyBird from "@/components/TheEarlyBird";
+import LendingBanner from "@/components/JoinFoundingLenders";
+import FaqSection from "@/components/FAQS";
+import AcuviewBanner from "@/components/AcuView";
 
 export default function Home() {
   return (
@@ -32,6 +35,9 @@ export default function Home() {
         {/* <SetupSteps /> */}
         <TheEarlyBird />
         <Testimonials />
+        <AcuviewBanner />
+        <FaqSection />
+        <LendingBanner />
         <Footer />
       </div>
     </main>

@@ -258,3 +258,118 @@
 //     </div>
 //   );
 // }
+
+
+export default function SetupSteps() {
+  return (
+    <div className="flex flex-col items-center justify-center w-full bg-cover bg-center bg-no-repeat overflow-x-hidden min-h-[780px] lg:h-[780px] py-10 lg:py-0">
+      <div className="relative flex w-[58%] max-w-full h-full lg:h-full justify-center items-center flex-col lg:flex-row">
+        {/* Desktop connectors */}
+        <img
+          className="hidden lg:block absolute top-[28%] left-[30%]"
+          src="https://acufi.com/wp-content/uploads/2025/07/SetUpimageOne.png"
+          alt="Connector 1"
+        />
+        <img
+          className="hidden lg:block absolute top-[48%] left-[43%] h-[44%]"
+          src="https://acufi.com/wp-content/uploads/2025/07/SetUpimageTwo.png"
+          alt="Connector 2"
+        />
+
+        {/* Tablet & Mobile connectors */}
+        <img
+          className="block lg:hidden absolute z-[1] top-[16%] left-[66%] md:top-[12%] md:left-[10%] w-[300px] max-w-[370px] md:w-full"
+          src="https://acufi.com/wp-content/uploads/2025/07/TabViewPipeOne.png"
+          alt="Connector for Step 1"
+        />
+        <img
+          className="block lg:hidden absolute z-[1] top-[51%] left-[-51%] md:top-[50%] md:left-[-7%] w-[300px] max-w-[370px] md:w-full"
+          src="https://acufi.com/wp-content/uploads/2025/07/TabViewPipeTwo.png"
+          alt="Connector for Step 2"
+        />
+
+        {/* Steps grid */}
+        <div className="relative grid lg:inline-grid lg:gap-[18%] gap-20 md:gap-[90px] items-center">
+          {/* Step 1 */}
+          <div className="relative bg-white rounded-[21px] shadow-[17.5px_5.6px_27.51px_2.1px_#91AAFA99] w-[340px] h-[280px] md:max-w-[380px] md:h-auto p-8 md:p-6 flex flex-col justify-center">
+            {/* Icons */}
+            <div className="absolute top-[-14%] left-[87%] w-[25%] h-[25%] flex items-center justify-center">
+              <object
+                type="image/svg+xml"
+                data="https://acufi.com/images/ICON 1 time NOT adjusted.svg"
+              ></object>
+            </div>
+            <div className="absolute bottom-[-11%] left-[-13%] md:left-[85%] w-[25%] h-[25%] flex items-center justify-center">
+              <object
+                type="image/svg+xml"
+                data="https://acufi.com/images/ICON 2 time NOT adjusted.svg"
+              ></object>
+            </div>
+            <h3 className="bg-gradient-to-r from-[#2D6CED] to-[#2FB0D2] bg-clip-text text-transparent text-[26px] font-semibold mb-4 md:text-[22px]">
+              Quick Setup
+            </h3>
+            <ol className="text-[#504E4E] text-[16px] font-medium space-y-4 md:text-[15px]">
+              <li>1. Seamlessly integrates with existing LMS software</li>
+              <li>2. Minimal IT requirements</li>
+              <li>3. Full training &amp; support provided for your team</li>
+            </ol>
+          </div>
+
+          {/* Step 2 */}
+          <div className="relative bg-white rounded-[21px] shadow-[17.5px_5.6px_27.51px_2.1px_#91AAFA99] w-[340px] h-[280px] md:max-w-[380px] md:h-auto p-8 md:p-6 flex flex-col justify-center">
+            <div className="absolute top-[-15%] left-[-13%] md:left-[-12%] w-[25%] h-[25%] flex items-center justify-center">
+              <object
+                type="image/svg+xml"
+                data="https://acufi.com/images/ICON 3 time NOT adjusted.svg"
+              ></object>
+            </div>
+            <div className="absolute bottom-[-11%] right-[-14%] w-[25%] h-[25%] flex items-center justify-center">
+              <object
+                type="image/svg+xml"
+                data="https://acufi.com/images/ICON 4 time NOT adjusted.svg"
+              ></object>
+            </div>
+            <div className="absolute bottom-[-30%] left-[-24%] md:left-[-60%] md:bottom-[-26%] w-[25%] h-[25%] flex items-center justify-center">
+              <object
+                type="image/svg+xml"
+                data="https://acufi.com/images/ICON 5 time NOT adjusted.svg"
+              ></object>
+            </div>
+            <h3 className="text-[#0094ff] text-[26px] font-semibold mb-4 md:text-[22px]">
+              Immediate Results
+            </h3>
+            <ol className="text-[#504E4E] text-[16px] font-medium space-y-4 md:text-[15px]">
+              <li>1. See loan attempts in real time</li>
+              <li>2. Start protecting your portfolio</li>
+              <li>3. Gain actionable borrower insights from day one</li>
+            </ol>
+          </div>
+
+          {/* Step 3 */}
+          <div className="relative bg-white rounded-[21px] shadow-[17.5px_5.6px_27.51px_2.1px_#91AAFA99] w-[340px] h-[280px] md:max-w-[380px] md:h-auto p-8 md:p-6 flex flex-col justify-center mt-6 md:mt-0">
+            <div className="absolute top-[-14%] left-[-12%] w-[25%] h-[25%] flex items-center justify-center">
+              <object
+                type="image/svg+xml"
+                data="https://acufi.com/images/ICON 6 time NOT adjusted.svg"
+              ></object>
+            </div>
+            <div className="absolute bottom-[-14%] right-[-12%] w-[25%] h-[25%] flex items-center justify-center">
+              <object
+                type="image/svg+xml"
+                data="https://acufi.com/images/ICON 7 time NOT adjusted.svg"
+              ></object>
+            </div>
+            <h3 className="text-[#0071c2] text-[26px] font-semibold mb-4 md:text-[22px]">
+              Ongoing Support
+            </h3>
+            <ol className="text-[#504E4E] text-[16px] font-medium space-y-4 md:text-[15px]">
+              <li>1. Dedicated customer success manager</li>
+              <li>2. Regular updates</li>
+              <li>3. Training materials</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
