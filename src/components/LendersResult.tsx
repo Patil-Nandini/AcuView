@@ -15,7 +15,7 @@ const cards: Card[] = [
 {
  title: "67% Reduction",
  desc: "In loan stacking",
- icon: "/70-Reduction-Growing.webp",
+ icon: "/Reduction.png",
  bg: "/RectangleBg.webp",
  gradient: "linear-gradient(to bottom, white 30%, #FFE8E8 70%)",
  tabletGradient: "linear-gradient(to bottom, white 30%, #FFE8E8 70%)",
@@ -23,7 +23,7 @@ const cards: Card[] = [
 {
  title: "Industry-Wide Visibility",
  desc: "See your customer borrowing pattern with other Lenders",
- icon: "/Industry-Wide-Visibility.webp",
+ icon: "/Industry-Wide-Visibility.png",
  bg: "/RectangleBg.webp",
  gradient: "linear-gradient(to bottom, white 30%, #FEF4DC 70%)",
  tabletGradient: "linear-gradient(to bottom, white 30%, #FEF4DC 70%)",
@@ -31,7 +31,7 @@ const cards: Card[] = [
 {
  title: "99% Faster",
  desc: "Customer verification",
- icon: "/99-Faster-.webp",
+ icon: "/Faster.png",
  bg: "/RectangleBg.webp",
  gradient: "linear-gradient(to bottom, white 30%, #E5E5FF 70%)",
  tabletGradient: "linear-gradient(to bottom, white 30%, #E5E5FF 70%)",
@@ -39,7 +39,7 @@ const cards: Card[] = [
 {
  title: "Privacy-Focused Design",
  desc: "You stay anonymous, and your portfolio stays protected",
- icon: "/Privacy-focused-Design.webp",
+ icon: "/Privacy-focused-Design.png",
  bg: "/RectangleBg.webp",
  gradient: "linear-gradient(to bottom, white 30%, #CBEDF9 70%)",
  tabletGradient: "linear-gradient(to bottom, white 30%, #CBEDF9 70%)",
@@ -47,7 +47,7 @@ const cards: Card[] = [
 {
  title: "1 < second Processing",
  desc: "Lightning-fast and unbreakable",
- icon: "/3ms-Processing.webp",
+ icon: "/ProcessignICon.png",
  bg: "/RectangleBg.webp",
  gradient: "linear-gradient(to bottom, white 30%, #CDF9EE 70%)",
  tabletGradient: "linear-gradient(to bottom, white 30%, #CDF9EE 70%)",
@@ -55,7 +55,7 @@ const cards: Card[] = [
 {
  title: "Lender Network Effect",
  desc: "Grow stronger every day with each new lender",
- icon: "/Lender-Network-Effect.webp",
+ icon: "/LenderNetworkEffect.png",
  bg: "/RectangleBg.webp",
  gradient: "linear-gradient(to bottom, white 30%, #FFE6E6 70%)",
  tabletGradient: "linear-gradient(to bottom, white 30%, #FFE6E6 70%)",
@@ -64,7 +64,7 @@ const cards: Card[] = [
 
 const LendersResult: React.FC = () => {
 return (
- <section className="w-full font-sans bg-[url('/Indroducing-Section-bg.png')] bg-norepeat pt-8 pb-28">
+ <section className="w-full font-sarabun bg-[url('/Indroducing-Section-bg.png')] bg-norepeat pt-8 pb-28">
    <div className="max-w-7xl mx-auto px-6">
      <div className="text-center">
        <h2 className="text-[34px] sm:text-[36px] font-extrabold text-[#07102A] leading-tight">

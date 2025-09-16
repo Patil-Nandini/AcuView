@@ -24,7 +24,7 @@ export default function ComparisonSection() {
     <div className="flex flex-col sm:flex-row items-center justify-center gap-8 lg:gap-0 relative w-[100%]">
         {/* Left Card */}
        <div
-  className="flex flex-col w-[100%] max-w-[280px] rounded-3xl 
+  className="flex flex-col w-[100%] max-w-[299px] rounded-3xl 
              border bg-[#FDF8F8] shadow-[0px_4px_10px_0px_#0B74DD26] 
              border-[#FA6450] p-6 relative bg-cover bg-center"
   style={{ backgroundImage: "url('/TraditionalCreditCheckBg.png')" }}
@@ -102,7 +102,7 @@ export default function ComparisonSection() {
 
         {/* Right Card */}
         <div
-          className="flex flex-col w-full max-w-[280px] min-h-[300px] rounded-3xl shadow-[0px_4px_10px_0px_#0B74DD26] border border-gray-200
+          className="flex flex-col w-full max-w-[299px] min-h-[300px] rounded-3xl shadow-[0px_4px_10px_0px_#0B74DD26] border border-gray-200
           p-6 relative bg-cover bg-center"
           style={{ backgroundImage: "url('/TimeManagementBg.png')" }}
         >

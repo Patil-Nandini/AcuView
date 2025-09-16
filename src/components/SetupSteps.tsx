@@ -136,125 +136,125 @@
 //   );
 // }
 
-"use client";
-import Image from "next/image";
+// "use client";
+// import Image from "next/image";
 
-export default function SetupSteps() {
-  return (
-    <div
-      className="relative flex flex-col items-center justify-center w-full bg-gradient-to-r from-[#f7faff] to-[#fefbff] overflow-hidden py-16"
-      style={{ backgroundImage: "url('/BgThreeStepProcess.webp')" }}
-    >
-      <div className="absolute ">
-        <Image
-          src="/BgThreeStepProcess.webp"
-          alt="Background waves"
-          fill
-          className="object-cover"
-        />
-      </div>
+// export default function SetupSteps() {
+//   return (
+//     <div
+//       className="relative flex flex-col items-center justify-center w-full bg-gradient-to-r from-[#f7faff] to-[#fefbff] overflow-hidden py-16"
+//       style={{ backgroundImage: "url('/BgThreeStepProcess.webp')" }}
+//     >
+//       <div className="absolute ">
+//         <Image
+//           src="/BgThreeStepProcess.webp"
+//           alt="Background waves"
+//           fill
+//           className="object-cover"
+//         />
+//       </div>
 
-      {/* Title */}
-      <div className="relative z-10 text-center max-w-2xl">
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
-          Easy 3 Step set up
-        </h2>
-        <p className="mt-2 text-gray-600">
-          Access the <span className="font-semibold">AcuView</span> lender
-          network
-        </p>
+//       {/* Title */}
+//       <div className="relative z-10 text-center max-w-2xl">
+//         <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
+//           Easy 3 Step set up
+//         </h2>
+//         <p className="mt-2 text-gray-600">
+//           Access the <span className="font-semibold">AcuView</span> lender
+//           network
+//         </p>
 
-        {/* CTA Button */}
-        <button
-          type="button"
-          className="flex items-center justify-center h-[90px] text-white font-semibold cursor-pointer w-[270px] sm:w-[280px] px-7 mt-8"
-          style={{
-            backgroundImage: "url('/AcuViewButtonBg.webp')",
-            backgroundSize: "100% 100%",
-            backgroundRepeat: "no-repeat",
-            paddingBottom: "25px",
-          }}
-          aria-label="Start Your Free 90-Day Trial"
-          onClick={() =>
-            (window.location.href = "https://acufi.com/lets-connect/")
-          }
-        >
-          <Image
-            src="/RocketIcon.png"
-            alt="Rocket Icon"
-            width={20}
-            height={20}
-          />
-          <span className="ml-2 whitespace-nowrap">Get Your Demo!</span>
-        </button>
-      </div>
+//         {/* CTA Button */}
+//         <button
+//           type="button"
+//           className="flex items-center justify-center h-[90px] text-white font-semibold cursor-pointer w-[270px] sm:w-[280px] px-7 mt-8"
+//           style={{
+//             backgroundImage: "url('/AcuViewButtonBg.webp')",
+//             backgroundSize: "100% 100%",
+//             backgroundRepeat: "no-repeat",
+//             paddingBottom: "25px",
+//           }}
+//           aria-label="Start Your Free 90-Day Trial"
+//           onClick={() =>
+//             (window.location.href = "https://acufi.com/lets-connect/")
+//           }
+//         >
+//           <Image
+//             src="/RocketIcon.png"
+//             alt="Rocket Icon"
+//             width={20}
+//             height={20}
+//           />
+//           <span className="ml-2 whitespace-nowrap">Get Your Demo!</span>
+//         </button>
+//       </div>
 
-      {/* Steps */}
-      <div className="relative z-10 mt-16 flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-20 max-w-6xl">
-        {/* Left Column */}
-        <div className="flex flex-col gap-16">
-          {/* Quick Setup */}
-          <div className="relative bg-white p-6 rounded-xl shadow-[0_10px_25px_rgba(0,0,0,0.08)] max-w-sm">
-            <h3 className="text-lg font-semibold text-blue-500">Quick Setup</h3>
-            <ul className="mt-3 space-y-2 text-gray-700 text-sm">
-              <li>1. Seamlessly integrates with existing LMS software</li>
-              <li>2. Minimal IT requirements</li>
-              <li>3. Full training & support provided for your team</li>
-            </ul>
-            {/* Floating Icon */}
-            <div className="absolute -top-6 -right-6 bg-white shadow-md rounded-lg p-3">
-              <Image
-                src="/SetUpimageOne.png"
-                alt="Quick setup"
-                width={32}
-                height={32}
-              />
-            </div>
-          </div>
+//       {/* Steps */}
+//       <div className="relative z-10 mt-16 flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-20 max-w-6xl">
+//         {/* Left Column */}
+//         <div className="flex flex-col gap-16">
+//           {/* Quick Setup */}
+//           <div className="relative bg-white p-6 rounded-xl shadow-[0_10px_25px_rgba(0,0,0,0.08)] max-w-sm">
+//             <h3 className="text-lg font-semibold text-blue-500">Quick Setup</h3>
+//             <ul className="mt-3 space-y-2 text-gray-700 text-sm">
+//               <li>1. Seamlessly integrates with existing LMS software</li>
+//               <li>2. Minimal IT requirements</li>
+//               <li>3. Full training & support provided for your team</li>
+//             </ul>
+//             {/* Floating Icon */}
+//             <div className="absolute -top-6 -right-6 bg-white shadow-md rounded-lg p-3">
+//               <Image
+//                 src="/SetUpimageOne.png"
+//                 alt="Quick setup"
+//                 width={32}
+//                 height={32}
+//               />
+//             </div>
+//           </div>
 
-          {/* Ongoing Support */}
-          <div className="relative bg-white p-6 rounded-xl shadow-[0_10px_25px_rgba(0,0,0,0.08)] max-w-sm">
-            <h3 className="text-lg font-semibold text-blue-500">
-              Ongoing Support
-            </h3>
-            <ul className="mt-3 space-y-2 text-gray-700 text-sm">
-              <li>1. Dedicated customer success manager</li>
-              <li>2. Regular updates</li>
-              <li>3. Training materials</li>
-            </ul>
-            {/* Floating Icon */}
-            <div className="absolute -bottom-6 -left-6 bg-white shadow-md rounded-lg p-3">
-              <Image
-                src="/SetUpimageTwo.png"
-                alt="Support"
-                width={32}
-                height={32}
-              />
-            </div>
-          </div>
-        </div>
+//           {/* Ongoing Support */}
+//           <div className="relative bg-white p-6 rounded-xl shadow-[0_10px_25px_rgba(0,0,0,0.08)] max-w-sm">
+//             <h3 className="text-lg font-semibold text-blue-500">
+//               Ongoing Support
+//             </h3>
+//             <ul className="mt-3 space-y-2 text-gray-700 text-sm">
+//               <li>1. Dedicated customer success manager</li>
+//               <li>2. Regular updates</li>
+//               <li>3. Training materials</li>
+//             </ul>
+//             {/* Floating Icon */}
+//             <div className="absolute -bottom-6 -left-6 bg-white shadow-md rounded-lg p-3">
+//               <Image
+//                 src="/SetUpimageTwo.png"
+//                 alt="Support"
+//                 width={32}
+//                 height={32}
+//               />
+//             </div>
+//           </div>
+//         </div>
 
-        {/* Right Column (Immediate Results) */}
-        <div className="relative bg-white p-6 rounded-xl shadow-[0_10px_25px_rgba(0,0,0,0.08)] max-w-sm">
-          <h3 className="text-lg font-semibold text-blue-500">
-            Immediate Results
-          </h3>
-          <ul className="mt-3 space-y-2 text-gray-700 text-sm">
-            <li>1. See loan attempts in real time</li>
-            <li>2. Gain actionable borrower insights from day one</li>
-            <li>3. Start protecting your portfolio today</li>
-          </ul>
-          {/* Floating Icon */}
-          <div className="absolute -top-6 -left-6 bg-white shadow-md rounded-lg p-3">
-            <Image
-              src="/icons/results.png"
-              alt="Results"
-              width={32}
-              height={32}
-            />
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
+//         {/* Right Column (Immediate Results) */}
+//         <div className="relative bg-white p-6 rounded-xl shadow-[0_10px_25px_rgba(0,0,0,0.08)] max-w-sm">
+//           <h3 className="text-lg font-semibold text-blue-500">
+//             Immediate Results
+//           </h3>
+//           <ul className="mt-3 space-y-2 text-gray-700 text-sm">
+//             <li>1. See loan attempts in real time</li>
+//             <li>2. Gain actionable borrower insights from day one</li>
+//             <li>3. Start protecting your portfolio today</li>
+//           </ul>
+//           {/* Floating Icon */}
+//           <div className="absolute -top-6 -left-6 bg-white shadow-md rounded-lg p-3">
+//             <Image
+//               src="/icons/results.png"
+//               alt="Results"
+//               width={32}
+//               height={32}
+//             />
+//           </div>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// }
