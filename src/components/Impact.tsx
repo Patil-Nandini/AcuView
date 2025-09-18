@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function StatsSection() {
   return (
-    <div className="w-full flex justify-end absolute z-2 top-[3480px] min-[375px]:top-[3400px] min-[425px]:top-[3360px] min-[600px]:top-[1550px] min-[1100px]:top-[1650px] min-[1200px]:top-[1550px] md:top-[2200px] lg:top-[1750px]">
+    <div className="w-full flex justify-end absolute z-2 top-[4850px] min-[375px]:top-[4770px] min-[425px]:top-[4700px] min-[600px]:top-[4650px] md:top-[3650px] lg:top-[2580px]">
       <div className="w-[100%] min-[600px]:w-[90%] min-[1100px]:w-[80%] bg-[#015CB8] rounded-l-0 min-[600px]:rounded-l-[60px] min-[1100px]:rounded-l-[260px] md:rounded-l-[260px] flex flex-col min-[600px]:flex-row md:flex-row justify-end items-center text-white max-w-7xl overflow-hidden">
         {/* Mobile*/}
         <div className="flex flex-row min-[600px]:hidden w-full">
