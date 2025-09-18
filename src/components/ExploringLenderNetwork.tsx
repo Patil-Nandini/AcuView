@@ -40,9 +40,9 @@ const ExploringLenderNetwork = () => {
     { number: "24/7", label: "Real-Time", sub: "Never Stops!" },
   ];
   return (
-    <section className="relative w-[100%] bg-white py-16 px-5 lg:px-16 bg-[url('/THE-LENDER-NETWORK-IS-EXPLODING-BG.webp')] bg-norepeat bg-cover font-sarabun pb-40">
+    <section className="relative w-full bg-white py-16 px-5 lg:px-16 bg-[url('/THE-LENDER-NETWORK-IS-EXPLODING-BG.webp')] bg-no-repeat bg-cover font-sarabun pb-40">
       {/* Top Heading */}
-      <div className="text-center max-w-4xl mx-auto max-w-6xl">
+      <div className="text-center max-w-6xl mx-auto">
         <h2 className="text-[25px] md:text-[41px] font-extrabold text-gray-900">
           THE LENDER NETWORK IS EXPLODING!
         </h2>
@@ -72,8 +72,8 @@ const ExploringLenderNetwork = () => {
             <span className="font-bold">MORE POWERFUL</span> for everyone!
           </p>
         </div>
-        <div className="mt-10 flex flex-col justify-start items-start max-w-6xl">
-          <h3 className="text-[18px] font-bold text-[#000000] flex justify-start items-start max-w-4xl">
+        <div className="mt-10 flex flex-col justify-start items-start max-w-6xl mx-auto">
+          <h3 className="text-[18px] font-bold text-[#000000]">
             The More We Grow, The SMARTER We Get!
           </h3>
           <p className="mt-3 text-[18px] max-w-6xl text-[#0F1720] text-justify">
@@ -88,7 +88,7 @@ const ExploringLenderNetwork = () => {
 
         <button
           type="button"
-          className="flex items-center justify-center h-[90px] text-white font-semibold cursor-pointer w-[270px] sm:w-[240px] px-7 mt-5 ml-[-7px]"
+          className="flex items-center justify-center h-[90px] text-white font-semibold cursor-pointer w-full sm:w-[240px] md:w-[270px] px-7 mt-5 ml-[-7px]"
           style={{
             backgroundImage: "url('/watchNowButtonBg.png')",
             backgroundSize: "100% 100%",
@@ -110,14 +110,17 @@ const ExploringLenderNetwork = () => {
         </button>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16 max-w-6xl mx-auto">
+      {/* Feature Cards */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8 mt-16 max-w-6xl mx-auto">
         {features.map((f, i) => (
           <div
             key={i}
-            className={`rounded-3xl shadow-md p-6 flex flex-col h-[330px] py-8 w-[300px] ${f.bg}`}
+            className={`rounded-3xl shadow-md p-6 flex flex-col
+              h-[330px] sm:h-[300px] md:h-[400px] lg:h-[320px]
+              w-full sm:w-[300px] md:w-[240px] lg:w-[300px] ${f.bg} ${i === features.length - 1 ? 'mr-5' : ''}`}
           >
             {/* Top section */}
-            <div className="flex flex-col items-start gap-3 ">
+            <div className="flex flex-col items-start gap-3">
               <Image src={f.icon} alt={f.title} width={80} height={80} />
               <h4 className={`text-[20px] font-[800] ${f.titleColor}`}>
                 {f.title}

@@ -47,25 +47,27 @@ export default function IntroducingTheFirst() {
 
   return (
     <section className="relative w-[100%] bg-white overflow-hidden pt-15 lg:pb-20 bg-[url('/Indroducing-Section-bg.png')]">
-      <div className="flex flex-col lg:flex-row items-center lg:items-center w-full lg:justify-start justify-center ">
+      <div className="flex flex-col-reverse lg:flex-row items-center lg:items-center w-full lg:justify-start justify-center ">
         {/* Left Side (40%) */}
-        <div className="w-[100%] lg:w-[50%] xl:w-[40%] flex items-center justify-start h-[100%]  md:h-[60%] lg:h-[100%]">
+        <div className="w-[100%] lg:w-[40%] xl:w-[40%] flex items-center justify-start h-[100%] md:h-[60%] lg:h-[100%]">
           <object
             data="/Acuview-real-time-loan-Animation1.svg"
             type="image/svg+xml"
-            width={280}
-            height={280}
-            className="w-[90%] h-[100%] md:w-[80%] md:h-[60%] lg:w-[85%] "
+            width={200}  
+            height={200}   
+            className="w-[90%] h-[100%] md:w-[60%] md:h-[60%] lg:w-[85%]"
             aria-label="Fading Logo"
-          >Fading Logo</object>
+          >
+            Fading Logo
+          </object>
         </div>
 
         {/* Right Side (60%) */}
-        <div className="w-full lg:w-[50%] relative z-20 xl:mr-15  flex flex-col justify-end items-center p-[30px] lg:p-[0] lg:items-start xl:items-center ">
+        <div className="w-full lg:w-[60%] relative z-20 xl:mr-15  flex flex-col justify-end items-center p-[30px] lg:p-[0] lg:items-start xl:items-center ">
           <div className="mb-8 lg:mb-12 w-[100%]">
-            <h2 className="text-[25px] md:text-[41px] font-bold text-gray-900 mb-4 leading-tight text-[#000000]">
+            <h2 className="text-[25px] md:text-[40px] font-bold text-gray-900 mb-4 leading-tight text-[#000000] xl:w-[760px]">
               Introducing the First and Only Real-Time{" "}
-              <span className="lg:block">Loan Intelligence Network</span>
+              Loan Intelligence Network
             </h2>
             <p className="text-[18px] text-[#0F1720] text-gray-600 mb-3">
               This isn't another credit report. It's a live network of
@@ -110,44 +112,6 @@ export default function IntroducingTheFirst() {
           </div>
         </div>
       </div>
-      {/* <div className="relative w-full mt-16 lg:hidden">
-        <div className="relative w-full h-[340px] md:h-[270px] -mx-4 md:-mx-8 overflow-hidden">
-          <div className="absolute bottom-0 left-0 w-[270px] h-[340px] md:hidden">
-            <Image
-              src="/Introductionbluebg.png"
-              alt="Blue Shape"
-              width={270}
-              height={340}
-              className="object-contain"
-            />
-          </div>
-          <div className="absolute bottom-0 left-0 w-[220px] h-[270px] hidden md:block lg:hidden">
-            <Image
-              src="/Introductionbluebg.png"
-              alt="Blue Shape"
-              width={220}
-              height={270}
-              className="object-contain"
-            />
-          </div>
-          <div className="absolute bottom-[100px] left-[135px] md:bottom-[75px] md:left-[110px] -translate-x-1/2">
-            <div
-              className={`transition-opacity duration-1000 ease-in-out ${
-                fadeIn ? "opacity-100" : "opacity-0"
-              }`}
-            >
-              <Image
-                src="/Introductionbluebglogo.png"
-                alt="Fading Logo"
-                width={200}
-                height={200}
-                className="w-[200px] h-[200px] md:w-[180px] md:h-[180px]"
-                priority
-              />
-            </div>
-          </div>
-        </div>
-      </div> */}
     </section>
   );
 }
