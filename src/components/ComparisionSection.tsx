@@ -20,16 +20,14 @@ export default function ComparisonSection() {
         </p>
       </div>
 
-      {/* Comparison Section */}
-    <div className="flex flex-col sm:flex-row items-center justify-center gap-8 lg:gap-0 relative w-[100%]">
-        {/* Left Card */}
-       <div
-  className="flex flex-col w-[100%] max-w-[299px] rounded-3xl 
+      <div className="flex flex-col sm:flex-row items-center justify-center gap-8 lg:gap-0 relative w-[100%]">
+        <div
+          className="flex flex-col  w-[18%] rounded-3xl 
              border bg-[#FDF8F8] shadow-[0px_4px_10px_0px_#0B74DD26] 
-             border-[#FA6450] p-6 relative bg-cover bg-center"
-  style={{ backgroundImage: "url('/TraditionalCreditCheckBg.png')" }}
->
-          <div className="flex items-center gap-2 mb-4">
+             border-[#FA6450] relative bg-cover bg-center"
+          style={{ backgroundImage: "url('/TraditionalCreditCheckBg.png')" }}
+        >
+          <div className="flex items-center gap-2 mb-4 px-4 pt-3">
             <Image
               src="/TraditionalCreditCheck.png"
               alt="Traditional Credit Check Icon"
@@ -40,7 +38,7 @@ export default function ComparisonSection() {
               Traditional Credit Checks <br /> & Data Companies
             </h3>
           </div>
-          <ul className="space-y-3 text-sm text-gray-700">
+          <ul className="space-y-3 text-sm text-gray-700 px-4 pb-4">
             <li className="flex items-center gap-2">
               <Image
                 src="/CancelIcon.svg"
@@ -118,28 +116,29 @@ export default function ComparisonSection() {
             </h3>
           </div>
           <ul className="space-y-3 text-sm text-gray-700">
-  <li className="flex items-center gap-2">
-    <Image src="/GreenCheck.svg" alt="Check" width={20} height={20} />
-    <span>Shows what borrowers are doing in real time</span>
-  </li>
-  <li className="flex items-center gap-2">
-    <Image src="/GreenCheck.svg" alt="Check" width={20} height={20} />
-    <span>Tracks applications across multiple lenders in real-time</span>
-  </li>
-  <li className="flex items-center gap-2">
-    <Image src="/GreenCheck.svg" alt="Check" width={20} height={20} />
-    <span>Detects identity inconsistencies</span>
-  </li>
-  <li className="flex items-center gap-2">
-    <Image src="/GreenCheck.svg" alt="Check" width={20} height={20} />
-    <span>Identify risky borrowers before approval</span>
-  </li>
-  <li className="flex items-center gap-2">
-    <Image src="/GreenCheck.svg" alt="Check" width={20} height={20} />
-    <span>Increase good loans & profitability</span>
-  </li>
-</ul>
-
+            <li className="flex items-center gap-2">
+              <Image src="/GreenCheck.svg" alt="Check" width={20} height={20} />
+              <span>Shows what borrowers are doing in real time</span>
+            </li>
+            <li className="flex items-center gap-2">
+              <Image src="/GreenCheck.svg" alt="Check" width={20} height={20} />
+              <span>
+                Tracks applications across multiple lenders in real-time
+              </span>
+            </li>
+            <li className="flex items-center gap-2">
+              <Image src="/GreenCheck.svg" alt="Check" width={20} height={20} />
+              <span>Detects identity inconsistencies</span>
+            </li>
+            <li className="flex items-center gap-2">
+              <Image src="/GreenCheck.svg" alt="Check" width={20} height={20} />
+              <span>Identify risky borrowers before approval</span>
+            </li>
+            <li className="flex items-center gap-2">
+              <Image src="/GreenCheck.svg" alt="Check" width={20} height={20} />
+              <span>Increase good loans & profitability</span>
+            </li>
+          </ul>
         </div>
       </div>
     </section>

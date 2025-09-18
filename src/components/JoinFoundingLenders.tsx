@@ -5,9 +5,8 @@ import React from "react";
 
 export default function LendingBanner() {
   return (
-    <section className="w-full flex justify-center py-5 px-4">
-      <section className="flex flex-col lg:flex-row items-center justify-between bg-[#1272D2] rounded-[27px] shadow-lg p-8 lg:p-2 max-w-6xl w-full gap-8">
-        {/* Left side animated object */}
+    <section className="w-full flex justify-center  relative ">
+      <section className="flex flex-col lg:flex-row items-center absolute top-[-270px] justify-between bg-[#1272D2] rounded-[27px] shadow-lg p-8 lg:p-2 max-w-6xl w-full gap-8">
         <div className="flex justify-center items-center w-full lg:w-1/2">
           <object
             type="image/svg+xml"
@@ -18,9 +17,8 @@ export default function LendingBanner() {
           </object>
         </div>
 
-        {/* Right side content */}
         <div className="flex flex-col items-start text-white w-full lg:w-1/2">
-          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold leading-snug">
+          <h2 className="text-[23px] font-bold leading-snug">
             Join the Founding Lenders Who Are Transforming Risk Management
           </h2>
           <p className="mt-4 text-sm md:text-base opacity-90 max-w-[500px]">

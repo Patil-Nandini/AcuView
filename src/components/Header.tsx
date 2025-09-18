@@ -36,12 +36,12 @@ export default function Header() {
   ];
 
   return (
-    <header className="w-full absolute top-0 left-0 z-20  bg-[rgba(255,255,255,0.1)]">
+   <header className="w-full absolute top-0 left-0 z-20 bg-[#FFFFFF66] border-b border-[#CACACA]">
       <div className="w-full max-w-[1920px] mx-auto px-6 md:px-12 py-3 flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center space-x-2 cursor-pointer">
           <Image
-            src="/AcufiLogo.png"
+            src="/AcufiBlueLogo.png"
             alt="AcuFi Logo"
             width={150}
             height={40}
@@ -52,7 +52,7 @@ export default function Header() {
         {/* Desktop Nav */}
         <nav className="hidden lg:flex space-x-8 text-white font-medium ">
           <div className="relative group">
-            <button className="flex font-medium text-white font-semibold text-md  transition">
+            <button className="flex font-medium text-[#000000D9] font-semibold text-md  transition">
               Products
               <svg
                 className="w-4 h-4 mt-1.5 ml-2 transition-transform duration-200 group-hover:rotate-180"
@@ -109,16 +109,16 @@ export default function Header() {
             </div>{" "}
           </div>
 
-          <span className="font-semibold text-md cursor-pointer">
+          <span className="font-semibold text-[#000000D9] text-md cursor-pointer">
             Use Cases
           </span>
-          <span className="font-semibold text-md cursor-pointer">
+          <span className="font-semibold text-[#000000D9] text-md cursor-pointer">
             Developer
           </span>
-          <span className="font-semibold text-md cursor-pointer">
+          <span className="font-semibold text-[#000000D9] text-md cursor-pointer">
             Resources
           </span>
-          <span className="font-semibold text-md cursor-pointer">Login</span>
+          <span className="font-semibold text-[#000000D9] text-md cursor-pointer">Login</span>
         </nav>
 
         {/* Desktop CTA */}
@@ -128,10 +128,10 @@ export default function Header() {
             onClick={() =>
               (window.location.href = "https://acufi.com/lets-connect/")
             }
-            className="flex items-center space-x-2 px-5 py-2 border-2 border-white rounded-full text-white font-medium shadow-[0px_5px_18px_-9.3px_#01459FCC] cursor-pointer"
+            className="flex items-center space-x-2 px-5 py-2 border-2 border-[#085AAC] rounded-full text-[#085AAC] font-medium shadow-[0px_5px_18px_-9.3px_#01459FCC] cursor-pointer"
           >
             <Image
-              src="/RocketIcon.png"
+              src="/BlueRocket.svg"
               alt="Rocket Icon"
               width={20}
               height={20}

@@ -16,12 +16,16 @@ import LendingBanner from "@/components/JoinFoundingLenders";
 import FaqSection from "@/components/FAQS";
 import AcuviewBanner from "@/components/AcuView";
 import ThirtyDaysFree from "@/components/30DaysFree";
+import HeroSection from "@/components/HeroSection";
+import Header from "@/components/Header";
+import SetupSteps from "@/components/SetupSteps";
 
 export default function Home() {
   return (
     <main className="bg-white flex justify-center">
       <div className="w-full ">
-        {/* <Header /> */}
+        <Header />
+        <HeroSection/>
         <IntroducingTheFirst />
         <ExploringLenderNetwork />
         <StatsSection />
@@ -33,7 +37,7 @@ export default function Home() {
         <FoundingBenefits />
         <FlexibleIntegrationOptions />
         <ComparisonSection />
-        {/* <SetupSteps /> */}
+        <SetupSteps />
         <TheEarlyBird />
         <ThirtyDaysFree/>
         <Testimonials />

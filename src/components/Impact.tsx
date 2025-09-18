@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function StatsSection() {
   return (
-    <div className="w-full flex justify-end absolute z-2 top-[1750px]">
+    <div className="w-full flex justify-end absolute z-2 top-[2523px]">
       {" "}
       <div className="w-[80%] bg-[#015CB8] rounded-l-[260px] flex flex-col md:flex-row justify-end items-center text-white max-w-7xl overflow-hidden">
         <div className="flex-1 flex flex-col items-center justify-center text-center py-10 px-6 border-r-[2px] border-r-[#FFFFFF1A] h-[200px]">
