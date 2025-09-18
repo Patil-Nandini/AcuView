@@ -22,73 +22,73 @@ export default function HiddenCrisisSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 place-items-center gap-10">
+        <div className="flex flex-col lg:grid lg:grid-cols-2 lg:place-items-center gap-10">
           {/* Left Side - Stats */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-30 w-[100%] ">
+          <div className="flex flex-col items-center gap-10 sm:grid sm:grid-cols-2 sm:gap-30 w-[100%] sm:justify-items-center lg:justify-items-start">
             {/* Stat 1 */}
-            <div className="relative bg-white rounded-[30px] px-5 py-7 w-[260px] h-[200px] shadow-[0px_8px_16px_0px_#0000001A]">
+            <div className="relative bg-white rounded-[30px] px-5 py-7 w-[200px] sm:w-[260px] h-[155px] sm:h-[200px] shadow-[0px_8px_16px_0px_#0000001A]">
               <Image
                 src="/money-hand1.svg"
                 alt="Borrowers Icon"
                 width={48}
                 height={48}
                 priority
-                className="absolute -top-7 left-58 w-12 h-12"
+                className="absolute -top-6 right-1 w-10 h-10 sm:w-12 sm:h-12 sm:-top-7 sm:left-58"
               />
-              <div className="text-3xl font-bold mb-2 bg-gradient-to-tr from-[#034E9A] via-[#2390FC] to-[#2390FC] bg-clip-text text-transparent">
+              <div className="text-2xl sm:text-3xl font-bold mb-2 bg-gradient-to-tr from-[#034E9A] via-[#2390FC] to-[#2390FC] bg-clip-text text-transparent">
                 37%
               </div>
-              <div className="text-lg font-bold mb-1 bg-gradient-to-tr from-[#034E9A] via-[#2390FC] to-[#2390FC] bg-clip-text text-transparent">
-                Of Borrowers
+              <div className="text-sm sm:text-lg font-bold mb-1 bg-gradient-to-tr from-[#034E9A] via-[#2390FC] to-[#2390FC] bg-clip-text text-transparent">
+                Of Multiple Payday Loans
               </div>
-              <div className="text-[#504E4E] text-[16px]">
-                Hold multiple payday loans.
+              <div className="text-[#504E4E] text-[12px] sm:text-[16px]">
+                36% of borrowers hold multiple payday loans simultaneously.
               </div>
             </div>
 
             {/* Stat 2 */}
-            <div className="relative bg-white rounded-[30px]  px-5 py-7 w-[260px] h-[200px] shadow-[0px_8px_16px_0px_#0000001A]">
+            <div className="relative bg-white rounded-[30px]  px-5 py-7 w-[200px] sm:w-[260px] h-[155px] sm:h-[200px] shadow-[0px_8px_16px_0px_#0000001A]">
               <Image
                 src="/money-hand2.svg"
                 alt="Juggle Loans Icon"
                 width={48}
                 height={48}
                 priority
-                className="absolute -top-7 left-58 w-12 h-12"
+                className="absolute -top-6 right-1 w-10 h-10 sm:w-12 sm:h-12 sm:-top-7 sm:left-58"
               />
-              <div className="text-3xl font-bold bg-gradient-to-tr from-[#034E9A] via-[#2390FC] to-[#2390FC] bg-clip-text text-transparent mb-2">
+              <div className="text-2xl sm:text-3xl font-bold bg-gradient-to-tr from-[#034E9A] via-[#2390FC] to-[#2390FC] bg-clip-text text-transparent mb-2">
                 25%
               </div>
-              <div className="text-lg font-bold bg-gradient-to-tr from-[#034E9A] via-[#2390FC] to-[#2390FC] bg-clip-text text-transparent mb-1">
-                Juggle Four <br /> Or More
+              <div className="text-sm sm:text-lg font-bold bg-gradient-to-tr from-[#034E9A] via-[#2390FC] to-[#2390FC] bg-clip-text text-transparent mb-1">
+                Juggling Four Or More
               </div>
-              <div className="text-[#504E4E] text-[16px]">Active loans.</div>
+              <div className="text-[#504E4E] text-[12px] sm:text-[16px]">A quarter of those borrowers have four or more active loans.</div>
             </div>
 
             {/* Stat 3 */}
-            <div className="relative bg-white rounded-[30px] shadow-[0px_8px_16px_0px_#0000001A] px-5 py-7 sm:col-span-2 justify-self-center w-[260px] h-[200px]">
+            <div className="relative bg-white rounded-[30px] shadow-[0px_8px_16px_0px_#0000001A] px-5 py-7 col-span-2 justify-self-center w-[200px] sm:w-[260px] h-[155px] sm:h-[200px]">
               <Image
                 src="/money-hand3.svg"
                 alt="Default Rate Icon"
                 width={48}
                 height={48}
                 priority
-                className="absolute -top-7 left-58 w-12 h-12"
+                className="absolute -top-6 right-1 w-10 h-10 sm:w-12 sm:h-12 sm:-top-7 sm:left-58"
               />
-              <div className="text-3xl font-bold bg-gradient-to-tr from-[#034E9A] via-[#2390FC] to-[#2390FC] bg-clip-text text-transparent mb-2">
+              <div className="text-2xl sm:text-3xl font-bold bg-gradient-to-tr from-[#034E9A] via-[#2390FC] to-[#2390FC] bg-clip-text text-transparent mb-2">
                 3x
               </div>
-              <div className="text-lg font-bold bg-gradient-to-tr from-[#034E9A] via-[#2390FC] to-[#2390FC] bg-clip-text text-transparent mb-1">
+              <div className="text-sm sm:text-lg font-bold bg-gradient-to-tr from-[#034E9A] via-[#2390FC] to-[#2390FC] bg-clip-text text-transparent mb-1">
                 Higher Default Rates
               </div>
-              <div className="text-[#504E4E] text-[16px]">
-                Stacked loans default at a higher rate.
+              <div className="text-[#504E4E] text-[12px] sm:text-[16px]">
+                Stacked loans default at significantly higher rates.
               </div>
             </div>
           </div>
 
           {/* Right Side - Animated Object + Circle */}
-          <div className="relative flex flex-col items-end md:items-end justify-end w-[100%]">
+          <div className="relative flex flex-col items-center lg:items-end lg:justify-end w-[100%]">
             <object
               type="image/svg+xml"
               data="/Acuview-Hidden-crysis.svg"
