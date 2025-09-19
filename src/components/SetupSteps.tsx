@@ -67,18 +67,18 @@ export default function SetupSteps() {
           alt="Connector for Step 1"
           width={370}
           height={370}
-          className="absolute z-[1] block lg:hidden top-[12%] sm:top-[16%] sm:left-[66%] left-[10%] w-[90%] sm:w-[300px]"
+          className="absolute z-[1] block lg:hidden top-[12%] sm:top-[16%] sm:left-[51%] left-[26%] w-[90%] sm:w-[300px]  "
         />
         <Image
           src="/TabViewPipeTwo.png"
           alt="Connector for Step 2"
           width={370}
           height={370}
-          className="absolute z-[1] block lg:hidden top-[50%] sm:top-[51%] sm:left-[-27%] md:left-[-53%] left-[-7%] w-[90%] sm:w-[300px]"
+          className="absolute z-[1] block lg:hidden top-[50%] sm:top-[51%] sm:left-[-39%] md:left-[-53%] left-[-17%] w-[90%] sm:w-[300px]"
         />
 
         <div className="relative z-[3] inline-grid lg:gap-[18%] sm:flex sm:flex-col sm:items-center sm:gap-[90px] gap-[50px]">
-          <div className="relative bg-white rounded-[21px] shadow-[17.5px_5.6px_27.51px_2.1px_#91AAFA99] w-[340px] h-[280px] lg:p-8 p-5 flex flex-col justify-center lg:top-[127px] xl:left-[-183px] md:left-[15px] md:top-[0px] lg:left-[-237px]">
+          <div className="relative bg-white rounded-[21px] shadow-[17.5px_5.6px_27.51px_2.1px_#91AAFA99] w-[240px] sm:w-[340px] h-[280px] lg:p-8 p-5 flex flex-col justify-center lg:top-[127px] xl:left-[-183px] md:left-[15px] md:top-[0px] lg:left-[-237px]">
             <div className="absolute w-[25%] h-[25%] flex items-center justify-center z-10 top-[-14%] left-[87%] sm:left-[-11%]">
               <object
                 type="image/svg+xml"
@@ -109,7 +109,7 @@ export default function SetupSteps() {
           </div>
 
           {/* Step 2 */}
-          <div className="relative bg-white rounded-[21px] shadow-[17.5px_5.6px_27.51px_2.1px_#91AAFA99] w-[340px] h-[280px] lg:p-8 p-5 flex flex-col justify-center lg:top-[19px] xl:left-[343px] md:left-[18px] md:top-[-18px] lg:left-[278px]">
+          <div className="relative bg-white rounded-[21px] shadow-[17.5px_5.6px_27.51px_2.1px_#91AAFA99] w-[240px] sm:w-[340px] h-[280px] lg:p-8 p-5 flex flex-col justify-center lg:top-[19px] xl:left-[343px] md:left-[18px] md:top-[-18px] lg:left-[278px]">
             {/* Icons */}
             <div className="absolute w-[25%] h-[25%] flex items-center justify-center z-10 top-[-15%] left-[-13%] sm:left-[-12%]">
               <object
@@ -127,7 +127,7 @@ export default function SetupSteps() {
                 Icon
               </object>
             </div>
-            <div className="absolute w-[25%] h-[25%] flex items-center justify-center z-10 left-[32%] bottom-[-175%] sm:left-[-25%] md:left-[-67%] md:bottom-[-36%] sm:bottom-[-32%]">
+            <div className=" hidden sm:block absolute w-[25%] h-[25%] flex items-center justify-center z-10 left-[32%] bottom-[-175%] sm:left-[-47%] md:left-[-67%] lg:left-[-25%]  md:bottom-[-36%] sm:bottom-[-32%]">
               <object
                 type="image/svg+xml"
                 data="https://acufi.com/images/ICON 5 time NOT adjusted.svg"
@@ -146,7 +146,7 @@ export default function SetupSteps() {
             </ol>
           </div>
 
-          <div className="relative bg-white rounded-[21px] shadow-[17.5px_5.6px_27.51px_2.1px_#91AAFA99] w-[340px] h-[280px] lg:p-8 p-5 flex flex-col justify-center lg:top-[15px] xl:left-[-169px] md:left-[24px] md:top-[-38px] lg:left-[-228px]">
+          <div className="relative bg-white rounded-[21px] shadow-[17.5px_5.6px_27.51px_2.1px_#91AAFA99] w-[240px] sm:w-[340px] h-[280px] lg:p-8 p-5 flex flex-col justify-center lg:top-[15px] xl:left-[-169px] md:left-[24px] md:top-[-38px] lg:left-[-228px]">
             <div className="absolute w-[25%] h-[25%] flex items-center justify-center z-10 top-[-14%] left-[-12%]">
               <object
                 type="image/svg+xml"

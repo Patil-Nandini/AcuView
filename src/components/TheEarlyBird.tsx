@@ -25,7 +25,7 @@ const TheEarlyBird: React.FC = () => {
       <img
         src="/gear-icon.png"
         alt="Gear Left Tablet"
-        className="hidden md:block lg:hidden absolute top-36 left-2 opacity-70 z-0 pointer-events-none"
+        className="hidden md:block lg:hidden absolute top-80 left-5 opacity-70 z-0 pointer-events-none"
         style={{ width: '75px', height: '75px', transform: 'translateX(-25%)' }}
       />
 
@@ -61,7 +61,7 @@ const TheEarlyBird: React.FC = () => {
           </div>
 
           <div className="text-center mb-12 max-w-4xl mx-auto">
-            <p className="text-base sm:text-lg text-gray-200 leading-relaxed px-2 sm:px-0">
+            <p className="text-[18px] text-gray-200 leading-relaxed px-2 sm:px-0">
               Every day you wait, loan stackers are becoming more adept at gaming the system. But more importantly, every day
               you wait, other lenders are joining the <span className="font-bold text-white">AcuView</span> network and gaining an advantage over you.
             </p>
@@ -80,13 +80,13 @@ const TheEarlyBird: React.FC = () => {
                     bg-[#0B2D58] rounded-[20px] text-center flex flex-col justify-center shadow 
                     w-[220px] h-[110px] sm:w-[240px] sm:h-[120px] md:w-[30%] md:h-[140px]
                     lg:w-[25%]
-                    max-[375px]:w-[180px] max-[375px]:h-[90px]
+                    max-[375px]:w-[230px] max-[375px]:h-[90px]
                     max-[320px]:w-[170px] max-[320px]:h-[85px]
                     px-4 py-3
                   "
                 >
-                  <h3 className="text-base sm:text-xl md:text-2xl font-bold text-white mb-1 sm:mb-2">{card.title}</h3>
-                  <p className="text-gray-300 text-xs sm:text-sm leading-tight">{card.text}</p>
+                  <h3 className="text-[18px] font-bold text-white mb-1 sm:mb-2">{card.title}</h3>
+                  <p className="text-[14px] text-white leading-tight">{card.text}</p>
                 </div>
               ))}
 
@@ -105,7 +105,7 @@ const TheEarlyBird: React.FC = () => {
                 <h3 className="text-base sm:text-lg font-bold text-white mb-3 pr-8 leading-tight">
                   The Lenders Who Join First Will
                 </h3>
-                <ul className="space-y-2 text-left text-xs sm:text-sm">
+                <ul className="space-y-2 text-left text-[14px]">
                   <li className="flex items-start gap-2">
                     <img src="/arrow-icon.svg" alt="Arrow Icon" className="w-4 h-4 mt-1" />
                     <span className="text-white leading-snug">Free-30 Days trial</span>

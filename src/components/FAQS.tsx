@@ -34,7 +34,7 @@ export default function FaqSection() {
   const [open, setOpen] = useState(0);
 
   return (
-    <section className="relative w-full bg-[#F8F8FC] overflow-hidden font-sarabun px-4 sm:px-6 lg:px-8 py-12 pb-80">
+    <section className="relative w-full bg-[#F8F8FC] overflow-hidden font-sarabun px-4 sm:px-6 lg:px-8 py-12 lg:pb-80 pb-40">
       <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-8 md:mb-12 text-[#0F1720] mt-[30px] md:mt-[1px]">
         Frequently Asked Questions
       </h2>

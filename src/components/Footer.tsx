@@ -1,10 +1,26 @@
 import Link from "next/link";
 import Image from "next/image";
+import { FaLinkedin, FaYoutube } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 export default function Footer() {
+  const icons = [
+    {
+      href: "https://www.linkedin.com/company/acu-fi/",
+      icon: <FaLinkedin className="text-[#0A66C2]" size={22} />,
+    },
+    {
+      href: "https://x.com/acu_fi",
+      icon: <FaXTwitter className="text-black" size={22} />,
+    },
+    {
+      href: "https://www.youtube.com/@AcuFi_Official",
+      icon: <FaYoutube className="text-[#FF0000]" size={22} />,
+    },
+  ];
   return (
     <>
-      <footer className="bg-[#011634] text-gray-300 px-6 md:px-12 py-12 pt-40 rounded-t-[22px]">
+      <footer className="bg-[#011634] text-gray-300 px-6 md:px-12 py-12 sm:pt-40 rounded-t-[22px] relative md:static top-[-18px] md:top-[0]">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10 max-w-7xl mx-auto">
           <div className="flex flex-col items-start md:items-start justify-start lg:justify-center">
             <Image
@@ -73,45 +89,18 @@ export default function Footer() {
             <p className="text-sm">Address: 4864 Sparks Blvd, Nevada, 89436</p>
             <div>
               <h3 className="font-semibold mt-6 mb-2">Follow us</h3>
-              <div className="flex ml-[-15px]">
-                <Link
-                  href="https://www.linkedin.com/company/acu-fi/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Image
-                    src="/LinkedInIcon.svg"
-                    alt="LinkedIn"
-                    width={66}
-                    height={66}
-                  />
-                </Link>
-
-                <Link
-                  href="https://x.com/acu_fi"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Image
-                    src="/Twitter.png"
-                    alt="X / Twitter"
-                    width={66}
-                    height={66}
-                  />
-                </Link>
-
-                <Link
-                  href="https://www.youtube.com/@AcuFi_Official"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Image
-                    src="/youtube.png"
-                    alt="YouTube"
-                    width={66}
-                    height={66}
-                  />
-                </Link>
+              <div className="flex gap-4 mt-3">
+                {icons.map((item, idx) => (
+                  <Link
+                    key={idx}
+                    href={item.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-10 h-10 flex items-center justify-center rounded-full bg-white shadow-md hover:scale-110 transition-transform"
+                  >
+                    {item.icon}
+                  </Link>
+                ))}
               </div>
             </div>
           </div>

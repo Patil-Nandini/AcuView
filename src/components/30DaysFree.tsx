@@ -168,7 +168,7 @@ const ThirtyDaysFree: React.FC = () => {
           <h2 className="text-2xl sm:text-3xl font-bold text-black mb-4">
             Building the Future of Lending Intelligence
           </h2>
-          <p className="text-[20px] text-[#0F1720] max-w-3xl mx-auto">
+          <p className="text-[18px] text-[#0F1720] max-w-3xl mx-auto">
             <span className="font-semibold">AcuFi</span> created{" "}
             <span className="font-semibold">AcuView</span> to solve the
             industry&apos;s biggest blind spot, real-time borrower activity

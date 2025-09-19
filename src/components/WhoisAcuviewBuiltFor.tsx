@@ -64,7 +64,7 @@ const cards: Card[] = [
 
 const WhoisAcuViewBuiltFor: React.FC = () => {
   return (
-    <section className="w-[100%] font-sarabun bg-[url('/Indroducing-Section-bg.png')] bg-no-repeat bg-cover pt-8 pb-28 flex flex-col justify-center items-center ">
+    <section className="w-[100%] font-sarabun bg-[url('/Indroducing-Section-bg.png')] static bg-no-repeat bg-cover pt-8 pb-28 flex flex-col justify-center items-center ">
       <div className="max-w-8xl mx-auto px-6 flex justify-center">
         <div className="text-center flex flex-col justify-center max-w-5xl">
           <h2 className="text-[34px] sm:text-[36px] font-extrabold text-[#07102A] leading-tight">
@@ -92,8 +92,8 @@ const WhoisAcuViewBuiltFor: React.FC = () => {
           </div>
         </div>
       </div>
-      <section className="relative w-[100%] font-sarabun pb-32  flex flex-col justify-center items-center">
-        <div className="relative w-[100%]">
+      <section className="relative w-full font-sarabun pb-32 flex flex-col justify-center items-center hidden lg:block">
+        <div className="relative w-full max-w-[1920px]">
           <object
             type="image/svg+xml"
             data="/Who-is-acuview-built-for.svg"
@@ -101,10 +101,9 @@ const WhoisAcuViewBuiltFor: React.FC = () => {
           >
             Your browser does not support SVG
           </object>
-
           {/* Card 1 */}
-          <div className="absolute top-[375px] left-[135px] w-[250px] text-center">
-            <div className="bg-white rounded-xl shadow-md p-4 w-[250px] h-[100px]">
+          <div className="absolute top-[46%] left-[9%] lg:left-[5%] xl:left-[9%] w-[220px] sm:w-[250px] text-center">
+            <div className="bg-white rounded-xl shadow-md p-4">
               <h3 className="font-bold text-[#0F1720] text-[16px]">
                 Short-Term & Payday Lenders
               </h3>
@@ -115,8 +114,8 @@ const WhoisAcuViewBuiltFor: React.FC = () => {
           </div>
 
           {/* Card 2 */}
-          <div className="absolute top-[375px] right-[126px] w-[250px] text-center">
-            <div className="bg-white rounded-xl shadow-md p-4 w-[250px] h-[110px]">
+          <div className="absolute top-[46%] left-[74%] lg:left-[71%] xl:left-[74%] w-[220px] sm:w-[250px] text-center">
+            <div className="bg-white rounded-xl shadow-md p-4">
               <h3 className="font-bold text-[#0F1720] text-[16px]">
                 Online Lenders
               </h3>
@@ -127,8 +126,8 @@ const WhoisAcuViewBuiltFor: React.FC = () => {
           </div>
 
           {/* Card 3 */}
-          <div className="absolute top-[618px] left-[415px] w-[260px] text-center">
-            <div className="bg-white rounded-xl shadow-md p-4 w-[250px] h-[150px]">
+          <div className="absolute top-[76%] left-[28%] lg:left-[25%] xl:left-[29%] w-[220px] sm:w-[260px] text-center">
+            <div className="bg-white rounded-xl shadow-md p-4">
               <h3 className="font-bold text-[#0F1720] text-[16px]">
                 BNPL (Buy Now, Pay Later) Platforms
               </h3>
@@ -140,8 +139,8 @@ const WhoisAcuViewBuiltFor: React.FC = () => {
           </div>
 
           {/* Card 4 */}
-          <div className="absolute top-[618px] left-[786px] w-[250px] text-center">
-            <div className="bg-white rounded-xl shadow-md p-4 w-[260px] h-[150px]">
+          <div className="absolute top-[76%] left-[55%] lg:left-[52%] xl:left-[55%] w-[220px] sm:w-[260px] text-center">
+            <div className="bg-white rounded-xl shadow-md p-4">
               <h3 className="font-bold text-[#0F1720] text-[16px]">
                 Installment & Personal Loan Providers
               </h3>
@@ -153,7 +152,106 @@ const WhoisAcuViewBuiltFor: React.FC = () => {
           </div>
         </div>
       </section>
-      
+
+      <section className="relative w-full font-sarabun pb-32 flex flex-col justify-center items-center lg:hidden">
+        <div className="relative w-full max-w-[1920px]">
+          <Image
+            src="/bg-line-for-tab.webp"
+            alt="Background line"
+            width={1920}
+            height={1080}
+            className="w-full h-auto max-w-[1920px] hidden md:block"
+            priority
+          />
+          <Image
+            src="/Linevertical.webp"
+            alt="Background line"
+            width={1920}
+            height={1080}
+            className="w-full h-[1200px] max-w-[300px] md:hidden "
+            priority
+          />
+          {/* Card 1 */}
+          <div className="absolute top-[1%] left-[16%] lg:left-[5%] md:left-[3%] md:top-[4%] w-[250px] md:w-[300px] text-center flex flex-col items-center">
+            <object
+              type="image/svg+xml"
+              data="/acuview-Icon-1.svg"
+              className="w-35 h-35"
+            >
+              Your browser does not support SVG
+            </object>
+
+            {/* Card */}
+            <div className="bg-white rounded-xl shadow-md p-4 w-full md:h-[147px]">
+              <h3 className="font-bold text-[#0F1720] text-[16px]">
+                Short-Term & Payday Lenders
+              </h3>
+              <p className="text-[14px] text-gray-600 mt-1">
+                Protect against loan stacking across nearby stores.
+              </p>
+            </div>
+          </div>
+
+          {/* Card 2 */}
+          <div className="absolute top-[31%] left-[8%] lg:left-[71%] xl:left-[74%] md:top-[5%] md:left-[55%] w-[250px] md:w-[300px] text-center flex flex-col items-center">
+            <object
+              type="image/svg+xml"
+              data="/acuview-Icon-2.svg"
+              className="w-35 h-35"
+            >
+              Your browser does not support SVG
+            </object>
+            <div className="bg-white rounded-xl shadow-md p-4 md:h-[147px]">
+              <h3 className="font-bold text-[#0F1720] text-[16px]">
+                Online Lenders
+              </h3>
+              <p className="text-[14px] text-gray-600 mt-1">
+                Detect borrowers applying to multiple platforms simultaneously.
+              </p>
+            </div>
+          </div>
+
+          {/* Card 3 */}
+          <div className="absolute top-[56%] left-[10%] lg:left-[25%] xl:left-[29%] w-[250px] md:left-[3%] md:top-[67%] md:w-[300px]  text-center flex flex-col items-center">
+            <object
+              type="image/svg+xml"
+              data="/acuview-Icon-3.svg"
+              className="w-35 h-35"
+            >
+              Your browser does not support SVG
+            </object>
+            <div className="bg-white rounded-xl shadow-md p-4 md:h-[147px]">
+              <h3 className="font-bold text-[#0F1720] text-[16px]">
+                BNPL (Buy Now, Pay Later) Platforms
+              </h3>
+              <p className="text-[14px] text-gray-600 mt-1 ">
+                Validate whether customers are stacking multiple BNPL purchases
+                in real time.
+              </p>
+            </div>
+          </div>
+
+          {/* Card 4 */}
+          <div className="absolute top-[86%] left-[15%] lg:left-[52%] xl:left-[55%] w-[250px] md:top-[65%] md:w-[300px] md:left-[55%] text-center flex flex-col items-center">
+            <object
+              type="image/svg+xml"
+              data="/acuview-Icon-4.svg"
+              className="w-35 h-35"
+            >
+              Your browser does not support SVG
+            </object>
+            <div className="bg-white rounded-xl shadow-md p-4">
+              <h3 className="font-bold text-[#0F1720] text-[16px]">
+                Installment & Personal Loan Providers
+              </h3>
+              <p className="text-[14px] text-gray-600 mt-1">
+                Verify ability-to-repay with real-time borrower data. Identify
+                hidden liabilities before onboarding.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </section>
   );
 };

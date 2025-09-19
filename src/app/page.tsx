@@ -24,8 +24,8 @@ export default function Home() {
   return (
     <main className="bg-white flex justify-center">
       <div className="w-full ">
-        {/* <Header /> */}
-        <HeroSection/>
+        <Header />
+        <HeroSection />
         <IntroducingTheFirst />
         <ExploringLenderNetwork />
         <StatsSection />
@@ -33,13 +33,13 @@ export default function Home() {
         <HiddenCrisisSection />
         <DontFundBlind />
         <LendersResult />
-        {/* <WhoisAcuViewBuiltFor /> */}
+        <WhoisAcuViewBuiltFor />
         <FoundingBenefits />
         <FlexibleIntegrationOptions />
         <ComparisonSection />
         <SetupSteps />
         <TheEarlyBird />
-        <ThirtyDaysFree/>
+        <ThirtyDaysFree />
         <Testimonials />
         <AcuviewBanner />
         <FaqSection />

@@ -17,7 +17,7 @@ export default function AcuviewBanner() {
           <object
             type="image/svg+xml"
             data="/AcuViewLogo-baner.svg"
-            className="w-[140px] h-[140px] md:w-[231] md:h-[231px] flex items-center justify-center"
+            className="w-[200px] h-[200px] md:w-[231] md:h-[231px] flex items-center justify-center"
           >Acuview Logo</object>
         </div>
       </div>
