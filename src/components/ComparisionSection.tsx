@@ -1,17 +1,15 @@
-// components/ComparisonSection.tsx
 
 import Image from "next/image";
 
 export default function ComparisonSection() {
   return (
     <section className="w-full py-16 px-4 md:px-8 lg:px-16 bg-white h-auto">
-      {/* Heading */}
       <div className="text-center max-w-3xl mx-auto mb-12">
         <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900">
           While Others React to Defaults, <br className="hidden sm:block" />
           You Prevent Them!
         </h2>
-        <p className="text-gray-600 mt-3 text-sm sm:text-base">
+        <p className="text-gray-600 mt-3 text-[18px]">
           The difference between Traditional Credit Checks & Data companies, and{" "}
           <span className="font-semibold">
             AcuView’s real-time intelligence
@@ -22,12 +20,12 @@ export default function ComparisonSection() {
 
       <div className="flex flex-col sm:flex-row items-center justify-center gap-8 lg:gap-0 relative w-[100%]">
         <div
-          className="flex flex-col  w-[18%] rounded-3xl 
+          className="flex flex-col w-[100%] max-w-[299px] rounded-3xl 
              border bg-[#FDF8F8] shadow-[0px_4px_10px_0px_#0B74DD26] 
-             border-[#FA6450] relative bg-cover bg-center"
+             border-[#FA6450] p-6 relative bg-cover bg-center"
           style={{ backgroundImage: "url('/TraditionalCreditCheckBg.png')" }}
         >
-          <div className="flex items-center gap-2 mb-4 px-4 pt-3">
+          <div className="flex items-center gap-2 mb-4">
             <Image
               src="/TraditionalCreditCheck.png"
               alt="Traditional Credit Check Icon"
@@ -38,7 +36,7 @@ export default function ComparisonSection() {
               Traditional Credit Checks <br /> & Data Companies
             </h3>
           </div>
-          <ul className="space-y-3 text-sm text-gray-700 px-4 pb-4">
+          <ul className="space-y-3 text-sm text-gray-700">
             <li className="flex items-center gap-2">
               <Image
                 src="/CancelIcon.svg"
@@ -87,7 +85,6 @@ export default function ComparisonSection() {
           </ul>
         </div>
 
-        {/* Man Image (hidden on tablet & mobile) */}
         <div className="hidden lg:block">
           <Image
             src="/man.webp"
@@ -98,7 +95,6 @@ export default function ComparisonSection() {
           />
         </div>
 
-        {/* Right Card */}
         <div
           className="flex flex-col w-full max-w-[299px] min-h-[300px] rounded-3xl shadow-[0px_4px_10px_0px_#0B74DD26] border border-gray-200
           p-6 relative bg-cover bg-center"

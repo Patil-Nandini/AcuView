@@ -4,24 +4,24 @@ import React, { useEffect, useRef, useState } from "react";
 
 const testimonials = [
   {
-    name: "Adara G",
-    role: "Regional Manager",
+    name: "Steven S",
+    role: "Portfolio Owner",
     avatar: "/Avatar.png",
-    comment: "Three banks rejected us. AcuFi approved us in 48 hours.",
+    comment: "The loan industry has needed a tool like AcuView for a long time.",
   },
   {
-    name: "Isla B",
-    role: "SVP Fraud Director",
+    name: "Amanda B.",
+    role: "Store Manager",
     avatar: "/Avatar-1.png",
     comment:
-      "AcuFi gave us real banking tools that work for high-risk businesses.",
+      "Amazing! We can see if a borrower has already applied for a loan somewhere else, in real time.",
   },
   {
-    name: "Apollo C",
-    role: "Director of Corporate Accounting and Finance",
+    name: "Kevin S.",
+    role: "Underwriting Specialist",
     avatar: "/Avatar-2.png",
     comment:
-      "AcuFi isn’t just a bank—it’s the partner we wish we had years ago.",
+      "It’s like having a risk radar for bad loans.",
   },
 ];
 
