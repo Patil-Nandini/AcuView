@@ -61,9 +61,9 @@ export default function FoundingBenefits() {
         </div>
 
         <div
-          className=" block md:hidden relative mx-auto
-    w-[320px] max-w-[320px]   
-    h-[600px]"
+            className=" block md:hidden relative mx-auto
+              w-[320px] max-w-[320px]   
+              h-[600px] max-[325px]:ml-[-15px] max-[325px]:mx-0"
         >
           <Image
             src="/FoundingVerticalImage.png"
@@ -136,7 +136,7 @@ export default function FoundingBenefits() {
             FOUNDING MEMBER BENEFITS
           </div>
 
-          <div className="absolute bottom-[-55px] left-1/2 -translate-x-1/2 w-[90%] bg-[#FFE6E6] text-[#DC6262] px-4 py-2 rounded-lg text-[14px] font-medium border border-[#F2A2A2] text-center">
+          <div className="absolute bottom-[-55px] left-[calc(50%-10px)] -translate-x-1/2 w-[90%] bg-[#FFE6E6] text-[#DC6262] px-4 py-2 rounded-lg text-[14px] font-medium border border-[#F2A2A2] text-center z-20">
             Limited to the First 100 Lenders who sign up!
           </div>
         </div>
