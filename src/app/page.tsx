@@ -24,7 +24,7 @@ export default function Home() {
   return (
     <main className="bg-white flex justify-center">
       <div className="w-full ">
-        <Header />
+        {/* <Header /> */}
         <HeroSection/>
         <IntroducingTheFirst />
         <ExploringLenderNetwork />

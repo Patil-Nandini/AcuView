@@ -5,7 +5,6 @@ import Image from "next/image";
 export default function ComparisonSection() {
   return (
     <section className="w-full py-16 px-4 md:px-8 lg:px-16 bg-white h-auto">
-      {/* Heading */}
       <div className="text-center max-w-3xl mx-auto mb-12">
         <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900">
           While Others React to Defaults, <br className="hidden sm:block" />
