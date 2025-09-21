@@ -47,7 +47,7 @@ const TheEarlyBird: React.FC = () => {
           <div className="flex justify-center mb-12">
             <button className="bg-white text-[#085AAC] px-5 py-1 rounded-full font-semibold text-sm sm:text-base shadow-lg hover:shadow-xl transition-shadow duration-300 flex items-center gap-2">
               <img src="/rocket.svg" alt="Rocket Icon" className="w-5 h-5 sm:w-6 sm:h-6" />
-              <span>Don't Be the Last Lender to Join the Revolution!</span>
+              <span>Don&apos;t Be the Last Lender to Join the Revolution!</span>
             </button>
           </div>
 

@@ -74,7 +74,7 @@ const WhoisAcuViewBuiltFor: React.FC = () => {
             <span className="text-[18px] font-semibold text-[#0F1720] mr-[5px]">
               AcuView
             </span>
-            is designed for lenders who can’t afford to guess, such as those
+            is designed for lenders who can&apos;t afford to guess, such as those
             operating in fast-moving, high-risk, or high-volume lending
             environments where every decision impacts profitability.
           </p>

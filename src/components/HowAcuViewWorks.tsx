@@ -133,7 +133,7 @@ export default function HowAcuViewWorks() {
         </div>
         <div className="flex justify-center mt-30">
           <div className="bg-white rounded-[20px] border border-[#DBDFE2] shadow-[0px_3px_30px_10px_#D1DCE233] px-8 py-5 text-center text-lg text-[#0F1720] font-semibold">
-            All Without Ever Sharing Your Customers' List.
+            All Without Ever Sharing Your Customer&apos;s List.
             <br />
             Your Data Stays Secure. Customer Behavior Becomes Visible.
           </div>

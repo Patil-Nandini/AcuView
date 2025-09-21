@@ -121,7 +121,6 @@ export default function FaqSection() {
           </div>
         </div>
 
-        {/* Right side illustration (Smaller width) */}
         <div className="w-full lg:w-[40%] flex flex-col items-center justify-start">
           <object
             type="image/svg+xml"
@@ -136,7 +135,7 @@ export default function FaqSection() {
               Still, have questions?
             </div>
             <div className="text-[#181F2C] mb-4 text-xs sm:text-sm md:text-base">
-              Can’t find the answer you’re looking for?
+              Can&apos;t find the answer you&apos;re looking for?
             </div>
             <button
               type="button"
@@ -164,7 +163,6 @@ export default function FaqSection() {
         </div>
       </div>
 
-      {/* Gear image */}
       <Image
         src="/faq-setting.webp"
         alt="FAQ Gear"

@@ -248,7 +248,7 @@ const HeroSection: React.FC = () => {
                   width={20}
                   height={20}
                 />
-                WORLD’S FIRST PATENTED TECHNOLOGY
+                WORLD&apos;S FIRST PATENTED TECHNOLOGY
               </span>
             </div>
 
@@ -405,7 +405,7 @@ const HeroSection: React.FC = () => {
                 width={20}
                 height={20}
               />
-              WORLD’S FIRST PATENTED TECHNOLOGY
+              WORLD&apos;S FIRST PATENTED TECHNOLOGY
             </span>
           </div>
 

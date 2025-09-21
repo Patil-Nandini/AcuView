@@ -15,13 +15,13 @@ const DontFundBlind = () => {
       <div className="max-w-[1400px] w-full">
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 tracking-tight">
-            Don't Lend Blind, Lend Smart.
+            Don&apos;t Lend Blind, Lend Smart.
           </h1>
 
           <div className="max-w-3xl mx-auto space-y-1">
             <p className="text-lg md:text-xl text-white/90 font-light">
               <span className="font-medium">AcuView</span> reveals what credit
-              reports and other data companies can't, giving you
+              reports and other data companies can&apos;t, giving you
             </p>
             <p className="text-lg md:text-xl text-white/90 font-light">
               complete borrower intelligence before you say{" "}
@@ -90,7 +90,7 @@ const DontFundBlind = () => {
                       </div>
 
                       <h3 className="relative text-[22px] font-semibold text-white text-center mb-8 leading-tight">
-                        See What's Happening Right
+                        See What&apos;s Happening Right
                         <br />
                         Now
                       </h3>
@@ -113,7 +113,7 @@ const DontFundBlind = () => {
                             <p className="text-white/75 text-center text-[13px] leading-relaxed">
                               Track loan applications across multiple
                               <br />
-                              lenders in real time, not weeks later when it's
+                              lenders in real time, not weeks later when it&apos;s
                               <br />
                               too late.
                             </p>

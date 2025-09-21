@@ -12,7 +12,7 @@ export default function ComparisonSection() {
         <p className="text-gray-600 mt-3 text-[18px]">
           The difference between Traditional Credit Checks & Data companies, and{" "}
           <span className="font-semibold">
-            AcuView’s real-time intelligence
+            AcuView&apos;s real-time intelligence
           </span>
           .
         </p>
@@ -53,7 +53,7 @@ export default function ComparisonSection() {
                 width={20}
                 height={20}
               />
-              <span>Can’t see multiple applications across lenders</span>
+              <span>Can&apos;t see multiple applications across lenders</span>
             </li>
             <li className="flex items-center gap-2">
               <Image
@@ -62,7 +62,7 @@ export default function ComparisonSection() {
                 width={20}
                 height={20}
               />
-              <span>Can’t detect identity manipulation</span>
+              <span>Can&apos;t detect identity manipulation</span>
             </li>
             <li className="flex items-center gap-2">
               <Image
@@ -108,7 +108,7 @@ export default function ComparisonSection() {
               height={28}
             />
             <h3 className="text-lg font-semibold text-[#0A3D91] h-[80px]">
-              AcuView’s Real-time <br /> Intelligence
+              AcuView&apos;s Real-time <br /> Intelligence
             </h3>
           </div>
           <ul className="space-y-3 text-sm text-gray-700">

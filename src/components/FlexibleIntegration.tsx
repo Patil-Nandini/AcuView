@@ -70,7 +70,7 @@ export default function FlexibleIntegrationOptions() {
               </span>
             </div>
             <p className="text-[#504E4E] mb-6">
-              Seamlessly integrate AcuView's real-time intelligence directly
+              Seamlessly integrate AcuView&apos;s real-time intelligence directly
               into your existing LMS/LOS software with our robust API.
             </p>
             <div className="flex flex-col sm:grid sm:grid-cols-2 md:flex md:flex-wrap md:justify-center md:gap-4 lg:grid lg:grid-cols-4 gap-6 lg:gap-12 items-center">
@@ -92,7 +92,7 @@ export default function FlexibleIntegrationOptions() {
               </span>
             </div>
             <p className="text-gray-700 mb-6">
-              Access AcuView's intelligence through our intuitive web portal for
+              Access AcuView&apos;s intelligence through our intuitive web portal for
               manual checks and detailed analysis.
             </p>
             <div className="flex justify-center gap-4 lg:ml-0 lg:md:ml-12 flex-wrap">

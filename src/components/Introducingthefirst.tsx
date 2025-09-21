@@ -70,7 +70,7 @@ export default function IntroducingTheFirst() {
               Loan Intelligence Network
             </h2>
             <p className="text-[18px] text-[#0F1720] text-gray-600 mb-3">
-              This isn't another credit report. It's a live network of
+              This isn&apos;t another credit report. It&apos;s a live network of
               lender-shared intelligence that flags{" "}
               <span className="lg:block">
                 high-risk activity before you approve the loan.
