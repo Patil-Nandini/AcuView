@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function HowAcuViewWorks() {
   return (
     <section className="relative px-4 py-16 overflow-hidden w-[100%]">
-      <div className="absolute top-10 left-[20px] z-3">
+      <div className="absolute top-[-1]  md:top-10  left-[20px] z-3">
         <Image
           src="/HowWorksIconLeft.png"
           alt="Flower Icon"
@@ -15,15 +15,13 @@ export default function HowAcuViewWorks() {
         />
       </div>
 
-      <div className="w-[90%] mx-auto relative z-10">
-        {/* Section Heading */}
-        <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-2">
+      <div className="w-[100%] lg:w-[90%] lg:mx-auto relative z-10">
+        <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-2 mt-[20px]">
           How AcuView Works
         </h2>
         <p className="text-center text-gray-600 text-lg mb-6">
           Four simple steps to smarter lending decisions
         </p>
-        {/* Demo Button */}
         <div className="flex justify-center mb-12">
           <button
             type="button"
@@ -49,7 +47,7 @@ export default function HowAcuViewWorks() {
           </button>
         </div>
 
-        <div className="flex flex-col md:flex-row items-start justify-center gap-15">
+        <div className="flex flex-col md:flex-row items-center justify-center gap-18 md:gap-[15] md:items-start">
           <div className="relative bg-white rounded-xl shadow-lg px-6 py-8 w-[277px] h-[270px]  mb-6 md:mb-0 rotate-[-7deg]">
             <div className="absolute -top-12 left-1/2 -translate-x-1/2 ">
               <Image
@@ -69,7 +67,6 @@ export default function HowAcuViewWorks() {
             </p>
             <div className="absolute bottom-0 left-0 w-full h-8 bg-[#FEB70133] border-2 border-[#F8FCFD] rounded-b-xl"></div>
           </div>
-          {/* Step 2 */}
           <div className="relative bg-white rounded-xl shadow-lg px-6 py-8 w-[286px] h-[180px]  mb-6 md:mb-0 rotate-[-3deg]">
             <div className="absolute -bottom-12 left-1/2 -translate-x-1/2">
               <Image
@@ -87,7 +84,6 @@ export default function HowAcuViewWorks() {
               Check for matches, stacking, or red flags
             </p>
           </div>
-          {/* Step 3 */}
           <div className="relative bg-white rounded-xl shadow-lg px-6 py-8 w-[286px] h-[180px] mb-6 md:mb-0 rotate-[2deg]">
             <div className="absolute -bottom-12 left-1/2 -translate-x-1/2">
               <Image
@@ -105,7 +101,6 @@ export default function HowAcuViewWorks() {
               Receive insights in milliseconds
             </p>
           </div>
-          {/* Step 4 */}
           <div className="relative bg-white rounded-xl shadow-lg px-6 py-8 w-[277px] h-[270px] mb-6 md:mb-0 rotate-[7deg]">
             <div className="absolute -top-12 left-1/2 -translate-x-1/2">
               <Image
@@ -126,12 +121,11 @@ export default function HowAcuViewWorks() {
 
           </div>
         </div>
-        {/* Decorative curve (dotted line) */}
-        <div className="absolute left-[160px] right-0 mx-auto top-[520px] z-0 pointer-events-none">
+        <div className="hidden md:flex absolute  right-0 mx-auto lg:top-[520px] md:top-[560px] z-0 pointer-events-none items-center justify-center w-[100%]">
           <object
             type="image/svg+xml"
             data="/Line2.svg"
-            className="w-[90%] h-full"
+            className="lg:w-[90%] md:w-[100%] h-full flex items-center justify-center"
             aria-label="The Hidden Loans Animation"
           >
             How AcuView Works Line
