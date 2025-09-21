@@ -4,14 +4,26 @@ import Image from "next/image";
 export default function FlexibleIntegrationOptions() {
   return (
     <section
-      className="w-[100%] flex items-center justify-center bg-no-repeat bg-cover"
-      style={{
-        backgroundImage: "url('/FlexibleIntegrationOptionsBg.webp')",
-      }}
+      className="w-[100%] flex items-center justify-center bg-gradient-to-b from-[#C2E0FE] to-[#FFFFFF] lg:bg-no-repeat lg:bg-cover lg:bg-[url('/FlexibleIntegrationOptionsBg.webp')] relative overflow-hidden pt-4 md:pt-0"
     >
-      <div className=" w-[95%] flex flex-col md:flex-row items-center justify-between px-4 py-12 md:py-24 gap-10">
-        {/* Left Section */}
-      <div className="basis-[30%] flex flex-col items-start justify-center">
+      {/* Mobile Header Background */}
+      <div className="absolute top-0 left-0 right-0 h-auto block md:hidden bg-[url('/FlexibleIntegrationOptionsBg-Mobile.webp')] bg-no-repeat z-0" style={{
+        width: 'calc(100% + 50px)',
+        marginLeft: '-50px',
+        height: '55%',
+        backgroundSize: '120% 100%'
+      }}></div>
+      
+      {/* Tablet Header Background Only */}
+      <div className="absolute top-0 left-0 right-0 h-auto hidden md:block lg:hidden bg-[url('/FlexibleIntegrationOptionsBg-Mobile.webp')] bg-no-repeat bg-cover z-0" style={{
+        width: 'calc(100% + 40px)',
+        marginLeft: '-20px',
+        height: '60%'
+      }}></div>
+      
+      <div className=" w-[95%] flex flex-col lg:flex-row items-center lg:justify-between justify-center px-4 py-6 md:py-6 lg:py-24 gap-10 relative z-10">
+        {/* Header Section */}
+      <div className="lg:basis-[30%] flex flex-col lg:items-start items-center lg:justify-center justify-center lg:text-left text-center">
           <h2 className="text-[40px] font-bold text-[#0F1720] mb-6">
             Flexible Integration
             <br />
@@ -22,7 +34,7 @@ export default function FlexibleIntegrationOptions() {
           </p>
           <button
             type="button"
-            className="flex items-center justify-center h-[90px] text-white font-semibold cursor-pointer w-[270px] sm:w-[240px] px-7  ml-[-7px]"
+            className="hidden lg:flex items-center justify-center h-[90px] text-white font-semibold cursor-pointer w-[270px] sm:w-[240px] px-7  ml-[-7px]"
             style={{
               backgroundImage: "url('/watchNowButtonBg.png')",
               backgroundSize: "100% 100%",
@@ -44,8 +56,8 @@ export default function FlexibleIntegrationOptions() {
           </button>
         </div>
 
-        {/* Right Section (Cards) */}
-      <div className="basis-[75%] flex flex-col gap-8">
+        {/* Cards Section */}
+      <div className="w-full lg:basis-[75%] flex flex-col gap-8">
           {/* Card 1 */}
           <div
             className="relative rounded-[60px] p-8 md:p-10 bg-no-repeat bg-cover w-[100%]"
@@ -58,10 +70,10 @@ export default function FlexibleIntegrationOptions() {
               </span>
             </div>
             <p className="text-[#504E4E] mb-6">
-              Seamlessly integrate AcuView’s real-time intelligence directly
+              Seamlessly integrate AcuView's real-time intelligence directly
               into your existing LMS/LOS software with our robust API.
             </p>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div className="flex flex-col sm:grid sm:grid-cols-2 md:flex md:flex-wrap md:justify-center md:gap-4 lg:grid lg:grid-cols-4 gap-6 lg:gap-12 items-center">
               <FeatureCard text="RESTful API with comprehensive documentation" />
               <FeatureCard text="Real-time responses" />
               <FeatureCard text="Easy integration with popular LMS platforms" />
@@ -80,10 +92,10 @@ export default function FlexibleIntegrationOptions() {
               </span>
             </div>
             <p className="text-gray-700 mb-6">
-              Access AcuView’s intelligence through our intuitive web portal for
+              Access AcuView's intelligence through our intuitive web portal for
               manual checks and detailed analysis.
             </p>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 justify-items-center">
+            <div className="flex justify-center gap-4 lg:ml-0 lg:md:ml-12 flex-wrap">
               <FeatureCard text="User-friendly dashboard with instant insights" />
               <FeatureCard text="Manual borrower verification tools" />
               <FeatureCard text="Detailed reporting and analytics" />
@@ -100,7 +112,7 @@ function FeatureCard({ text }: { text: string }) {
   return (
     <div className="
       flex flex-col items-center justify-center 
-      bg-white rounded-[30px] shadow-[0px_10px_30px_0px_#D1DCE266] py-6 px-4 min-h-[96px] w-[168px]
+      bg-white rounded-[30px] shadow-[0px_10px_30px_0px_#D1DCE266] py-6 px-4 min-h-[96px] w-[168px] md:w-[140px] lg:w-[168px]
       transition duration-300 ease-in-out
       hover:scale-120 
     ">
