@@ -25,7 +25,7 @@ const DontFundBlind = () => {
             </p>
             <p className="text-lg md:text-xl text-white/90 font-light">
               complete borrower intelligence before you say{" "}
-              <span className="font-medium">'YES'</span>.
+              <span className="font-medium">&apos;YES&apos;</span>.
             </p>
             <p className="text-lg md:text-xl text-white/90 font-light pt-1">
               Turn your biggest risks to your advantage.

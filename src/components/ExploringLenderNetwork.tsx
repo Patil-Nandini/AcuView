@@ -34,14 +34,8 @@ const ExploringLenderNetwork = () => {
     },
   ];
 
-  const stats = [
-    { number: "127+", label: "Active Lenders", sub: "Growing Daily!" },
-    { number: "1M+", label: "Data Points", sub: "Expanding Fast" },
-    { number: "24/7", label: "Real-Time", sub: "Never Stops!" },
-  ];
   return (
     <section className="relative w-full bg-white py-16 px-5 lg:px-16 bg-[url('/THE-LENDER-NETWORK-IS-EXPLODING-BG.webp')] bg-no-repeat bg-cover font-sarabun pb-40">
-      {/* Top Heading */}
       <div className="text-center max-w-6xl mx-auto">
         <h2 className="text-[25px] md:text-[41px] font-extrabold text-gray-900">
           THE LENDER NETWORK IS EXPLODING!
@@ -110,7 +104,6 @@ const ExploringLenderNetwork = () => {
         </button>
       </div>
 
-      {/* Feature Cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8 mt-16 max-w-6xl mx-auto">
         {features.map((f, i) => (
           <div
@@ -119,7 +112,6 @@ const ExploringLenderNetwork = () => {
               h-[330px] sm:h-[300px] md:h-[400px] lg:h-[320px]
               w-full sm:w-[300px] md:w-[240px] lg:w-[300px] ${f.bg} ${i === features.length - 1 ? 'mr-5' : ''}`}
           >
-            {/* Top section */}
             <div className="flex flex-col items-start gap-3">
               <Image src={f.icon} alt={f.title} width={80} height={80} />
               <h4 className={`text-[20px] font-[800] ${f.titleColor}`}>
@@ -129,7 +121,6 @@ const ExploringLenderNetwork = () => {
 
             <p className={`mt-3 text-[16px] ${f.descColor}`}>{f.description}</p>
 
-            {/* Spacer pushes content down if needed */}
             <div className="flex-grow" />
           </div>
         ))}

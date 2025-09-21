@@ -48,7 +48,6 @@ export default function IntroducingTheFirst() {
   return (
     <section className="relative w-[100%] bg-white overflow-hidden pt-15 lg:pb-20 bg-[url('/Indroducing-Section-bg.png')]">
       <div className="flex flex-col-reverse lg:flex-row items-center lg:items-center w-full lg:justify-start justify-center ">
-        {/* Left Side (40%) */}
         <div className="w-[100%] lg:w-[40%] xl:w-[40%] flex items-center justify-start h-[100%] md:h-[60%] lg:h-[100%]">
           <object
             data="/Acuview-real-time-loan-Animation1.svg"
@@ -62,7 +61,6 @@ export default function IntroducingTheFirst() {
           </object>
         </div>
 
-        {/* Right Side (60%) */}
         <div className="w-full lg:w-[60%] relative z-20 xl:mr-15  flex flex-col justify-end items-center p-[30px] lg:p-[0] lg:items-start xl:items-center ">
           <div className="mb-8 lg:mb-12 w-[100%]">
             <h2 className="text-[25px] md:text-[40px] font-bold text-gray-900 mb-4 leading-tight text-[#000000] xl:w-[760px]">
@@ -81,7 +79,6 @@ export default function IntroducingTheFirst() {
             </p>
           </div>
 
-          {/* Feature cards grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-y-12 lg:gap-y-12 w-full md:justify-items-start justify-items-center">
             {features.map((feature, index) => (
               <div
