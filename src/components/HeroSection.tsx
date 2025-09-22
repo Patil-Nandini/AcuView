@@ -24,9 +24,9 @@ const HeroSection: React.FC = () => {
             </div>
 
             <h1 className="text-[27px] sm:text-[40px] font-black leading-tight text-[#000000]">
-              <span>See What Some Borrowers</span>
+              <span>See What Some Borrowers</span>  <br className="hidden xl:block" />
               <span
-                className="inline-block py-[20px] px-[32px] sm:px-[47px] sm:py-[20px] rounded-[60px] text-[35px] md:text-[35px] font-bold "
+                className="inline-block py-[20px] px-[32px] sm:px-[47px] sm:py-[20px] rounded-[60px] text-[35px] md:text-[35px] font-bold ml-[-7px] "
                 style={{
                   backgroundImage: "url('dont.png')",
                   color: "#FFFFFF",
@@ -34,7 +34,6 @@ const HeroSection: React.FC = () => {
                   backgroundRepeat: "no-repeat",
                   backgroundPosition: "center",
                   // padding: "20px 47px",
-                  marginLeft: "-7px",
                 }}
               >
                 DON&apos;T
