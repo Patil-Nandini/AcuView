@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-
+ 
 type Card = {
 title: string;
 desc: string;
@@ -10,7 +10,7 @@ bg: string;
 gradient: string;
 tabletGradient: string;
 };
-
+ 
 const cards: Card[] = [
 {
  title: "67% Reduction",
@@ -61,7 +61,7 @@ const cards: Card[] = [
  tabletGradient: "linear-gradient(to bottom, white 30%, #FFE6E6 70%)",
 },
 ];
-
+ 
 const LendersResult: React.FC = () => {
 return (
  <section className="w-full font-sarabun bg-[url('/Indroducing-Section-bg.png')] bg-norepeat pt-8 pb-28">
@@ -74,7 +74,7 @@ return (
          Real numbers from lenders using <span className="font-semibold">AcuView</span>
        </p>
      </div>
-
+ 
      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8 mt-12">
        {cards.map((c, idx) => (
          <div key={idx} className="bg-white rounded-[40px] shadow-[0_6px_12px_rgba(0,0,0,0.12)] p-1.5 md:bg-transparent md:rounded-none md:shadow-none md:p-0 lg:bg-white lg:rounded-[40px] lg:shadow-[0_6px_12px_rgba(0,0,0,0.12)] lg:p-1.5">
@@ -91,7 +91,7 @@ return (
                <h3 className="text-[20px] md:text-[16px] lg:text-[20px] font-bold text-[#28123b]">{c.title}</h3>
                <p className="mt-3 text-[15px] md:text-[13px] lg:text-[15px] text-[#252529] max-w-[80%]">{c.desc}</p>
              </div>
-
+ 
              <div className="relative mt-6 flex items-end justify-center">
                <div className="relative z-10 w-32 h-32 rounded-full flex items-center justify-center">
                  <Image src={c.icon} width={128} height={128} alt={c.title} />
@@ -105,5 +105,5 @@ return (
  </section>
 );
 };
-
+ 
 export default LendersResult;
