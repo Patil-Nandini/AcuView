@@ -35,7 +35,7 @@ export default function LenderNetworkEffect() {
             }
           >
             <Image
-              src="/Demo.png"
+              src="/WatchDemo.png"
               alt="Demo Icon"
               width={20}
               height={20}
