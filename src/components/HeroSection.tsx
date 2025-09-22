@@ -8,7 +8,7 @@ const HeroSection: React.FC = () => {
   return (
     <>
       <section className="relative bg-white px-4 sm:px-8 lg:px-0 xl:px-[60px] py-12 lg:py-20 font-sarabun mt-10 w-[100%] flex items-center justify-center hidden lg:flex xl:px-12">
-        <div className="w-[95%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+        <div className="w-[95%] mx-auto grid grid-cols-1 lg:grid-cols-2  gap-10 xl:gap-0 items-center">
           <div className="lg:w-[100%]">
             <div className="inline-flex items-center gap-2 bg-black text-white text-xs sm:text-sm xl:px-4 py-2 rounded-full font-semibold mb-4">
               <span className="flex gap-1">
@@ -115,7 +115,7 @@ const HeroSection: React.FC = () => {
               </video>
             </div>
 
-            <div className="flex gap-4 w-full bg-transparent justify-center items-center">
+            <div className="flex gap-4 w-full bg-transparent justify-center items-start">
               <div
                 className="group relative bg-transparent z-10 w-[302px] h-[200px] lg:w-[230px] lg:h-[140px] xl:w-[302px] xl:h-[200px] flex flex-col justify-start items-center text-white p-4 transition-transform duration-300 ease-in-out hover:scale-105 rounded-[20px] bg-cover bg-center cursor-pointer mt-[20px]"
                 style={{ backgroundImage: "url('/primary.png')" }}
