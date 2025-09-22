@@ -357,7 +357,7 @@ const HeroSection: React.FC = () => {
             {/* Card 2 */}
             <div
               className="group relative z-10 w-[300px] h-[180px] lg:w-[230px] lg:h-[139px] flex flex-col justify-center items-center text-[#04254F] p-4 transition-transform duration-300 ease-in-out hover:scale-105  rounded-[20px] bg-cover bg-center cursor-pointer"
-              style={{ backgroundImage: "url('/WhiteBg.png')" }}
+              style={{ backgroundImage: "url('/WhiteBgButton.png')" }}
               onClick={() => {
                 window.location.href = "https://acufi.com/lets-connect/";
               }}
