@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function FlexibleIntegrationOptions() {
   return (
     <section
-      className="w-[100%] flex items-center justify-center bg-gradient-to-b from-[#C2E0FE] to-[#FFFFFF] lg:bg-no-repeat lg:bg-cover lg:bg-[url('/FlexibleIntegrationOptionsBg.webp')] relative overflow-hidden pt-4 md:pt-0"
+      className="w-[100%] flex items-center justify-center bg-gradient-to-b from-[#C2E0FE] to-[#FFFFFF] lg:bg-no-repeat lg:bg-cover lg:bg-[url('/FlexibleIntegrationOptionsBg.webp')] relative overflow-hidden pt-4 md:pt-0 mt-[70px] md:mt-0"
     >
       {/* Mobile Header Background */}
       <div className="absolute top-0 left-0 right-0 h-auto block md:hidden bg-[url('/FlexibleIntegrationOptionsBg-Mobile.webp')] bg-no-repeat z-0" style={{

@@ -7,7 +7,7 @@ import Image from "next/image";
 const HeroSection: React.FC = () => {
   return (
     <>
-      <section className="relative bg-white px-4 sm:px-8 lg:px-0 xl:px-1 py-12 lg:py-20 font-sarabun mt-10 w-[100%] flex items-center justify-center hidden lg:flex xl:px-12">
+      <section className="relative bg-white px-4 sm:px-8 lg:px-0 xl:px-[60px] py-12 lg:py-20 font-sarabun mt-10 w-[100%] flex items-center justify-center hidden lg:flex xl:px-12">
         <div className="w-[95%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
           <div className="lg:w-[100%]">
             <div className="inline-flex items-center gap-2 bg-black text-white text-xs sm:text-sm xl:px-4 py-2 rounded-full font-semibold mb-4">
@@ -23,7 +23,7 @@ const HeroSection: React.FC = () => {
               </span>
             </div>
 
-            <h1 className="text-[27px] sm:text-[40px] font-black leading-tight text-[#000000] uppercase">
+            <h1 className="text-[27px] sm:text-[40px] font-black leading-tight text-[#000000]">
               <span>See What Some Borrowers</span>
               <span
                 className="inline-block py-[20px] px-[32px] sm:px-[47px] sm:py-[20px] rounded-[60px] text-[35px] md:text-[35px] font-bold "
@@ -37,7 +37,7 @@ const HeroSection: React.FC = () => {
                   marginLeft: "-7px",
                 }}
               >
-                ACUFI
+                DON&apos;T
               </span>
               Want You To See!
             </h1>
@@ -101,7 +101,7 @@ const HeroSection: React.FC = () => {
           </div>
 
           {/* Right side */}
-          <div className="flex flex-col items-center gap-6 w-[700px] lg:w-[100%]">
+          <div className="flex flex-col items-start gap-6 w-[700px] lg:w-[100%]">
             <div className="relative w-full h-[280px] sm:h-[360px] xl:w-[600px] xl:h-[400px]  rounded-2xl overflow-hidden lg:object-contain xl:object-cover">
               <video
                 autoPlay

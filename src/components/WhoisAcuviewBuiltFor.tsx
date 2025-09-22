@@ -64,7 +64,7 @@ const cards: Card[] = [
 
 const WhoisAcuViewBuiltFor: React.FC = () => {
   return (
-    <section className="w-[100%] font-sarabun bg-[url('/Indroducing-Section-bg.png')] static bg-no-repeat bg-cover pt-8 pb-28 flex flex-col justify-center items-center ">
+    <section className="w-[100%] font-sarabun bg-[url('/Indroducing-Section-bg.png')] static bg-no-repeat bg-cover pt-8 pb-28 md:pb-1 flex flex-col justify-center items-center ">
       <div className="max-w-8xl mx-auto px-6 flex justify-center">
         <div className="text-center flex flex-col justify-center max-w-5xl">
           <h2 className="text-[34px] sm:text-[36px] font-extrabold text-[#07102A] leading-tight">
