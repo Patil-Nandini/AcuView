@@ -150,7 +150,7 @@ export default function FlexibleIntegrationOptions() {
                 Access AcuView&apos;s intelligence through our intuitive web portal for
                 manual checks and detailed analysis.
               </p>
-              <div className="flex justify-center gap-4 laptop-ml-0 md:ml-12 flex-wrap">
+              <div className="flex justify-center gap-4 laptop-ml-0 md:ml-12 md:grid md:grid-cols-3 md:flex-nowrap flex-wrap">
                 <FeatureCard text="User-friendly dashboard with instant insights" />
                 <FeatureCard text="Manual borrower verification tools" />
                 <FeatureCard text="Detailed reporting and analytics" />
@@ -173,7 +173,7 @@ function FeatureCard({ text }: { text: string }) {
       w-full 
       max-w-[168px] 
       md:max-w-[200px] md:min-h-[110px] md:py-8 md:px-6
-      laptop:max-w-[360px] laptop:min-h-[130px] laptop:py-10 laptop:px-8
+      laptop:max-w-[240px] laptop:min-h-[130px] laptop:py-10 laptop:px-8
       mx-auto
       transition duration-300 ease-in-out
       hover:scale-120
