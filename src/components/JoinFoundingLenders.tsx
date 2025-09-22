@@ -87,7 +87,10 @@ export default function LendingBanner() {
           </p>
 
           {/* CTA Button */}
-          <button className="mt-6 flex items-center gap-2 bg-white text-[#1670EA] px-5 py-3 sm:py-4 rounded-full font-semibold text-sm sm:text-base shadow-md hover:shadow-lg transition">
+          <button className="mt-6 flex items-center gap-2 bg-white text-[#1670EA] px-5 py-3 sm:py-4 rounded-full font-semibold text-sm sm:text-base shadow-md hover:shadow-lg transition cursor-pointer"   onClick={() =>
+                (window.location.href =
+                  "https://acufi.com/acuview-get-started/")
+              }>
             <Image
               src="/BlueRocket.svg"
               alt="Rocket Icon"
@@ -96,6 +99,7 @@ export default function LendingBanner() {
             />
             15-Minute Demo!
           </button>
+          
         </div>
       </section>
     </section>

@@ -45,12 +45,12 @@ const HeroSection: React.FC = () => {
               style={{ backgroundImage: "url('/LeftsideContentBg.png')" }}
             >
               <div className="absolute inset-0 flex">
-                <div className="flex flex-col justify-between h-full pl-8 pt-8 pb-8 w-[45%]">
+                <div className="flex flex-col justify-between h-full pl-8 pt-8 lg:pt-4 pb-8 w-[45%]">
                   <div>
                     <h2 className="text-[22px] font-bold text-[#333]">
                       Real-Time Loan Intelligence
                     </h2>
-                    <p className="text-[16px] text-[#333] mt-2 font-normal">
+                    <p className="text-[16px] text-[#333] mt-2 font-normal pb-[10px] xl:pb-0 ">
                       Built to protect every dollar you lend
                     </p>
                   </div>
@@ -116,7 +116,7 @@ const HeroSection: React.FC = () => {
 
             <div className="flex gap-4 w-full bg-transparent justify-center items-start">
               <div
-                className="group relative bg-transparent z-10 w-[302px] h-[200px] lg:w-[230px] lg:h-[140px] xl:w-[302px] xl:h-[200px] flex flex-col justify-start items-center text-white p-4 transition-transform duration-300 ease-in-out hover:scale-105 rounded-[20px] bg-cover bg-center cursor-pointer mt-[20px]"
+                className="group relative bg-transparent z-10 w-[302px] h-[200px] lg:w-[230px] lg:h-[140px] xl:w-[302px] xl:h-[200px] flex flex-col justify-start items-center text-white p-4 transition-transform duration-300 ease-in-out hover:scale-105 rounded-[20px] bg-cover bg-center cursor-pointer"
                 style={{ backgroundImage: "url('/primary.png')" }}
                 onClick={() => {
                   window.location.href = "https://acufi.com/lets-connect/";

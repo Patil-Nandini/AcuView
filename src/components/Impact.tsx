@@ -53,7 +53,7 @@ export default function StatsSection() {
             </h2>
             <p className="text-[14px] mt-1 text-[#504E4E] max-w-[220px]">
               Every signup makes the Lender network{" "}
-              <span className="font-semibold">10x</span> more valuable for{" "}
+              <span className="font-semibold">7x</span> more valuable for{" "}
               <span className="font-semibold">EVERYONE</span>!
             </p>
           </div>

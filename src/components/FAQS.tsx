@@ -4,29 +4,29 @@ import { useState } from "react";
 
 const faqs = [
   {
-    question: "How quickly can I get approved for an AcuFi account?",
+    question: "Is my customer data safe?",
     answer:
-      "Most AcuFi customers are underwritten and onboarded within 1–3 business days.",
+      "Yes. AcuView cleans all lender-identifying info. Your customers stay yours. We use advanced encryption to ensure complete data security.",
   },
   {
-    question: "What industries do AcuFi specialize in?",
+    question: "How fast is the data updated?",
     answer:
-      "AcuFi supports a wide range of high-risk and emerging industries, including Short-term lending, cannabis, crypto, CBD, credit repair, debt relief, nutraceuticals, and affiliate marketing platforms.",
+      "Milliseconds. 3ms to be exact. AcuView always live with real-time updates from our lender network, giving you the most current information available. ",
   },
   {
-    question: "What makes AcuFi different from traditional banks?",
+    question: "Do you support storefront and online lenders?",
     answer:
-      "Unlike traditional banks, AcuFi is purpose-built for high-risk and high-growth industries. We offer faster account underwriting (1–3 days), real-time lending intelligence, and payment processing designed for sectors most banks avoid—like short term lending, cannabis, crypto and nutraceuticals.",
+      "Yes—AcuView is built for both environments with dedicated workflows and APIs. Our platform seamlessly integrates with both physical store systems and online lending platforms.   ",
   },
   {
-    question: "Can I use AcuFi if I’ve been rejected by other banks?",
+    question: "Do you offer integration support?",
     answer:
-      "Absolutely. AcuFi is created for businesses that have been labelled “unbankable” by traditional institutions. We specialize in helping overlooked industries get access to Modern banking.",
+      "Absolutely. We provide sandbox environments, comprehensive API documentation, and a dedicated customer success manager to ensure smooth integration.",
   },
   {
-    question: "Is AcuFi secure and compliant for high-risk industries?",
+    question: "How long does it take to go live with AcuView?",
     answer:
-      "Yes. AcuFi is PCI-DSS ready, NACHA-compliant, and uses enterprise-grade encryption for all data. We are purposefully built to meet compliance and security needs for regulated and high-risk markets.",
+      "Store lenders can be live in 30 minutes or less. API integrations are simple and easy — we offer a sandbox for testing.",
   },
 ];
 
@@ -124,7 +124,7 @@ export default function FaqSection() {
         <div className="w-full lg:w-[40%] flex flex-col items-center justify-start">
           <object
             type="image/svg+xml"
-            data="/AcuFi-faq.svg"
+            data="/Acuview-faq.svg"
             className="w-[80%] sm:w-[70%] md:w-[60%] lg:w-[80%] mb-6"
             aria-label="AcuFi FAQ illustration"
           >

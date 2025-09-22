@@ -11,9 +11,9 @@ const ThirtyDaysFree: React.FC = () => {
           <h1 className="text-[40px] font-bold text-black mb-6">
             30 Days FREE — No Strings Attached
           </h1>
-          <p className="text-[18px] text-[#0F1720] max-w-3xl mx-auto">
+          <p className="text-[18px] text-[#0F1720] mx-auto">
             We&apos;re so confident <span className="font-semibold">AcuView</span>{" "}
-            will transform your lending that we&apos;re giving you{" "}
+            will transform your lending that we&apos;re <br/>giving you{" "}
             <span className="font-semibold">30 days</span> completely{" "}
             <span className="font-semibold">FREE</span>.
           </p>

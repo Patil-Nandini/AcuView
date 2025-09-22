@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 
 export default function ComparisonSection() {
@@ -11,19 +10,16 @@ export default function ComparisonSection() {
         </h2>
         <p className="text-gray-600 mt-3 text-[18px]">
           The difference between Traditional Credit Checks & Data companies, and{" "}
-          <span className="font-semibold">
-            AcuView&apos;s real-time intelligence
-          </span>
-          .
+          <span className="font-semibold pr-[5px]">AcuView&apos;s</span>
+           real-time intelligence .
         </p>
       </div>
 
       <div className="flex flex-col sm:flex-row items-center justify-center gap-8 lg:gap-0 relative w-[100%]">
         <div
-          className="flex flex-col w-[100%] max-w-[299px] rounded-3xl 
-             border bg-[#FDF8F8] shadow-[0px_4px_10px_0px_#0B74DD26] 
-             border-[#FA6450] p-6 relative bg-cover bg-center"
-          style={{ backgroundImage: "url('/TraditionalCreditCheckBg.png')" }}
+          className="flex flex-col w-[100%] max-w-[299px] min-h-[355px]
+             p-6 relative bg-cover bg-center"
+          style={{ backgroundImage: "url('/red.png')" }}
         >
           <div className="flex items-center gap-2 mb-4">
             <Image
@@ -96,9 +92,9 @@ export default function ComparisonSection() {
         </div>
 
         <div
-          className="flex flex-col w-full max-w-[299px] min-h-[300px] rounded-3xl shadow-[0px_4px_10px_0px_#0B74DD26] border border-gray-200
+          className="flex flex-col w-full max-w-[299px] min-h-[355px]
           p-6 relative bg-cover bg-center"
-          style={{ backgroundImage: "url('/TimeManagementBg.png')" }}
+          style={{ backgroundImage: "url('/blue.png')" }}
         >
           <div className="flex items-center gap-2 mb-4">
             <Image

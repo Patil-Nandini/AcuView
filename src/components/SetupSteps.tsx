@@ -19,7 +19,7 @@ export default function SetupSteps() {
             network
           </p>
         </div>
-        <div className="flex flex-col items-center justify-start order-3 lg:order-2">
+        <div className="flex flex-col items-center justify-start order-3 lg:order-2 pb-[40px] lg:pb-0">
           <button
             type="button"
             className="flex items-center justify-center h-[90px] text-[#fff] font-semibold cursor-pointer w-[270px] sm:w-[240px] px-7 mt-5 ml-[-7px]"

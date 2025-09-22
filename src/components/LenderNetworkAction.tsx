@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 export default function LenderNetworkEffect() {
   return (
     <section
@@ -17,6 +19,31 @@ export default function LenderNetworkEffect() {
           <br />
           <span className="font-semibold">For All</span>
         </p>
+        <div className="flex justify-center">
+          <button
+            type="button"
+            className="flex items-center justify-center h-[90px] text-white font-semibold cursor-pointer w-[270px] sm:w-[240px] px-7 mt-5 ml-[-7px]"
+            style={{
+              backgroundImage: "url('/watchNowButtonBg.png')",
+              backgroundSize: "100% 100%",
+              backgroundRepeat: "no-repeat",
+              paddingBottom: "25px",
+            }}
+            aria-label="Start Your Free 90-Day Trial"
+            onClick={() =>
+              (window.location.href = "https://acufi.com/acuview-get-started/")
+            }
+          >
+            <Image
+              src="/Demo.png"
+              alt="Demo Icon"
+              width={20}
+              height={20}
+            />
+            <span className="ml-2">Watch Now!</span>
+          </button>
+          
+        </div>
         <div className="mt-10 w-full flex justify-center">
           <object
             type="image/svg+xml"

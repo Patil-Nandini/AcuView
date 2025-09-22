@@ -67,7 +67,7 @@ export default function HowAcuViewWorks() {
             </p>
             <div className="absolute bottom-0 left-0 w-full h-8 bg-[#FEB70133] border-2 border-[#F8FCFD] rounded-b-xl"></div>
           </div>
-          <div className="relative bg-white rounded-xl shadow-lg px-6 py-8 w-[286px] h-[180px]  mb-6 md:mb-0 rotate-[-3deg]">
+          <div className="relative bg-white rounded-xl shadow-lg px-6 py-8 w-[286px]  h-[180px] md:h-[219px] lg:h-[180px]  mb-6 md:mb-0 rotate-[-3deg]">
             <div className="absolute -bottom-12 left-1/2 -translate-x-1/2">
               <Image
                 src="/IconGreen.png"
@@ -84,8 +84,8 @@ export default function HowAcuViewWorks() {
               Check for matches, stacking, or red flags
             </p>
           </div>
-          <div className="relative bg-white rounded-xl shadow-lg px-6 py-8 w-[286px] h-[180px] mb-6 md:mb-0 rotate-[2deg]">
-            <div className="absolute -bottom-12 left-1/2 -translate-x-1/2">
+          <div className="relative bg-white rounded-xl shadow-lg px-6 py-8 w-[286px] h-[180px] md:h-[219px] lg:h-[180px] mb-6 md:mb-0 rotate-[2deg]">
+            <div className="absolute -bottom-12  left-1/2 -translate-x-1/2">
               <Image
                 src="/IconPink.png"
                 alt="Get Results"
@@ -124,7 +124,7 @@ export default function HowAcuViewWorks() {
         <div className="hidden md:flex absolute  right-0 mx-auto lg:top-[520px] md:top-[560px] z-0 pointer-events-none items-center justify-center w-[100%]">
           <object
             type="image/svg+xml"
-            data="/Line2.svg"
+            data="/HowAcuViewWorks.svg"
             className="lg:w-[90%] md:w-[100%] h-full flex items-center justify-center"
             aria-label="The Hidden Loans Animation"
           >

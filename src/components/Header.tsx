@@ -144,7 +144,7 @@ export default function Header() {
         <div className="lg:hidden">
           <button onClick={() => setIsOpen(!isOpen)}>
             {isOpen ? (
-              <X className="text-white w-7 h-7 cursor-pointer" />
+              <X className="w-7 h-7 cursor-pointer" />
             ) : (
               <Image
                 src="/Hamburger.svg"

@@ -114,10 +114,10 @@ const TheEarlyBird: React.FC = () => {
                     px-4 py-3
                   "
                 >
-                  <h3 className="text-[18px] font-bold text-white mb-1 sm:mb-2">
+                  <h3 className="text-[20px]  md:text-[25px] lg:text-[30px] font-bold text-white mb-1 sm:mb-2">
                     {card.title}
                   </h3>
-                  <p className="text-[14px] text-white leading-tight">
+                  <p className="text-[14px] text-white leading-tight min-h-[35px]">
                     {card.text}
                   </p>
                 </div>
