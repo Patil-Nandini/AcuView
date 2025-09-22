@@ -147,7 +147,7 @@ export default function Header() {
               <X className="text-white w-7 h-7 cursor-pointer" />
             ) : (
               <Image
-                src="/Hamburger.png"
+                src="/Hamburger.svg"
                 alt="Rocket Icon"
                 width={40}
                 height={40}

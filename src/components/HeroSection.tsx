@@ -117,7 +117,7 @@ const HeroSection: React.FC = () => {
 
             <div className="flex gap-4 w-full bg-transparent justify-center items-center">
               <div
-                className="group relative bg-transparent z-10 w-[302px] h-[200px] lg:w-[230px] lg:h-[140px] xl:w-[302px] xl:h-[200px] flex flex-col justify-start items-center text-white p-4 transition-transform duration-300 ease-in-out hover:scale-105 rounded-[20px] bg-cover bg-center cursor-pointer"
+                className="group relative bg-transparent z-10 w-[302px] h-[200px] lg:w-[230px] lg:h-[140px] xl:w-[302px] xl:h-[200px] flex flex-col justify-start items-center text-white p-4 transition-transform duration-300 ease-in-out hover:scale-105 rounded-[20px] bg-cover bg-center cursor-pointer mt-[20px]"
                 style={{ backgroundImage: "url('/primary.png')" }}
                 onClick={() => {
                   window.location.href = "https://acufi.com/lets-connect/";
@@ -141,7 +141,7 @@ const HeroSection: React.FC = () => {
               {/* Card 2 */}
               <div
                 className="group relative z-10 w-[300px] h-[180px] lg:w-[230px] lg:h-[135px] xl:w-[300px] xl:h-[180px] flex flex-col justify-center items-center text-[#04254F] p-4 transition-transform duration-300 ease-in-out hover:scale-105  rounded-[20px] bg-cover bg-center cursor-pointer"
-                style={{ backgroundImage: "url('/WhiteBg.png')" }}
+                style={{ backgroundImage: "url('/WhiteBgButton.png')" }}
                 onClick={() => {
                   window.location.href = "https://acufi.com/lets-connect/";
                 }}
@@ -190,7 +190,6 @@ const HeroSection: React.FC = () => {
                 backgroundSize: "contain",
                 backgroundRepeat: "no-repeat",
                 backgroundPosition: "center",
-                // padding: "20px 47px",
               }}
             >
               DON&apos;T
@@ -200,7 +199,6 @@ const HeroSection: React.FC = () => {
           <div className="flex items-center justify-center w-full flex-col">
           <div
             className=" hidden md:block relative bg-cover bg-no-repeat bg-center rounded-2xl  xl:h-[414px] lg:w-[480px] lg:h-[306px] xl:w-[609px] md:w-[676px] md:h-[428px] mt-5 md:bg-[url('/tabview-bg-acuview.webp')] bg-[url('/LeftsideContentBg.png')]"
-            // style={{ backgroundImage: "url('/LeftsideContentBg.png')" }}
           >
             <div className="absolute inset-0 flex md:w-[676px] md:h-[428px] lg:w-[100%] lg:h-[370px] xl:w-[589px] ">
               <div className="flex flex-col justify-between h-full pl-8 pt-8 lg:pt-3 xl:pt-8 pb-8 w-[45%]">
@@ -335,7 +333,7 @@ const HeroSection: React.FC = () => {
           <div className="flex gap-4 lg:gap-1 w-full bg-transparent flex-col md:flex-row items-center md:justify-center">
             {/* Card 1 */}
             <div
-              className="group relative bg-transparent z-10 w-[302px] h-[200px]  xl:w-[302px] xl:h-[200px]  lg:w-[248px] lg:h-[158px] flex flex-col justify-start md:justify-center items-center text-white p-4 transition-transform duration-300 ease-in-out hover:scale-105 rounded-[20px] bg-cover bg-center cursor-pointer"
+              className="group relative bg-transparent z-10 w-[302px] h-[200px]  xl:w-[302px] xl:h-[200px]  lg:w-[248px] lg:h-[158px] flex flex-col justify-start md:justify-center items-center text-white p-4 transition-transform duration-300 ease-in-out hover:scale-105 rounded-[20px] bg-cover bg-center cursor-pointer mt-[20px]"
               style={{ backgroundImage: "url('/primary.png')" }}
               onClick={() => {
                 window.location.href = "https://acufi.com/lets-connect/";

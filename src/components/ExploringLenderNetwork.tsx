@@ -35,7 +35,7 @@ const ExploringLenderNetwork = () => {
   ];
 
   return (
-    <section className="relative w-full bg-white py-16 px-5 lg:px-16 bg-[url('/THE-LENDER-NETWORK-IS-EXPLODING-BG.webp')] bg-no-repeat bg-cover font-sarabun pb-40">
+    <section className=" w-full bg-white py-16 px-5 lg:px-16 bg-[url('/THE-LENDER-NETWORK-IS-EXPLODING-BG.webp')] bg-no-repeat bg-cover font-sarabun pb-[200px]"> 
       <div className="text-center max-w-6xl mx-auto">
         <h2 className="text-[25px] md:text-[41px] font-extrabold text-gray-900">
           THE LENDER NETWORK IS EXPLODING!

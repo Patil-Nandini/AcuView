@@ -4,10 +4,9 @@ import Image from "next/image";
 
 export default function StatsSection() {
   return (
-    <div className="w-full flex justify-end absolute z-2 top-[4850px] min-[375px]:top-[4770px] min-[425px]:top-[4700px] min-[600px]:top-[4650px] md:top-[3650px] lg:top-[2580px]">
-      <div className="w-[100%] min-[600px]:w-[90%] min-[1100px]:w-[80%] bg-[#015CB8] rounded-l-0 min-[600px]:rounded-l-[60px] min-[1100px]:rounded-l-[260px] md:rounded-l-[260px] flex flex-col min-[600px]:flex-row md:flex-row justify-end items-center text-white max-w-7xl overflow-hidden">
-        {/* Mobile*/}
-        <div className="flex flex-row min-[600px]:hidden w-full">
+    <div className="w-full flex justify-end relative z-2 top-[-152px]">
+      <div className="w-[100%] lg:w-[85%]  bg-[#015CB8] rounded-l-0  min-[1100px]:rounded-l-[260px] lg:rounded-l-[260px] flex flex-col min-[767px]:flex-row md:flex-row justify-end items-center text-white max-w-7xl overflow-hidden absolute">
+        <div className="flex flex-row min-[767px]:hidden w-full p-[20px]">
           <div className="flex-1 flex flex-col items-center justify-center text-center py-3 px-2">
             <Image src="/Active Lenders.svg" alt="Active Lenders" width={25} height={25} />
             <h2 className="text-[20px] font-extrabold mt-1">127+</h2>
@@ -28,8 +27,7 @@ export default function StatsSection() {
           </div>
         </div>
         
-        {/* Tablet/Desktop */}
-        <div className="hidden min-[600px]:flex flex-row md:flex-row w-full">
+        <div className="hidden md:flex flex-row md:flex-row w-full py-[30px] relative">
           <div className="flex-1 flex flex-col items-center justify-center text-center px-6 border-r-[2px] border-r-[#FFFFFF1A] h-[170px] min-[1100px]:h-[200px]">
             <Image src="/Active Lenders.svg" alt="Active Lenders" width={50} height={50} />
             <h2 className="text-[40px] font-extrabold mt-2">127+</h2>
@@ -48,7 +46,7 @@ export default function StatsSection() {
             <p className="font-semibold mt-1 text-[16px]">Real-Time</p>
             <p className="text-[14px] mt-0.5">Never Stops!</p>
           </div>
-          <div className="flex-1 flex flex-col items-center justify-center text-center px-1 bg-white text-[#0033A1] rounded-l-[60px] min-[1100px]:rounded-l-[260px] ml-15">
+          <div className="flex-1 flex flex-col items-center justify-center text-center px-[30px] bg-white text-[#0033A1] rounded-l-[200px] min-[1100px]:rounded-l-[260px] md:ml-2 ml-15 py-[10px]">
             <Image src="/Impact.svg" alt="Your Impact" width={50} height={50} />
             <h2 className="text-xl font-extrabold mt-2 bg-gradient-to-r from-[#635AD9] to-[#219BE4] bg-clip-text text-transparent">
               YOUR IMPACT
@@ -61,9 +59,8 @@ export default function StatsSection() {
           </div>
         </div>
         
-        {/* Mobile: YOUR IMPACT section */}
-        <div className="flex min-[600px]:hidden w-[75%] bg-white rounded-l-[60px] mt-1 self-end">
-          <div className="flex flex-row items-center justify-start py-4 px-5 w-full">
+        <div className="flex min-[767px]:hidden w-[75%] bg-white rounded-l-[60px] mt-[1] mb-[3] self-end ml-[1]">
+          <div className="flex flex-row items-center justify-start py-6 px-5 w-full">
             <Image src="/Impact.svg" alt="Your Impact" width={30} height={30} className="mr-3" />
             <div className="flex flex-col">
               <h2 className="text-base font-extrabold bg-gradient-to-r from-[#635AD9] to-[#219BE4] bg-clip-text text-transparent">

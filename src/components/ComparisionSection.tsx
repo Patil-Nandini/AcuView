@@ -113,25 +113,25 @@ export default function ComparisonSection() {
           </div>
           <ul className="space-y-3 text-sm text-gray-700">
             <li className="flex items-center gap-2">
-              <Image src="/GreenCheck.svg" alt="Check" width={20} height={20} />
+              <Image src="/GreenIcon.png" alt="Check" width={20} height={20} />
               <span>Shows what borrowers are doing in real time</span>
             </li>
             <li className="flex items-center gap-2">
-              <Image src="/GreenCheck.svg" alt="Check" width={20} height={20} />
+              <Image src="/GreenIcon.png" alt="Check" width={20} height={20} />
               <span>
                 Tracks applications across multiple lenders in real-time
               </span>
             </li>
             <li className="flex items-center gap-2">
-              <Image src="/GreenCheck.svg" alt="Check" width={20} height={20} />
+              <Image src="/GreenIcon.png" alt="Check" width={20} height={20} />
               <span>Detects identity inconsistencies</span>
             </li>
             <li className="flex items-center gap-2">
-              <Image src="/GreenCheck.svg" alt="Check" width={20} height={20} />
+              <Image src="/GreenIcon.png" alt="Check" width={20} height={20} />
               <span>Identify risky borrowers before approval</span>
             </li>
             <li className="flex items-center gap-2">
-              <Image src="/GreenCheck.svg" alt="Check" width={20} height={20} />
+              <Image src="/GreenIcon.png" alt="Check" width={20} height={20} />
               <span>Increase good loans & profitability</span>
             </li>
           </ul>
