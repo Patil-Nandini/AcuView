@@ -225,7 +225,7 @@ const DontFundBlind = () => {
                 }}
                 aria-label="Start Your Free 90-Day Trial"
                 onClick={() =>
-                  (window.location.href = "https://acufi.com/lets-connect/")
+                  (window.location.href = "https://acufi.com/acuview-get-started/")
                 }
               >
                 <Image

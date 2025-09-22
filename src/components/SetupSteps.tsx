@@ -31,7 +31,7 @@ export default function SetupSteps() {
             }}
             aria-label="Start Your Free 90-Day Trial"
             onClick={() =>
-              (window.location.href = "https://acufi.com/lets-connect/")
+              (window.location.href = "https://acufi.com/acuview-get-started/")
             }
           >
             <Image
@@ -40,7 +40,7 @@ export default function SetupSteps() {
               width={20}
               height={20}
             />
-            <span className="ml-2 whitespace-nowrap"> Contact Sales!</span>
+            <span className="ml-2 whitespace-nowrap">Get Your Demo!</span>
           </button>
         </div>
       </div>
