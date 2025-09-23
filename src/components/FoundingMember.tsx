@@ -288,7 +288,7 @@ export default function FoundingBenefits() {
           </div>
 
           <div className="absolute bottom-[-55px] left-1/2 -translate-x-1/2 w-[90%] bg-[#FFE6E6] text-[#DC6262] px-4 py-2 rounded-lg text-[14px] font-medium border border-[#F2A2A2] text-center">
-            Limited to the First 100 Lenders who sign up!
+           Limited to the Founding Members!
           </div>
         </div>
       </div>
