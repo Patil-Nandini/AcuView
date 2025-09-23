@@ -16,8 +16,7 @@ export default function LenderNetworkEffect() {
         <p className="mt-4 text-[18px] text-[#FFFFFFD1] max-w-3xl leading-relaxed">
           More Lenders = More Data = Better Decisions = Lower Risks For All ={" "}
           <span className="font-bold text-[#FFFFFFD1]">Greater Profits</span>
-          <br />
-          <span className="font-semibold">For All</span>
+          <span className="font-semibold ml-[5px]">For All</span>
         </p>
         <div className="flex justify-center">
           <button

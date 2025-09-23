@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function ComparisonSection() {
   return (
-    <section className="w-full py-16 px-4 md:px-8 lg:px-16 bg-white h-auto">
+    <section className="w-full pt-16 pb-16 lg:pb-0 px-4 md:px-8 lg:px-16 bg-white h-auto">
       <div className="text-center max-w-3xl mx-auto mb-12">
         <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900">
           While Others React to Defaults, <br className="hidden sm:block" />
@@ -86,8 +86,8 @@ export default function ComparisonSection() {
             src="/man.webp"
             alt="Man"
             width={480}
-            height={260}
-            className="object-cover"
+            height={560}
+            className="object-cover mt-[30px]"
           />
         </div>
 

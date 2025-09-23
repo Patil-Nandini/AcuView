@@ -156,7 +156,12 @@ export default function FoundingBenefits() {
       <h2 className="text-[34px] sm:text-[36px] font-extrabold text-[#07102A] leading-tight flex items-center justify-center text-center p-[20px]">
         Become a Founding Member of the Future!​
       </h2>
-      <p className="text-[#0F1720] text-[18px] text-center pt-[20px] flex justify-center">
+      <p className="text-[#0F1720] text-[18px] text-center pt-[20px] font-normal max-w-[350px] mx-auto leading-snug block md:hidden">
+        <span className="font-semibold">AcuView</span>
+        &nbsp;is launching with an exclusive opportunity for forward-thinking
+        lenders to join our founding lender network.
+      </p>
+      <p className="text-[#0F1720] text-[18px] text-center pt-[20px] flex justify-center hidden md:flex">
         <span className="text-[18px] font-semibold text-[#0F1720] mr-[5px] flex items-start justify-center">
           AcuView
         </span>
@@ -253,7 +258,7 @@ export default function FoundingBenefits() {
 
           {/* Bottom note */}
           <div className="absolute bottom-[-55px] left-1/2 -translate-x-1/2 w-[90%] md:w-[60%] xl:w-[40%] bg-[#FFE6E6]  lg:bottom-[-521px] text-[#DC6262] px-4 py-2 rounded-lg text-[14px] font-medium border border-[#F2A2A2] text-center md:bottom-[-470px] md:text-[16px] lg:bottom-[-520px]  lg:text-[18px] xl:bottom-[-559px] xl:text-[20px]">
-            Limited to the First 100 Lenders who sign up!
+            Limited to the Founding Members!
           </div>
         </div>
 

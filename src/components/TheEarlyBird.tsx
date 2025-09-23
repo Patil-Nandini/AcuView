@@ -54,7 +54,7 @@ const TheEarlyBird: React.FC = () => {
         alt="Gear Left Mobile"
         width={56}
         height={56}
-        className="block md:hidden absolute top-88 left-1.5 opacity-80 z-0 pointer-events-none"
+        className="hidden absolute top-88 left-1.5 opacity-80 z-0 pointer-events-none"
         style={{ transform: "translateX(-25%)" }}
       />
 
@@ -107,7 +107,7 @@ const TheEarlyBird: React.FC = () => {
                   key={index}
                   className="
                     bg-[#0B2D58] rounded-[20px] text-center flex flex-col justify-center shadow 
-                    w-[220px] h-[110px] sm:w-[240px] sm:h-[120px] md:w-[30%] md:h-[140px]
+                    w-[220px] h-[110px] sm:w-[240px] sm:h-[120px] md:w-[30%] md:h-[160px]
                     lg:w-[25%]
                     max-[375px]:w-[230px] max-[375px]:h-[90px]
                     max-[320px]:w-[170px] max-[320px]:h-[85px]

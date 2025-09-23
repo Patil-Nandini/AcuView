@@ -141,8 +141,8 @@ export default function SetupSteps() {
             </h3>
             <ol className="text-[#504E4E] text-[16px] sm:text-[15px] font-medium list-none m-0">
               <li className="mb-[18px]">1. See loan attempts in real time</li>
-              <li className="mb-[18px]">2. Start protecting your portfolio</li>
-              <li>3. Gain actionable borrower insights from day one</li>
+              <li className="mb-[18px]">2. Gain actionable borrower insights from day one</li>
+              <li>3. Start protecting your portfolio today</li>
             </ol>
           </div>
 

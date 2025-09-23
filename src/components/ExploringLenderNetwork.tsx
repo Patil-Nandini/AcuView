@@ -18,7 +18,7 @@ const ExploringLenderNetwork = () => {
       title: "Industry-Wide Visibility",
       description:
         "Get insights beyond your portfolio to detect risk patterns before they impact your business — powered by the collective intelligence of hundreds of lenders!",
-      bg: "text-white shadow-[0px_4px_4px_0px_#00000040] bg-[#015CB8] bg-[url('/WingBg.webp')] bg-[length:36%_auto] bg-[top_right] bg-no-repeat border-none",
+      bg: "text-white shadow-[0px_4px_4px_0px_#00000040] bg-[#015CB8] bg-[url('/wingBlue.png')] bg-[length:36%_auto] bg-[top_right] bg-no-repeat border-none",
       titleColor: "text-white",
       descColor: "text-white",
     },
@@ -35,7 +35,7 @@ const ExploringLenderNetwork = () => {
   ];
 
   return (
-    <section className=" w-full bg-white py-16 px-5 lg:px-16 bg-[url('/THE-LENDER-NETWORK-IS-EXPLODING-BG.webp')] bg-no-repeat bg-cover font-sarabun pb-[200px]"> 
+    <section className=" w-full bg-white py-16 px-5 lg:px-16 bg-[url('/THE-LENDER-NETWORK-IS-EXPLODING-BG.webp')] bg-no-repeat bg-cover font-sarabun pb-[200px]">
       <div className="text-center max-w-6xl mx-auto">
         <h2 className="text-[25px] md:text-[41px] font-extrabold text-gray-900">
           THE LENDER NETWORK IS EXPLODING!
@@ -79,28 +79,27 @@ const ExploringLenderNetwork = () => {
             transforming lending forever!
           </p>
         </div>
-
         <button
           type="button"
-          className="flex items-center justify-center h-[90px] text-white font-semibold cursor-pointer w-full sm:w-[240px] md:w-[270px] px-7 mt-5 ml-[-7px]"
+          className="flex items-center justify-center h-[90px] text-white font-semibold cursor-pointer w-[270px] sm:w-[240px] px-7 mt-5 ml-[-7px]"
           style={{
             backgroundImage: "url('/watchNowButtonBg.png')",
             backgroundSize: "100% 100%",
             backgroundRepeat: "no-repeat",
             paddingBottom: "25px",
           }}
-          aria-label="Start Your Free 90-Day Trial"
+          aria-label="Join The Network!"
           onClick={() =>
             (window.location.href = "https://acufi.com/lets-connect/")
           }
         >
-          <Image
+           <Image
             src="/RocketIcon.png"
             alt="Rocket Icon"
             width={20}
             height={20}
           />
-          <span className="ml-2 whitespace-nowrap"> Join The Network!</span>
+          <span className="ml-2">Join The Network!</span>
         </button>
       </div>
 
@@ -110,7 +109,9 @@ const ExploringLenderNetwork = () => {
             key={i}
             className={`rounded-3xl shadow-md p-6 flex flex-col
               h-[330px] sm:h-[300px] md:h-[400px] lg:h-[320px]
-              w-full sm:w-[300px] md:w-[240px] lg:w-[300px] ${f.bg} ${i === features.length - 1 ? 'mr-5' : ''}`}
+              w-full sm:w-[300px] md:w-[240px] lg:w-[300px] ${f.bg} ${
+              i === features.length - 1 ? "mr-5" : ""
+            }`}
           >
             <div className="flex flex-col items-start gap-3">
               <Image src={f.icon} alt={f.title} width={80} height={80} />

@@ -9,7 +9,7 @@ const ThirtyDaysFree: React.FC = () => {
         {/* Heading and subtitle */}
         <div className="text-center mb-12 sm:mb-16">
           <h1 className="text-[40px] font-bold text-black mb-6">
-            30 Days FREE — No Strings Attached
+            30 Days FREE
           </h1>
           <p className="text-[18px] text-[#0F1720] mx-auto">
             We&apos;re so confident <span className="font-semibold">AcuView</span>{" "}
@@ -20,7 +20,7 @@ const ThirtyDaysFree: React.FC = () => {
         </div>
 
         {/* Icon and section title */}
-        <div className="flex flex-col items-center mb-12 sm:mb-16">
+        <div className="flex flex-col items-start sm:items-center mb-12 sm:mb-16">
           <div className="flex items-center gap-4 mb-8">
             <div className="relative w-16 h-16 sm:w-20 sm:h-20">
               <Image
@@ -30,7 +30,7 @@ const ThirtyDaysFree: React.FC = () => {
                 className="object-contain"
               />
             </div>
-            <h2 className="text-[28px] font-bold text-black text-center">
+            <h2 className="text-[28px] font-bold text-black text-center w-[90%]">
               Your 30-Day Risk-Free Trial Includes:
             </h2>
           </div>
@@ -192,7 +192,7 @@ const ThirtyDaysFree: React.FC = () => {
               </h3>
             </div>
 
-            <p className="text-[#504E4E] text-[18px]">
+            <p className="text-[#504E4E] text-[18px] w-[90%]">
               A world where lenders make decisions based on real-time
               intelligence, not outdated credit reports.
             </p>
@@ -201,7 +201,7 @@ const ThirtyDaysFree: React.FC = () => {
 
         <div className="text-center">
           <p className="text-[18px] text-[#0F1720] mb-6">
-            Become a founding member of the world’s first real-time lending
+            And become a founding member of the world&apos;s first real-time lending
             network.
           </p>
           <h3 className="text-xl sm:text-2xl font-bold text-[#0F1720] mb-6">

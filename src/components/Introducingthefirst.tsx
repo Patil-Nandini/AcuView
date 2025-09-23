@@ -99,10 +99,10 @@ export default function IntroducingTheFirst() {
                   className="rounded-2xl px-5 pt-5 pb-4 flex flex-col gap-2 h-full"
                   style={{ backgroundColor: feature.bgColor }}
                 >
-                  <h3 className="text-base font-semibold text-gray-900 pt-[10px]">
+                  <h3 className="text-base font-semibold text-gray-900 pt-[10px] pb-[10px]">
                     {feature.title}
                   </h3>
-                  <p className="text-gray-700 text-[14px]">{feature.description}</p>
+                  <p className="text-gray-700 text-[15px]">{feature.description}</p>
                 </div>
               </div>
             ))}

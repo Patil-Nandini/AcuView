@@ -262,7 +262,7 @@ export default function FlexibleIntegrationOptions() {
                 Seamlessly integrate AcuView&apos;s real-time intelligence directly
                 into your existing LMS/LOS software with our robust API.
               </p>
-              <div className="flex flex-col sm:grid sm:grid-cols-2 md:grid md:grid-cols-2  lg:grid-cols-4 laptop-grid-cols-4 gap-6 laptop-gap-8 items-stretch">
+                <div className="flex justify-center gap-4 laptop-ml-0 md:ml-12 md:grid  md:grid-cols-2 lg:grid-cols-4 md:flex-nowrap flex-wrap">
                 <FeatureCard text="RESTful API with comprehensive documentation" />
                 <FeatureCard text="Real-time responses" />
                 <FeatureCard text="Easy integration with popular LMS platforms" />
@@ -302,8 +302,8 @@ function FeatureCard({ text }: { text: string }) {
     <div className="
       flex flex-col items-start justify-start
       bg-white rounded-[30px] shadow-[0px_10px_30px_0px_#D1DCE266]
-      py-6 px-4 h-auto
-      min-h-[96px]
+      py-6 px-4
+      h-[160px]
       w-full
       max-w-[168px]
       md:max-w-[200px] md:min-h-[110px] md:py-8 md:px-6

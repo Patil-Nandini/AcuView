@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Image from "next/image";
 import React from "react";
 import HowAcuViewWorks from "./HowAcuViewWorks";
@@ -6,11 +6,11 @@ import HowAcuViewWorks from "./HowAcuViewWorks";
 export default function HiddenCrisisSection() {
   return (
     <section
-  className="relative flex flex-col justify-start items-center w-full bg-center bg-no-repeat bg-cover"
-  style={{
-    backgroundImage: "url('/The-Hidden-Crisis-in-Lending-bg.webp')",
-  }}
->
+      className="relative flex flex-col justify-start items-center w-full bg-center bg-no-repeat bg-cover"
+      style={{
+        backgroundImage: "url('/The-Hidden-Crisis-in-Lending-bg.webp')",
+      }}
+    >
       <div className="max-w-7xl  py-16 px-4 relative z-10">
         {/* Title and subtitle */}
         <div className="mb-12">
@@ -39,10 +39,10 @@ export default function HiddenCrisisSection() {
                 37%
               </div>
               <div className="text-sm sm:text-lg font-bold mb-1 bg-gradient-to-tr from-[#034E9A] via-[#2390FC] to-[#2390FC] bg-clip-text text-transparent">
-                Of Multiple Payday Loans
+                Of Borrowers
               </div>
               <div className="text-[#504E4E] text-[12px] sm:text-[16px]">
-                36% of borrowers hold multiple payday loans simultaneously.
+                Hold multiple payday loans.
               </div>
             </div>
 
@@ -60,9 +60,11 @@ export default function HiddenCrisisSection() {
                 25%
               </div>
               <div className="text-sm sm:text-lg font-bold bg-gradient-to-tr from-[#034E9A] via-[#2390FC] to-[#2390FC] bg-clip-text text-transparent mb-1">
-                Juggling Four Or More
+                Juggle Four Or More
               </div>
-              <div className="text-[#504E4E] text-[12px] sm:text-[16px]">A quarter of those borrowers have four or more active loans.</div>
+              <div className="text-[#504E4E] text-[12px] sm:text-[16px]">
+                Active loans.
+              </div>
             </div>
 
             {/* Stat 3 */}
@@ -82,13 +84,15 @@ export default function HiddenCrisisSection() {
                 Higher Default Rates
               </div>
               <div className="text-[#504E4E] text-[12px] sm:text-[16px]">
-                Stacked loans default at significantly higher rates.
+                Stacked loans default at a higher rate.
               </div>
             </div>
           </div>
 
           {/* Right Side - Animated Object + Circle */}
-          <div className="relative flex flex-col items-center lg:items-end lg:justify-end w-[100%]">
+          {/* Right Side - Animated Object + Circle */}
+          <div className="relative flex flex-col items-center lg:items-end lg:justify-end w-full">
+            {/* Main SVG / object */}
             <object
               type="image/svg+xml"
               data="/Acuview-Hidden-crysis.svg"
@@ -97,6 +101,24 @@ export default function HiddenCrisisSection() {
             >
               Acuview-Hidden-crysis
             </object>
+
+            {/* Icons overlayed */}
+            <img
+              src="/star.png"
+              alt="star icon"
+              className="absolute top-65 left-12 w-15 h-15"
+            />
+            <img
+              src="/triangle.png"
+              alt="triangle icon"
+              className="absolute top-[-45] right-8 w-15 h-15"
+            />
+            <img
+              src="/circle.png"
+              alt="circle icon"
+              className="absolute bottom-[16] right-[57px] w-12 h-12"
+            />
+
             {/* AcuView changes everything */}
             <div className="relative z-10 mt-6 flex items-center justify-center w-[70%]">
               <div className="bg-white rounded-xl shadow-md px-6 py-3 flex items-center justify-center border border-[#E3E3E3] shadow-[0px_4px_10px_0px_#00000014]">
@@ -111,7 +133,7 @@ export default function HiddenCrisisSection() {
           </div>
         </div>
       </div>
-    <HowAcuViewWorks/>
+      <HowAcuViewWorks />
     </section>
   );
 }

@@ -183,10 +183,10 @@ const WhoisAcuViewBuiltFor: React.FC = () => {
 
             {/* Card */}
             <div className="bg-white rounded-xl shadow-md p-4 w-full md:h-[147px]">
-              <h3 className="font-bold text-[#0F1720] text-[16px]">
+              <h3 className="font-bold text-[#0F1720] text-[17px]">
                 Short-Term & Payday Lenders
               </h3>
-              <p className="text-[14px] text-gray-600 mt-1">
+              <p className="text-[16px] text-gray-600 mt-1">
                 Protect against loan stacking across nearby stores.
               </p>
             </div>
@@ -202,10 +202,10 @@ const WhoisAcuViewBuiltFor: React.FC = () => {
               Your browser does not support SVG
             </object>
             <div className="bg-white rounded-xl shadow-md p-4 md:h-[147px]">
-              <h3 className="font-bold text-[#0F1720] text-[16px]">
+              <h3 className="font-bold text-[#0F1720] text-[17px]">
                 Online Lenders
               </h3>
-              <p className="text-[14px] text-gray-600 mt-1">
+              <p className="text-[16px] text-gray-600 mt-1">
                 Detect borrowers applying to multiple platforms simultaneously.
               </p>
             </div>
@@ -221,10 +221,10 @@ const WhoisAcuViewBuiltFor: React.FC = () => {
               Your browser does not support SVG
             </object>
             <div className="bg-white rounded-xl shadow-md p-4 md:h-[147px]">
-              <h3 className="font-bold text-[#0F1720] text-[16px]">
+              <h3 className="font-bold text-[#0F1720] text-[17px]">
                 BNPL (Buy Now, Pay Later) Platforms
               </h3>
-              <p className="text-[14px] text-gray-600 mt-1 ">
+              <p className="text-[16px] text-gray-600 mt-1 ">
                 Validate whether customers are stacking multiple BNPL purchases
                 in real time.
               </p>
@@ -241,10 +241,10 @@ const WhoisAcuViewBuiltFor: React.FC = () => {
               Your browser does not support SVG
             </object>
             <div className="bg-white rounded-xl shadow-md p-4">
-              <h3 className="font-bold text-[#0F1720] text-[16px]">
+              <h3 className="font-bold text-[#0F1720] text-[17px]">
                 Installment & Personal Loan Providers
               </h3>
-              <p className="text-[14px] text-gray-600 mt-1">
+              <p className="text-[16px] text-gray-600 mt-1">
                 Verify ability-to-repay with real-time borrower data. Identify
                 hidden liabilities before onboarding.
               </p>

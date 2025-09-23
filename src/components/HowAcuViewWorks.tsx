@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function HowAcuViewWorks() {
   return (
     <section className="relative px-4 py-16 overflow-hidden w-[100%]">
-      <div className="absolute top-[-1]  md:top-10  left-[20px] z-3">
+      <div className="absolute top-[-6]  md:top-10  left-[20px] z-3">
         <Image
           src="/HowWorksIconLeft.png"
           alt="Flower Icon"
@@ -101,7 +101,7 @@ export default function HowAcuViewWorks() {
               Receive insights in milliseconds
             </p>
           </div>
-          <div className="relative bg-white rounded-xl shadow-lg px-6 py-8 w-[277px] h-[270px] mb-6 md:mb-0 rotate-[7deg]">
+          <div className="relative bg-white rounded-xl shadow-lg px-6 py-8 w-[277px] h-[270px] mb-6 md:mb-0 rotate-[7deg] mt-[40px] sm:mt-[0]">
             <div className="absolute -top-12 left-1/2 -translate-x-1/2">
               <Image
                 src="/IconBlue.png"
