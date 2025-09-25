@@ -9,7 +9,7 @@ const HeroSection: React.FC = () => {
       <section className="relative bg-white px-4 sm:px-8 lg:px-0 py-12 lg:py-20 font-sarabun mt-10 flex items-center justify-center hidden lg:flex xl:px-12">
         <div className="lg:hidden-w-[90%] lg:max-w-[1024px] xl:max-w-[1280] grid grid-cols-1 lg:grid-cols-2  items-center">
           <div className="lg:max-w-[520px] xl:max-w-[650] flex flex-col items-start justify-center pl-[30px]">
-            <div className="inline-flex items-center gap-2 bg-black text-white text-xs sm:text-sm xl:px-4 py-2 rounded-full font-semibold mb-4 max-w-[520px]">
+            <div className="inline-flex items-center gap-2 bg-black text-white text-xs sm:text-sm lg:px-5 xl:px-4 py-2 rounded-full font-semibold mb-4 max-w-[520px]">
               <span className="flex gap-1">
                 <Image
                   src="/AwardIcon.svg"

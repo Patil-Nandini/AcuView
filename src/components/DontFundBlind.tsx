@@ -537,9 +537,7 @@ const DontFundBlind = () => {
                         </div>
                       </div>
                       <h3 className="relative text-[22px] font-semibold text-white text-center mb-8 leading-tight">
-                        See What&apos;s Happening Right
-                        <br />
-                        Now
+                        See What&apos;s Happening Right Now
                       </h3>
                       <div className="relative flex justify-center mt-auto">
                         <div

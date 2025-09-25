@@ -87,7 +87,7 @@ export default function ComparisonSection() {
             alt="Man"
             width={480}
             height={560}
-            className="object-cover mt-[30px]"
+            className="object-cover mt-[30px] lg:mt-[108px] xl:mt-[30px]"
           />
         </div>
 

@@ -31,7 +31,7 @@ const ThirtyDaysFree: React.FC = () => {
               />
             </div>
             <h2 className="text-[28px] font-bold text-black text-center w-[90%]">
-              Your 30-Day Risk-Free Trial Includes:
+           Your 30-Day Risk-Free Trial Includes
             </h2>
           </div>
         </div>

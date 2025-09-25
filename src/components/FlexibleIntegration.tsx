@@ -13,14 +13,14 @@
 //         height: '55%',
 //         backgroundSize: '120% 100%'
 //       }}></div>
-      
+
 //       {/* Tablet Header Background Only */}
 //       <div className="absolute top-0 left-0 right-0 h-auto hidden md:block lg:hidden bg-[url('/FlexibleIntegrationOptionsBg-Mobile.webp')] bg-no-repeat bg-cover z-0" style={{
 //         width: 'calc(100% + 40px)',
 //         marginLeft: '-20px',
 //         height: '60%'
 //       }}></div>
-      
+
 //       <div className=" w-[95%] flex flex-col lg:flex-row items-center lg:justify-between justify-center px-4 py-6 md:py-6 lg:py-24 gap-10 relative z-10">
 //         {/* Header Section */}
 //       <div className="lg:basis-[30%] flex flex-col lg:items-start items-center lg:justify-center justify-center lg:text-left text-center">
@@ -99,7 +99,7 @@
 //               <FeatureCard text="User-friendly dashboard with instant insights" />
 //               <FeatureCard text="Manual borrower verification tools" />
 //               <FeatureCard text="Detailed reporting and analytics" />
-            
+
 //             </div>
 //           </div>
 //         </div>
@@ -111,10 +111,10 @@
 // function FeatureCard({ text }: { text: string }) {
 //   return (
 //     <div className="
-//       flex flex-col items-center justify-center 
+//       flex flex-col items-center justify-center
 //       bg-white rounded-[30px] shadow-[0px_10px_30px_0px_#D1DCE266] py-6 px-4 min-h-[96px] w-[168px] md:w-[140px] lg:w-[168px]
 //       transition duration-300 ease-in-out
-//       hover:scale-120 
+//       hover:scale-120
 //     ">
 //       <span className="mb-2">
 //         <Image
@@ -131,17 +131,16 @@
 //   );
 // }
 
-
-"use client"
+"use client";
 import Image from "next/image";
- 
+
 export default function FlexibleIntegrationOptions() {
   return (
     <>
       <style jsx>{`
         @media (min-width: 1100px) {
           .laptop-bg-image {
-            background-image: url('/FlexibleIntegrationOptionsBg.webp');
+            background-image: url("/FlexibleIntegrationOptionsBg.webp");
             background-repeat: no-repeat;
             background-size: cover;
           }
@@ -192,24 +191,28 @@ export default function FlexibleIntegrationOptions() {
           }
         }
       `}</style>
-      <section
-        className="w-[100%] flex items-center justify-center bg-gradient-to-b from-[#c2e8ff]/50 to-[#FFFFFF] laptop-bg-image relative overflow-hidden pt-4 md:pt-0 mt-[70px] md:mt-0"
-      >
+      <section className="w-[100%] flex items-center justify-center bg-gradient-to-b from-[#c2e8ff]/50 to-[#FFFFFF] laptop-bg-image relative overflow-hidden pt-4 md:pt-0 mt-[70px] md:mt-0">
         {/* Mobile Header Background */}
-        <div className="absolute top-0 left-0 right-0 h-auto block md:hidden bg-[url('/FlexibleIntegrationOptionsBg-Mobile.webp')] bg-no-repeat z-0" style={{
-          width: 'calc(100% + 50px)',
-          marginLeft: '-50px',
-          height: '55%',
-          backgroundSize: '120% 100%'
-        }}></div>
- 
+        <div
+          className="absolute top-0 left-0 right-0 h-auto block md:hidden bg-[url('/FlexibleIntegrationOptionsBg-Mobile.webp')] bg-no-repeat z-0"
+          style={{
+            width: "calc(100% + 50px)",
+            marginLeft: "-50px",
+            height: "55%",
+            backgroundSize: "120% 100%",
+          }}
+        ></div>
+
         {/* Tablet  */}
-        <div className="absolute top-0 left-0 right-0 h-auto hidden md:block laptop-hidden bg-[url('/FlexibleIntegrationOptionsBg-Mobile.webp')] bg-no-repeat bg-cover z-0" style={{
-          width: 'calc(100% + 40px)',
-          marginLeft: '-20px',
-          height: '60%'
-        }}></div>
- 
+        <div
+          className="absolute top-0 left-0 right-0 h-auto hidden md:block laptop-hidden bg-[url('/FlexibleIntegrationOptionsBg-Mobile.webp')] bg-no-repeat bg-cover z-0"
+          style={{
+            width: "calc(100% + 40px)",
+            marginLeft: "-20px",
+            height: "60%",
+          }}
+        ></div>
+
         <div className="w-[95%] flex flex-col laptop-flex-row items-center laptop-justify-between justify-center px-4 py-6 md:py-6 laptop-py-24 gap-10 relative z-10">
           {/* Header Section */}
           <div className="laptop-basis-30 flex flex-col laptop-items-start items-center justify-center laptop-text-left text-center">
@@ -232,7 +235,8 @@ export default function FlexibleIntegrationOptions() {
               }}
               aria-label="Start Your Free 90-Day Trial"
               onClick={() =>
-                (window.location.href = "https://acufi.com/acuview-get-started/")
+                (window.location.href =
+                  "https://acufi.com/acuview-get-started/")
               }
             >
               <Image
@@ -244,25 +248,31 @@ export default function FlexibleIntegrationOptions() {
               <span className="ml-2 whitespace-nowrap"> Get Your Demo!</span>
             </button>
           </div>
- 
+
           {/* Cards Section */}
           <div className="w-full laptop-basis-75 flex flex-col gap-8">
             {/* Card 1 */}
             <div
-              className="relative rounded-[60px] p-8 md:p-10 bg-no-repeat bg-cover w-[100%]"
+              className="relative rounded-[60px] p-8 md:p-10 bg-no-repeat bg-cover w-full bg-center md:bg-top"
               style={{ backgroundImage: "url('/FlexibleCardsBg.webp')" }}
             >
               <div className="flex items-center justify-center md:justify-center gap-3 mb-2 ml-5 md:ml-0">
-                <Image src="/APIIntegration.svg" alt="API Integration Icon" width={32} height={32} />
+                <Image
+                  src="/APIIntegration.svg"
+                  alt="API Integration Icon"
+                  width={32}
+                  height={32}
+                />
                 <span className="text-xl font-bold text-gray-900 flex justify-center items-center">
                   API Integration
                 </span>
               </div>
-              <p className="text-[#504E4E] mb-6">
-                Seamlessly integrate AcuView&apos;s real-time intelligence directly
-                into your existing LMS/LOS software with our robust API.
+              <p className="text-[#504E4E] mb-6 text-center">
+                Seamlessly integrate AcuView&apos;s real-time intelligence
+                directly into your existing LMS/LOS software with our robust
+                API.
               </p>
-                <div className="flex justify-center gap-4 laptop-ml-0 md:ml-12 md:grid  md:grid-cols-2 lg:grid-cols-4 md:flex-nowrap flex-wrap">
+              <div className="flex justify-center gap-4 laptop-ml-0 md:ml-12 md:grid  md:grid-cols-2 lg:grid-cols-4 md:flex-nowrap flex-wrap">
                 <FeatureCard text="RESTful API with comprehensive documentation" />
                 <FeatureCard text="Real-time responses" />
                 <FeatureCard text="Easy integration with popular LMS platforms" />
@@ -271,18 +281,27 @@ export default function FlexibleIntegrationOptions() {
             </div>
             {/* Card 2 */}
             <div
-              className="relative rounded-[60px] p-8 md:p-10 bg-no-repeat bg-cover"
+              className={`
+    relative rounded-[60px] p-8 md:p-10
+    bg-no-repeat bg-cover
+    w-full bg-center md:bg-top
+  `}
               style={{ backgroundImage: "url('/FlexibleCardsBg.webp')" }}
             >
               <div className="flex items-center justify-center md:justify-center gap-3 mb-2 ml-4 md:ml-0">
-                <Image src="/WebPortal.svg" alt="API Integration Icon" width={32} height={32} />
+                <Image
+                  src="/WebPortal.svg"
+                  alt="API Integration Icon"
+                  width={32}
+                  height={32}
+                />
                 <span className="text-xl font-bold text-gray-900">
                   Web Portal
                 </span>
               </div>
-              <p className="text-gray-700 mb-6">
-                Access AcuView&apos;s intelligence through our intuitive web portal for
-                manual checks and detailed analysis.
+              <p className="text-gray-700 mb-6 text-center">
+                Access AcuView&apos;s intelligence through our intuitive web
+                portal for manual checks and detailed analysis.
               </p>
               <div className="flex justify-center gap-4 laptop-ml-0 md:ml-12 md:grid md:grid-cols-3 md:flex-nowrap flex-wrap">
                 <FeatureCard text="User-friendly dashboard with instant insights" />
@@ -296,10 +315,11 @@ export default function FlexibleIntegrationOptions() {
     </>
   );
 }
- 
+
 function FeatureCard({ text }: { text: string }) {
   return (
-    <div className="
+    <div
+      className="
       flex flex-col items-start justify-start
       bg-white rounded-[30px] shadow-[0px_10px_30px_0px_#D1DCE266]
       py-6 px-4
@@ -311,14 +331,10 @@ function FeatureCard({ text }: { text: string }) {
       mx-auto
       transition duration-300 ease-in-out
       hover:scale-120
-    ">
+    "
+    >
       <span className="mb-2">
-        <Image
-          src="/CircleGreen.svg"
-          alt=""
-          width={32}
-          height={32}
-        />
+        <Image src="/CircleGreen.svg" alt="" width={32} height={32} />
       </span>
       <span className="text-left text-base text-gray-800 font-medium">
         {text}
