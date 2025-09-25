@@ -35,13 +35,13 @@ export default function HiddenCrisisSection() {
                 priority
                 className="absolute -top-6 right-1 w-10 h-10 sm:w-12 sm:h-12 sm:-top-7 sm:left-58"
               />
-              <div className="text-2xl sm:text-3xl font-bold mb-2 bg-gradient-to-tr from-[#034E9A] via-[#2390FC] to-[#2390FC] bg-clip-text text-transparent">
+              <div className="text-[25px] sm:text-[40px] font-bold mb-2 bg-gradient-to-tr from-[#034E9A] via-[#2390FC] to-[#2390FC] bg-clip-text text-transparent">
                 37%
               </div>
-              <div className="text-sm sm:text-lg font-bold mb-1 bg-gradient-to-tr from-[#034E9A] via-[#2390FC] to-[#2390FC] bg-clip-text text-transparent">
+              <div className="text-[20px] font-bold mb-1 bg-gradient-to-tr from-[#034E9A] via-[#2390FC] to-[#2390FC] bg-clip-text text-transparent">
                 Of Borrowers
               </div>
-              <div className="text-[#504E4E] text-[12px] sm:text-[16px]">
+              <div className="text-[#504E4E] text-[14px] sm:text-[16px]">
                 Hold multiple payday loans.
               </div>
             </div>
@@ -56,13 +56,13 @@ export default function HiddenCrisisSection() {
                 priority
                 className="absolute -top-6 right-1 w-10 h-10 sm:w-12 sm:h-12 sm:-top-7 sm:left-58"
               />
-              <div className="text-2xl sm:text-3xl font-bold bg-gradient-to-tr from-[#034E9A] via-[#2390FC] to-[#2390FC] bg-clip-text text-transparent mb-2">
-                25%
+              <div className="text-[25px] sm:text-[40px] font-bold bg-gradient-to-tr from-[#034E9A] via-[#2390FC] to-[#2390FC] bg-clip-text text-transparent mb-2">
+                25% 
               </div>
               <div className="text-sm sm:text-lg font-bold bg-gradient-to-tr from-[#034E9A] via-[#2390FC] to-[#2390FC] bg-clip-text text-transparent mb-1">
                 Juggle Four Or More
               </div>
-              <div className="text-[#504E4E] text-[12px] sm:text-[16px]">
+              <div className="text-[#504E4E] text-[14px] sm:text-[16px]">
                 Active loans.
               </div>
             </div>
@@ -77,13 +77,13 @@ export default function HiddenCrisisSection() {
                 priority
                 className="absolute -top-6 right-1 w-10 h-10 sm:w-12 sm:h-12 sm:-top-7 sm:left-58"
               />
-              <div className="text-2xl sm:text-3xl font-bold bg-gradient-to-tr from-[#034E9A] via-[#2390FC] to-[#2390FC] bg-clip-text text-transparent mb-2">
+              <div className="text-[25px] sm:text-[40px] font-bold bg-gradient-to-tr from-[#034E9A] via-[#2390FC] to-[#2390FC] bg-clip-text text-transparent mb-2">
                 3x
               </div>
               <div className="text-sm sm:text-lg font-bold bg-gradient-to-tr from-[#034E9A] via-[#2390FC] to-[#2390FC] bg-clip-text text-transparent mb-1">
                 Higher Default Rates
               </div>
-              <div className="text-[#504E4E] text-[12px] sm:text-[16px]">
+              <div className="text-[#504E4E] text-[14px] sm:text-[16px]">
                 Stacked loans default at a higher rate.
               </div>
             </div>
