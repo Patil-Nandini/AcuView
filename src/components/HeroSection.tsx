@@ -253,8 +253,8 @@ const HeroSection: React.FC = () => {
           </div>
 
           <div className="flex justify-center items-center w-full">
-            <div className="w-[288px] md:w-[700px] min-h-screen bg-[linear-gradient(90deg,#F2F2F4_6.12%,#F8F8FA_100%)] rounded-[25px] flex flex-col justify-center items-center px-4 pt-[30px] md:hidden">
-              <div className="flex items-center justify-center flex-col md:flex-row">
+            <div className="w-[288px] md:w-[700px] min-h-screen bg-[linear-gradient(90deg,#F2F2F4_6.12%,#F8F8FA_100%)] rounded-[25px] flex flex-col justify-center items-center px-4 sm:pt-[30px] md:hidden">
+              <div className="flex items-center justify-center flex-col md:flex-row h-[500px] max-h-[510px] md:max-h-[0] md:h-[0]">
                 <div className="text-center mb-6">
                   <h2 className="text-[20px] font-bold text-[#0F1720]">
                     Real-Time Loan Intelligence
