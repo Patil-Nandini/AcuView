@@ -116,7 +116,7 @@ export default function HiddenCrisisSection() {
             <img
               src="/circle.png"
               alt="circle icon"
-              className="hidden sm:block absolute bottom-[16] sm:right-[160px] right-[57px] w-12 h-12"
+              className="hidden sm:block absolute bottom-[16] sm:right-[160px] lg:right-[26px] right-[57px] xl:right-[54px] w-12 h-12"
             />
 
             {/* AcuView changes everything */}

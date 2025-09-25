@@ -20,11 +20,11 @@ const HeroSection: React.FC = () => {
                 WORLD&apos;S FIRST PATENTED TECHNOLOGY
               </span>
             </div>
-            <h1 className="text-[27px] sm:text-[50px] font-black leading-tight text-[#000000]">
-              <span>See What Some Borrowers</span>{" "}
+            <h1 className="text-[27px] sm:text-[50px] lg:text-[38px] xl:text-[50px] font-black leading-tight text-[#000000]">
+              <span >See What Some Borrowers</span>{" "}
               <br className="hidden xl:block" />
               <span
-                className="inline-block py-[20px] px-[32px] sm:px-[47px] sm:py-[20px] rounded-[60px] text-[35px] md:text-[35px] font-bold ml-[-7px] "
+                className="inline-block py-[20px] px-[32px] sm:px-[47px] sm:py-[20px] rounded-[60px] text-[35px] md:text-[35px] font-bold ml-[-7px]  "
                 style={{
                   backgroundImage: "url('dont.png')",
                   color: "#FFFFFF",
@@ -112,7 +112,7 @@ const HeroSection: React.FC = () => {
               </video>
             </div>
 
-            <div className="flex gap-4 w-full bg-transparent justify-center items-start mt-[25px]">
+            <div className="flex gap-4 w-full bg-transparent justify-center items-start xl:mt-[25px]">
               <div
                 className="group relative bg-transparent z-10 w-[230px] h-[157px] lg:w-[230px] lg:h-[157px] xl:w-[250px] xl:h-[167px] flex flex-col justify-start items-center text-white p-4 transition-transform duration-300 ease-in-out hover:scale-105 rounded-[20px] bg-cover bg-center cursor-pointer"
                 style={{ backgroundImage: "url('/primary.png')" }}
