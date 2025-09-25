@@ -57,7 +57,7 @@ import React from "react";
 export default function LendingBanner() {
   return (
     <section className="w-full flex justify-center relative  md:px-6 lg:px-20  md:top-[100px]">
-      <section className="flex flex-col-reverse md:flex-row items-center justify-between bg-[#1272D2] md:rounded-[27px] shadow-lg p-6 sm:p-8 lg:p-12 max-w-6xl w-full gap-8 mt-[-120px] md:mt-[-150px] lg:mt-[-200px]   ">
+      <section className="flex flex-col-reverse md:flex-row items-center justify-between bg-[#1272D2] md:rounded-[27px] shadow-lg p-6 sm:p-8 lg:p-5 max-w-6xl w-full gap-8 mt-[-120px] md:mt-[-150px] lg:mt-[-200px]   ">
         {/* Image */} 
         <div className="flex justify-center items-center w-full lg:w-1/2">
           <object

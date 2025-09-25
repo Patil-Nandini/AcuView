@@ -83,7 +83,7 @@ export default function IntroducingTheFirst() {
             {features.map((feature, index) => (
               <div
                 key={index}
-                className="bg-white rounded-2xl shadow-md  w-[100%] md:w-[95%] xl:w-[85%] lg:w-[90%] p-[6]   h-[100%] relative min-h-[170px]"
+                className="bg-white rounded-[30px] shadow-md  w-[100%] md:w-[95%] xl:w-[85%] lg:w-[90%] p-[6]   h-[100%] relative min-h-[170px]"
               >
                 <div className="absolute top-0 left-[20px] transform -translate-y-1/2 z-10">
                   <Image
@@ -96,7 +96,7 @@ export default function IntroducingTheFirst() {
                 </div>
 
                 <div
-                  className="rounded-2xl px-5 pt-5 pb-4 flex flex-col gap-2 h-full"
+                  className="rounded-[30px] px-5 pt-5 pb-4 flex flex-col gap-2 h-full"
                   style={{ backgroundColor: feature.bgColor }}
                 >
                   <h3 className="text-base font-semibold text-gray-900 pt-[10px] pb-[10px]">

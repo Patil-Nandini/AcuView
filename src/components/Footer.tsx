@@ -72,6 +72,14 @@ export default function Footer() {
                   Privacy Policy
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="https://acufi.com/privacy-policy/"
+                  className="underline"
+                >
+                  Verafi User Policy
+                </Link>
+              </li>
             </ul>
             {/* <h3 className="font-semibold mb-2">Newsletter Sign up</h3>
             <p className="text-sm mb-2">

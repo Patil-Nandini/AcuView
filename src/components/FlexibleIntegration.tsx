@@ -216,12 +216,12 @@ export default function FlexibleIntegrationOptions() {
         <div className="w-[95%] flex flex-col laptop-flex-row items-center laptop-justify-between justify-center px-4 py-6 md:py-6 laptop-py-24 gap-10 relative z-10">
           {/* Header Section */}
           <div className="laptop-basis-30 flex flex-col laptop-items-start items-center justify-center laptop-text-left text-center">
-            <h2 className="text-[40px] font-bold text-[#0F1720] mb-6">
+            <h2 className="text-[40px] font-bold text-[#0F1720]">
               Flexible Integration
               <br />
               Options
             </h2>
-            <p className="text-[18px] text-[#0F1720]  mb-6">
+            <p className="text-[18px] text-[#0F1720] mb-3">
               Choose the access method that works best for you!
             </p>
             <button

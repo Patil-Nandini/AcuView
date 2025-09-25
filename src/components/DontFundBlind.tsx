@@ -527,7 +527,7 @@ const DontFundBlind = () => {
                         }}
                       ></div>
                       <div className="relative flex justify-center mb-10">
-                        <div className="w-32 h-32 relative">
+                        <div className="w-55 h-55 relative">
                           <Image
                             src="/seewhatshappeningnow.png"
                             alt="Real-time tracking"
@@ -539,22 +539,22 @@ const DontFundBlind = () => {
                       <h3 className="relative text-[22px] font-semibold text-white text-center mb-8 leading-tight">
                         See What&apos;s Happening Right Now
                       </h3>
-                      <div className="relative flex justify-center mt-auto">
+                      <div className="relative flex justify-center mt-[2px]">
                         <div
-                          className="rounded-[16px] p-[1px] inline-block"
+                          className="rounded-[16px] p-[1.7px] inline-block"
                           style={{
                             background:
-                              "linear-gradient(180deg, #084A9D 0%, #0C3260 100%)",
+                              "linear-gradient(5.07deg, #084A9D -51.69%, #0C3260 -1.2%)",
                           }}
                         >
                           <div
                             className="rounded-[15px] px-5 py-4"
                             style={{
                               background:
-                                "linear-gradient(180deg, #0B2D58 0%, #0C305E 100%)",
+                                "linear-gradient(180.7deg, #0B2D58 0.6%, #0C305E 103.06%)",
                             }}
                           >
-                            <p className="text-white/75 text-center text-[13px] leading-relaxed">
+                            <p className="text-white/75 text-center text-[13px] leading-relaxed py-2">
                               Track loan applications across multiple
                               <br />
                               lenders in real time, not weeks later when
@@ -614,7 +614,7 @@ const DontFundBlind = () => {
                         }}
                       ></div>
                       <div className="relative flex justify-center mb-10">
-                        <div className="w-32 h-32 relative">
+                        <div className="w-55 h-55 relative">
                           <Image
                             src="/verifyidentity.png"
                             alt="Verify Identity"
@@ -626,22 +626,22 @@ const DontFundBlind = () => {
                       <h3 className="relative text-[22px] font-semibold text-white text-center mb-8">
                         Verify Identity
                       </h3>
-                      <div className="relative flex justify-center mt-auto">
+                      <div className="relative flex justify-center mt-[30px]">
                         <div
-                          className="rounded-[16px] p-[1px] inline-block"
-                          style={{
+                          className="rounded-[16px] p-[1.7px] inline-block"
+                       style={{
                             background:
-                              "linear-gradient(180deg, #084A9D 0%, #0C3260 100%)",
+                              "linear-gradient(5.07deg, #084A9D -51.69%, #0C3260 -1.2%)",
                           }}
                         >
                           <div
                             className="rounded-[15px] px-5 py-4"
-                            style={{
+                          style={{
                               background:
-                                "linear-gradient(180deg, #0B2D58 0%, #0C305E 100%)",
+                                "linear-gradient(180.7deg, #0B2D58 0.6%, #0C305E 103.06%)",
                             }}
                           >
-                            <p className="text-white/75 text-center text-[13px] leading-relaxed">
+                            <p className="text-white/75 text-center text-[13px] leading-relaxed py-3">
                               Check banking details, identity, and
                               <br />
                               borrowing patterns in under 30 seconds.
@@ -698,7 +698,7 @@ const DontFundBlind = () => {
                         }}
                       ></div>
                       <div className="relative flex justify-center mb-10">
-                        <div className="w-32 h-32 relative">
+                        <div className="w-55 h-55 relative">
                           <Image
                             src="/lendernetworkintelligence.png"
                             alt="Lender Network"
@@ -710,22 +710,22 @@ const DontFundBlind = () => {
                       <h3 className="relative text-[22px] font-semibold text-white text-center mb-8 leading-tight">
                         Lender Network Intelligence
                       </h3>
-                      <div className="relative flex justify-center mt-auto">
+                      <div className="relative flex justify-center mt-[35px]">
                         <div
-                          className="rounded-[16px] p-[1px] inline-block"
-                          style={{
+                          className="rounded-[16px] p-[1.7px] inline-block"
+                        style={{
                             background:
-                              "linear-gradient(180deg, #084A9D 0%, #0C3260 100%)",
+                              "linear-gradient(5.07deg, #084A9D -51.69%, #0C3260 -1.2%)",
                           }}
                         >
                           <div
                             className="rounded-[15px] px-5 py-4"
                             style={{
                               background:
-                                "linear-gradient(180deg, #0B2D58 0%, #0C305E 100%)",
+                                "linear-gradient(180.7deg, #0B2D58 0.6%, #0C305E 103.06%)",
                             }}
                           >
-                            <p className="text-white/75 text-center text-[13px] leading-relaxed">
+                            <p className="text-white/75 text-center text-[13px] leading-relaxed py-2">
                               Leverage insights from 1M+ borrower data
                               <br />
                               points across our growing lender network.

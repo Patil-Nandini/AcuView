@@ -24,7 +24,7 @@ const HeroSection: React.FC = () => {
               <span >See What Some Borrowers</span>{" "}
               <br className="hidden xl:block" />
               <span
-                className="inline-block py-[20px] px-[32px] sm:px-[47px] sm:py-[20px] rounded-[60px] text-[35px] md:text-[35px] font-bold ml-[-7px]  "
+                className="inline-block py-[20px] px-[32px] sm:px-[47px] sm:py-[20px] lg:py-[31px] rounded-[60px] text-[35px] md:text-[35px] font-bold ml-[-7px] lg:pb-[px]  "
                 style={{
                   backgroundImage: "url('dont.png')",
                   color: "#FFFFFF",
@@ -98,8 +98,8 @@ const HeroSection: React.FC = () => {
           </div>
 
           {/* Right side */}
-          <div className="flex flex-col items-start gap-6 lg:max-w-[500px] xl:max-w-[630px]">
-            <div className="relative w-full h-[280px] sm:h-[360px] xl:w-[570px] xl:h-[411px]  rounded-2xl overflow-hidden lg:object-contain xl:object-cover">
+          <div className="flex flex-col items-start lg:max-w-[500px] xl:max-w-[630px]">
+            <div className="relative w-full h-[280px] sm:h-[360px] xl:w-[570px] xl:h-[411px]  rounded-2xl overflow-hidden lg:object-contain xl:object-cover xl:mt-[45px]">
               <video
                 autoPlay
                 loop
@@ -112,7 +112,7 @@ const HeroSection: React.FC = () => {
               </video>
             </div>
 
-            <div className="flex gap-4 w-full bg-transparent justify-center items-start xl:mt-[25px]">
+            <div className="flex gap-4 w-full bg-transparent justify-center items-start lg:mt-[20px]">
               <div
                 className="group relative bg-transparent z-10 w-[230px] h-[157px] lg:w-[230px] lg:h-[157px] xl:w-[250px] xl:h-[167px] flex flex-col justify-start items-center text-white p-4 transition-transform duration-300 ease-in-out hover:scale-105 rounded-[20px] bg-cover bg-center cursor-pointer"
                 style={{ backgroundImage: "url('/primary.png')" }}

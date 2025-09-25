@@ -90,7 +90,7 @@ const TheEarlyBird: React.FC = () => {
             </p>
           </div>
 
-          <div className="bg-white rounded-[28px] px-4 py-4 w-full mx-auto overflow-hidden relative z-20">
+          <div className="bg-white rounded-[28px] px-6 py-4 w-full mx-auto overflow-hidden relative z-20">
             <div className="flex flex-wrap justify-center items-start gap-6 md:flex-row md:items-center lg:flex-row lg:items-center lg:flex-nowrap">
               {[
                 {
@@ -107,7 +107,7 @@ const TheEarlyBird: React.FC = () => {
                   key={index}
                   className="
                     bg-[#0B2D58] rounded-[20px] text-center flex flex-col justify-center shadow 
-                    w-[220px] h-[110px] sm:w-[240px] sm:h-[120px] md:w-[30%] md:h-[160px]
+                    w-[220px]  sm:w-[240px] md:w-[30%] h-[200px]
                     lg:w-[25%]
                     max-[375px]:w-[230px] max-[375px]:h-[90px]
                     max-[320px]:w-[170px] max-[320px]:h-[85px]
@@ -136,7 +136,7 @@ const TheEarlyBird: React.FC = () => {
                   <img
                     src="/rocket2.svg"
                     alt="Rocket Icon"
-                    className="w-6 h-6 text-white"
+                    className="w-10 h-10 text-white"
                   />
                 </div>
                 <h3 className="text-base sm:text-lg font-bold text-white mb-3 pr-8 leading-tight">

@@ -55,7 +55,7 @@ const ExploringLenderNetwork = () => {
               height={20}
               className="w-9 h-9"
             />
-            <p className="text-[20px] font-bold text-[#17012C]">
+            <p className="text-[22px] font-bold text-[#17012C]">
               EVERY DAY MORE LENDERS JOIN!
             </p>
           </div>
@@ -67,7 +67,7 @@ const ExploringLenderNetwork = () => {
           </p>
         </div>
         <div className="mt-10 flex flex-col justify-start items-start max-w-6xl mx-auto">
-          <h3 className="text-[18px] font-bold text-[#000000]">
+          <h3 className="text-[25px] font-bold text-[#000000]">
             The More We Grow, The SMARTER We Get!
           </h3>
           <p className="mt-3 text-[18px] max-w-6xl text-[#0F1720] text-justify">

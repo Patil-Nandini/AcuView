@@ -28,7 +28,7 @@ export default function ComparisonSection() {
               width={28}
               height={28}
             />
-            <h3 className="text-lg font-semibold text-[#6B1D57] h-[80px]">
+            <h3 className="text-lg font-semibold text-[#17012C] h-[80px]">
               Traditional Credit Checks <br /> & Data Companies
             </h3>
           </div>
@@ -103,7 +103,7 @@ export default function ComparisonSection() {
               width={28}
               height={28}
             />
-            <h3 className="text-lg font-semibold text-[#0A3D91] h-[80px]">
+            <h3 className="text-lg font-semibold text-[#17012C] h-[80px]">
               AcuView&apos;s Real-time <br /> Intelligence
             </h3>
           </div>

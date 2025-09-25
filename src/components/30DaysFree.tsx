@@ -176,7 +176,7 @@ const ThirtyDaysFree: React.FC = () => {
           </p>
         </div>
 
-        <div className="bg-white border border-[#BDBDBD] rounded-2xl p-8 max-w-3xl mx-auto mb-12 shadow-[0px_2px_2px_0px_#00000026]">
+        <div className="bg-white border border-[#BDBDBD] rounded-[30px] p-8 max-w-3xl mx-auto mb-12 shadow-[0px_2px_2px_0px_#00000026]">
           <div className="flex flex-col items-center text-center">
             <div className="flex items-center gap-3 mb-4">
               <div className="relative w-10 h-10 flex-shrink-0">

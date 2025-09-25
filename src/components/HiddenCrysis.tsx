@@ -33,15 +33,18 @@ export default function HiddenCrisisSection() {
                 width={48}
                 height={48}
                 priority
-                className="absolute -top-6 right-1 w-10 h-10 sm:w-12 sm:h-12 sm:-top-7 sm:left-58"
+                className="absolute -top-6 right-1 w-15 h-15  sm:-top-7 sm:left-58"
               />
-              <div className="text-[25px] sm:text-[40px] font-bold mb-2 bg-gradient-to-tr from-[#034E9A] via-[#2390FC] to-[#2390FC] bg-clip-text text-transparent">
-                37%
+              <div className="flex items-baseline">
+                <div className="text-[25px] sm:text-[40px] font-bold mr-2 bg-gradient-to-tr from-[#034E9A] via-[#2390FC] to-[#2390FC] bg-clip-text text-transparent">
+                  37%
+                </div>
+                <div className="text-[20px] font-bold bg-gradient-to-tr from-[#034E9A] via-[#2390FC] to-[#2390FC] bg-clip-text text-transparent">
+                  Of Borrowers
+                </div>
               </div>
-              <div className="text-[20px] font-bold mb-1 bg-gradient-to-tr from-[#034E9A] via-[#2390FC] to-[#2390FC] bg-clip-text text-transparent">
-                Of Borrowers
-              </div>
-              <div className="text-[#504E4E] text-[14px] sm:text-[16px]">
+
+              <div className="text-[#504E4E] text-[14px] sm:text-[16px] text-center">
                 Hold multiple payday loans.
               </div>
             </div>
@@ -54,20 +57,22 @@ export default function HiddenCrisisSection() {
                 width={48}
                 height={48}
                 priority
-                className="absolute -top-6 right-1 w-10 h-10 sm:w-12 sm:h-12 sm:-top-7 sm:left-58"
+                className="absolute -top-6 right-1 w-15 h-15  sm:-top-7 sm:left-58"
               />
-              <div className="text-[25px] sm:text-[40px] font-bold bg-gradient-to-tr from-[#034E9A] via-[#2390FC] to-[#2390FC] bg-clip-text text-transparent mb-2">
-                25% 
+              <div className="flex items-baseline">
+                <div className="text-[25px] sm:text-[40px] font-bold mr-2 bg-gradient-to-tr from-[#034E9A] via-[#2390FC] to-[#2390FC] bg-clip-text text-transparent">
+                  25%
+                </div>
+                <div className="text-sm sm:text-lg font-bold bg-gradient-to-tr from-[#034E9A] via-[#2390FC] to-[#2390FC] bg-clip-text text-transparent">
+                  Juggle Four Or More
+                </div>
               </div>
-              <div className="text-sm sm:text-lg font-bold bg-gradient-to-tr from-[#034E9A] via-[#2390FC] to-[#2390FC] bg-clip-text text-transparent mb-1">
-                Juggle Four Or More
-              </div>
-              <div className="text-[#504E4E] text-[14px] sm:text-[16px]">
+
+              <div className="text-[#504E4E] text-[14px] sm:text-[16px] text-center">
                 Active loans.
               </div>
             </div>
 
-            {/* Stat 3 */}
             <div className="relative bg-white rounded-[30px] shadow-[0px_8px_16px_0px_#0000001A] px-5 py-7 col-span-2 justify-self-center w-[200px] sm:w-[260px] h-[155px] sm:h-[200px]">
               <Image
                 src="/money-hand3.svg"
@@ -75,24 +80,24 @@ export default function HiddenCrisisSection() {
                 width={48}
                 height={48}
                 priority
-                className="absolute -top-6 right-1 w-10 h-10 sm:w-12 sm:h-12 sm:-top-7 sm:left-58"
+                className="absolute -top-6 right-1 w-15 h-15  sm:-top-7 sm:left-58"
               />
-              <div className="text-[25px] sm:text-[40px] font-bold bg-gradient-to-tr from-[#034E9A] via-[#2390FC] to-[#2390FC] bg-clip-text text-transparent mb-2">
-                3x
+              <div className="flex items-baseline">
+                <div className="text-[25px] sm:text-[40px] font-bold mr-2 bg-gradient-to-tr from-[#034E9A] via-[#2390FC] to-[#2390FC] bg-clip-text text-transparent">
+                  3x
+                </div>
+                <div className="text-sm sm:text-lg font-bold bg-gradient-to-tr from-[#034E9A] via-[#2390FC] to-[#2390FC] bg-clip-text text-transparent">
+                  Higher Default Rates
+                </div>
               </div>
-              <div className="text-sm sm:text-lg font-bold bg-gradient-to-tr from-[#034E9A] via-[#2390FC] to-[#2390FC] bg-clip-text text-transparent mb-1">
-                Higher Default Rates
-              </div>
-              <div className="text-[#504E4E] text-[14px] sm:text-[16px]">
+
+              <div className="text-[#504E4E] text-[14px] sm:text-[16px] text-center">
                 Stacked loans default at a higher rate.
               </div>
             </div>
           </div>
 
-          {/* Right Side - Animated Object + Circle */}
-          {/* Right Side - Animated Object + Circle */}
           <div className="relative flex flex-col items-center lg:items-end lg:justify-end w-full">
-            {/* Main SVG / object */}
             <object
               type="image/svg+xml"
               data="/Acuview-Hidden-crysis.svg"
@@ -102,7 +107,6 @@ export default function HiddenCrisisSection() {
               Acuview-Hidden-crysis
             </object>
 
-            {/* Icons overlayed */}
             <img
               src="/star.png"
               alt="star icon"

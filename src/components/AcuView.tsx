@@ -13,13 +13,16 @@ export default function AcuviewBanner() {
           </h2>
         </div>
 
-        <div className="flex justify-center items-center bg-[url('/circuit-design.svg')] bg-cover bg-right p-8 md:p-8 w-full md:w-[30%]">
-          <object
-            type="image/svg+xml"
-            data="/AcuViewLogo-baner.svg"
-            className="w-[200px] h-[200px] md:w-[231] md:h-[231px] flex items-center justify-center"
-          >Acuview Logo</object>
-        </div>
+      <div className="flex justify-center items-center bg-[url('/circuit-design.svg')] bg-cover bg-right p-8 md:p-3 w-full md:w-[30%]">
+  <object
+    type="image/svg+xml"
+    data="/AcuViewLogo-baner.svg"
+    className="w-[200px] h-[200px] md:w-[312] md:h-[312px] flex items-center justify-center"
+  >
+    Acuview Logo
+  </object>
+</div>
+
       </div>
     </section>
   );
