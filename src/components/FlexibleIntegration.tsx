@@ -323,7 +323,7 @@ function FeatureCard({ text }: { text: string }) {
       flex flex-col items-start justify-start
       bg-white rounded-[30px] shadow-[0px_10px_30px_0px_#D1DCE266]
       py-6 px-4
-      h-[160px]
+      h-[160px] lg:h-[200px] xl:h-[160px]
       w-full
       max-w-[168px]
       md:max-w-[200px] md:min-h-[110px] md:py-8 md:px-6

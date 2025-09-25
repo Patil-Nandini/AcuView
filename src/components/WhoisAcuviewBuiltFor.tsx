@@ -102,7 +102,7 @@ const WhoisAcuViewBuiltFor: React.FC = () => {
             Your browser does not support SVG
           </object>
           {/* Card 1 */}
-          <div className="absolute top-[46%] left-[9%] lg:left-[5%] xl:left-[9%] w-[220px] sm:w-[250px] text-center">
+          <div className="absolute top-[45%] left-[9%] lg:left-[5%] xl:left-[9%] w-[220px] sm:w-[250px] text-center">
             <div className="bg-white rounded-xl shadow-md p-4">
               <h3 className="font-bold text-[#0F1720] text-[16px]">
                 Short-Term & Payday Lenders
@@ -114,7 +114,7 @@ const WhoisAcuViewBuiltFor: React.FC = () => {
           </div>
 
           {/* Card 2 */}
-          <div className="absolute top-[46%] left-[74%] lg:left-[71%] xl:left-[74%] w-[220px] sm:w-[250px] text-center">
+          <div className="absolute top-[43%] left-[74%] lg:left-[71%] xl:left-[74%] w-[220px] sm:w-[250px] text-center">
             <div className="bg-white rounded-xl shadow-md p-4">
               <h3 className="font-bold text-[#0F1720] text-[16px]">
                 Online Lenders
@@ -126,7 +126,7 @@ const WhoisAcuViewBuiltFor: React.FC = () => {
           </div>
 
           {/* Card 3 */}
-          <div className="absolute top-[76%] left-[28%] lg:left-[25%] xl:left-[29%] w-[220px] sm:w-[260px] text-center">
+          <div className="absolute top-[73.5%] left-[28%] lg:left-[25%] xl:left-[29%] w-[220px] sm:w-[260px] text-center">
             <div className="bg-white rounded-xl shadow-md p-4">
               <h3 className="font-bold text-[#0F1720] text-[16px]">
                 BNPL (Buy Now, Pay Later) Platforms
@@ -139,7 +139,7 @@ const WhoisAcuViewBuiltFor: React.FC = () => {
           </div>
 
           {/* Card 4 */}
-          <div className="absolute top-[76%] left-[55%] lg:left-[52%] xl:left-[55%] w-[220px] sm:w-[260px] text-center">
+          <div className="absolute top-[73.5%] left-[55%] lg:left-[52%] xl:left-[55%] w-[220px] sm:w-[260px] text-center">
             <div className="bg-white rounded-xl shadow-md p-4">
               <h3 className="font-bold text-[#0F1720] text-[16px]">
                 Installment & Personal Loan Providers
