@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function HowAcuViewWorks() {
   return (
     <section className="relative px-4 py-16 overflow-hidden w-[100%]">
-      <div className="absolute top-[-6]  md:top-10  left-[20px] z-3">
+      <div className="absolute top-[-26]  md:top-10  left-[20px] z-3 pt-[26px] md:pt-0">
         <Image
           src="/HowWorksIconLeft.png"
           alt="Flower Icon"

@@ -106,17 +106,17 @@ export default function HiddenCrisisSection() {
             <img
               src="/star.png"
               alt="star icon"
-              className="absolute top-65 left-12 w-15 h-15"
+              className="hidden sm:block absolute top-65 left-12 w-15 h-15"
             />
             <img
               src="/triangle.png"
               alt="triangle icon"
-              className="absolute top-[-45] right-8 w-15 h-15"
+              className="hidden sm:block absolute top-[-45] right-8 w-15 h-15"
             />
             <img
               src="/circle.png"
               alt="circle icon"
-              className="absolute bottom-[16] right-[57px] w-12 h-12"
+              className="hidden sm:block absolute bottom-[16] sm:right-[160px] right-[57px] w-12 h-12"
             />
 
             {/* AcuView changes everything */}

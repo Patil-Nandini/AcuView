@@ -466,7 +466,7 @@ const DontFundBlind = () => {
                 aria-label="Contact Sales!"
                 onClick={() =>
                   (window.location.href =
-                    "https:acufi.com/acuview-get-started/")
+                    "https://acufi.com/acuview-get-started/")
                 }
               >
                 <Image
