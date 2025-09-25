@@ -139,7 +139,7 @@ export default function FaqSection() {
             </div>
             <button
               type="button"
-              className="flex items-center justify-center h-[90px] text-white font-semibold cursor-pointer w-[270px] sm:w-[280px] px-7"
+              className="flex items-center justify-center h-[90px] text-white font-semibold cursor-pointer w-[270px] sm:w-[250px] px-7"
               style={{
                 backgroundImage: "url('/AcuViewButtonBg.webp')",
                 backgroundSize: "100% 100%",
