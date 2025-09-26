@@ -148,8 +148,8 @@ const HeroSection: React.FC = () => {
                     src="BlueArrow.svg"
                     alt="Arrow Icon"
                     width={35}
-                    height={35}
-                    className="w-[35px] transition-transform duration-500 ease-in-out origin-center group-hover:rotate-45"
+                    height={35} 
+                    className="w-[35px] transition-transform duration-500 ease-in-out origin-center group-hover:rotate-45 lg:mt-[15px] xl:mt-[0] "
                   />
                 </div>
                 <p className="text-[18px] lg:text-[16px] xl:text-[18px] text-start mb-7 pt-5">

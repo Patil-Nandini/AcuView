@@ -527,7 +527,7 @@ const DontFundBlind = () => {
                         }}
                       ></div>
                       <div className="relative flex justify-center mb-10">
-                        <div className="w-55 h-55 relative">
+                        <div className="w-55 h-55 md:w-30 md:h-30 lg:w-40 lg:h-40 xl:w-55 xl:h-55 relative">
                           <Image
                             src="/seewhatshappeningnow.png"
                             alt="Real-time tracking"
@@ -536,7 +536,7 @@ const DontFundBlind = () => {
                           />
                         </div>
                       </div>
-                      <h3 className="relative text-[22px] font-semibold text-white text-center mb-8 leading-tight">
+                      <h3 className="relative text-[22px] font-semibold text-white text-center md:mb-8 leading-tight">
                         See What&apos;s Happening Right Now
                       </h3>
                       <div className="relative flex justify-center mt-[2px]">
@@ -614,7 +614,7 @@ const DontFundBlind = () => {
                         }}
                       ></div>
                       <div className="relative flex justify-center mb-10">
-                        <div className="w-55 h-55 relative">
+                        <div className="w-55 h-55  md:w-30 md:h-30 lg:w-40 lg:h-40 xl:w-55 xl:h-55 relative">
                           <Image
                             src="/verifyidentity.png"
                             alt="Verify Identity"
@@ -623,7 +623,7 @@ const DontFundBlind = () => {
                           />
                         </div>
                       </div>
-                      <h3 className="relative text-[22px] font-semibold text-white text-center mb-8">
+                      <h3 className="relative text-[22px] font-semibold text-white text-center md:mb-8">
                         Verify Identity
                       </h3>
                       <div className="relative flex justify-center mt-[30px]">
@@ -698,7 +698,7 @@ const DontFundBlind = () => {
                         }}
                       ></div>
                       <div className="relative flex justify-center mb-10">
-                        <div className="w-55 h-55 relative">
+                        <div className="w-55 h-55 md:w-30 md:h-30 lg:w-40 lg:h-40 xl:w-55 xl:h-55 relative">
                           <Image
                             src="/lendernetworkintelligence.png"
                             alt="Lender Network"
@@ -707,7 +707,7 @@ const DontFundBlind = () => {
                           />
                         </div>
                       </div>
-                      <h3 className="relative text-[22px] font-semibold text-white text-center mb-8 leading-tight">
+                      <h3 className="relative text-[22px] font-semibold text-white text-center md:mb-8 leading-tight">
                         Lender Network Intelligence
                       </h3>
                       <div className="relative flex justify-center mt-[35px]">
