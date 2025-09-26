@@ -93,7 +93,7 @@ const WhoisAcuViewBuiltFor: React.FC = () => {
         </div>
       </div>
       <section className="relative w-full font-sarabun pb-32 flex flex-col justify-center items-center hidden lg:block">
-        <div className="relative w-full max-w-[1920px]">
+        <div className="relative w-full max-w-[1920px] md:h-[637px]  lg:h-auto">
           <object
             type="image/svg+xml"
             data="/Who-is-acuview-built-for.svg"
@@ -154,7 +154,7 @@ const WhoisAcuViewBuiltFor: React.FC = () => {
       </section>
 
       <section className="relative w-full font-sarabun pb-32 flex flex-col justify-center items-center lg:hidden">
-        <div className="relative w-full max-w-[1920px]">
+        <div className="relative w-full max-w-[1920px] md:h-[637px] md:max-h-[637px] lg:max-h-auto lg:h-auto ">
           <Image
             src="/bg-line-for-tab.webp"
             alt="Background line"
@@ -172,7 +172,7 @@ const WhoisAcuViewBuiltFor: React.FC = () => {
             priority
           />
           {/* Card 1 */}
-          <div className="absolute top-[1%] left-[16%] lg:left-[5%] md:left-[3%] md:top-[4%] w-[250px] md:w-[300px] text-center flex flex-col items-center">
+          <div className="absolute top-[1%] left-[16%] lg:left-[5%] md:left-[5%] md:top-[4%] w-[250px] md:w-[300px] text-center flex flex-col items-center">
             <object
               type="image/svg+xml"
               data="/acuview-Icon-1.svg"
@@ -193,7 +193,7 @@ const WhoisAcuViewBuiltFor: React.FC = () => {
           </div>
 
           {/* Card 2 */}
-          <div className="absolute top-[31%] left-[8%] lg:left-[71%] xl:left-[74%] md:top-[5%] md:left-[55%] w-[250px] md:w-[300px] text-center flex flex-col items-center">
+          <div className="absolute top-[31%] left-[8%] lg:left-[71%] xl:left-[74%] md:top-[5%] md:left-[49%] w-[250px] md:w-[300px] text-center flex flex-col items-center">
             <object
               type="image/svg+xml"
               data="/acuview-Icon-2.svg"
@@ -212,7 +212,7 @@ const WhoisAcuViewBuiltFor: React.FC = () => {
           </div>
 
           {/* Card 3 */}
-          <div className="absolute top-[56%] left-[10%] lg:left-[25%] xl:left-[29%] w-[250px] md:left-[3%] md:top-[67%] md:w-[300px]  text-center flex flex-col items-center">
+          <div className="absolute top-[56%] left-[10%] lg:left-[25%] xl:left-[29%] w-[250px] md:left-[5%] md:top-[56%] md:w-[300px]  text-center flex flex-col items-center">
             <object
               type="image/svg+xml"
               data="/acuview-Icon-3.svg"
@@ -232,7 +232,7 @@ const WhoisAcuViewBuiltFor: React.FC = () => {
           </div>
 
           {/* Card 4 */}
-          <div className="absolute top-[86%] left-[15%] lg:left-[52%] xl:left-[55%] w-[250px] md:top-[65%] md:w-[300px] md:left-[55%] text-center flex flex-col items-center">
+          <div className="absolute top-[86%] left-[15%] lg:left-[52%] xl:left-[55%] w-[250px] md:top-[55%] md:w-[300px] md:left-[49%] text-center flex flex-col items-center">
             <object
               type="image/svg+xml"
               data="/acuview-Icon-4.svg"

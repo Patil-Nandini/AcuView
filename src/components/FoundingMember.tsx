@@ -232,22 +232,22 @@ export default function FoundingBenefits() {
     xl:w-[1200px] xl:max-w-[1200px]  
     mx-auto"
         >
-          <div className="absolute top-[327px] left-[12px] w-[122px] text-[14px] xl:text-[16px] font-semibold text-[#0F1720] text-center lg:top-[333px] lg:left-[28px]  xl:top-[339px] xl:left-[45px]">
+          <div className="absolute top-[327px] left-[12px] w-[122px] text-[14px] xl:text-[16px] font-semibold text-[#0F1720] text-start md:text-start lg:text-center lg:top-[333px] lg:left-[28px]  xl:top-[339px] xl:left-[45px]">
             FREE 90-day trial (No credit card required)
           </div>
-          <div className="absolute top-[253px] left-[148px] w-[122px] text-[14px] xl:text-[16px] font-semibold text-[#0F1720] text-center lg:top-[240px] lg:left-[201px] xl:top-[228px] xl:left-[255px] ">
+          <div className="absolute top-[253px] left-[148px] w-[122px] text-[14px] xl:text-[16px] font-semibold text-[#0F1720] text-start md:text-start lg:text-center lg:top-[240px] lg:left-[201px] xl:top-[228px] xl:left-[255px] ">
             Lifetime founding member pricing
           </div>
-          <div className="absolute top-[187px] left-[276px] w-[122px] text-[14px] xl:text-[16px] font-semibold text-[#0F1720] text-center lg:top-[156px] lg:left-[370px] xl:top-[133px] xl:left-[466px]">
+          <div className="absolute top-[187px] left-[276px] w-[122px] text-[14px] xl:text-[16px] font-semibold text-[#0F1720] text-start md:text-start lg:text-center lg:top-[156px] lg:left-[370px] xl:top-[133px] xl:left-[466px]">
             Priority support and training
           </div>
-          <div className="absolute top-[187px] left-[385px] w-[122px] text-[14px] xl:text-[16px] font-semibold text-[#0F1720] text-center lg:top-[158px] lg:left-[522px]  xl:top-[135px] xl:left-[641px]">
+          <div className="absolute top-[187px] left-[385px] w-[122px] text-[14px] xl:text-[16px] font-semibold text-[#0F1720] text-start md:text-start lg:text-center lg:top-[158px] lg:left-[522px]  xl:top-[135px] xl:left-[641px]">
             Recognition as an industry pioneer
           </div>
-          <div className="absolute top-[252px] left-[546px] w-[122px] text-[14px] xl:text-[16px] font-semibold text-[#0F1720] text-center lg:top-[242px] lg:left-[699px]  xl:top-[228px] xl:left-[841px]">
+          <div className="absolute top-[252px] left-[546px] w-[122px] text-[14px] xl:text-[16px] font-semibold text-[#0F1720] text-start md:text-start lg:text-center lg:top-[242px] lg:left-[699px]  xl:top-[228px] xl:left-[841px]">
             Direct input on product development
           </div>
-          <div className="absolute top-[328px] left-[643px] w-[122px] text-[14px] xl:text-[16px] font-semibold text-[#0F1720] text-center lg:top-[332px] lg:left-[853px]  xl:top-[341px] xl:left-[1044px]">
+          <div className="absolute top-[328px] left-[643px] w-[122px] text-[14px] xl:text-[16px] font-semibold text-[#0F1720] text-start md:text-start lg:text-center lg:top-[332px] lg:left-[853px]  xl:top-[341px] xl:left-[1044px]">
             Exclusive access to network intelligence
           </div>
 

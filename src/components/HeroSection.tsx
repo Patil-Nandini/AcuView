@@ -334,7 +334,7 @@ const HeroSection: React.FC = () => {
                     className="w-[35px] transition-transform duration-500 ease-in-out origin-center group-hover:rotate-45"
                   />
                 </div>
-                <p className="text-[15px]  sm:text-[18px] text-center mb-7 pt-5">
+                <p className="text-[15px]  sm:text-[18px] text-start mb-7 pt-5">
                   Join the lender network
                   <br /> Free 30-Day Trial
                 </p>
@@ -356,7 +356,7 @@ const HeroSection: React.FC = () => {
                     className="w-[35px] transition-transform duration-500 ease-in-out origin-center group-hover:rotate-45"
                   />
                 </div>
-                <p className="text-[15px] sm:text-[18px] text-center mb-7 pt-5">
+                <p className="text-[15px] sm:text-[18px] text-start mb-7 pt-5">
                   See AcuView In Action <br />
                   15-Minutes Demo
                 </p>

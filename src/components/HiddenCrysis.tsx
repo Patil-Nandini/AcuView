@@ -63,7 +63,7 @@ export default function HiddenCrisisSection() {
                 <div className="text-[25px] sm:text-[40px] font-bold mr-2 bg-gradient-to-tr from-[#034E9A] via-[#2390FC] to-[#2390FC] bg-clip-text text-transparent">
                   25%
                 </div>
-                <div className="text-sm sm:text-lg font-bold bg-gradient-to-tr from-[#034E9A] via-[#2390FC] to-[#2390FC] bg-clip-text text-transparent">
+                <div className="text-[20px] font-bold bg-gradient-to-tr from-[#034E9A] via-[#2390FC] to-[#2390FC] bg-clip-text text-transparent">
                   Juggle Four Or More
                 </div>
               </div>
@@ -86,7 +86,7 @@ export default function HiddenCrisisSection() {
                 <div className="text-[25px] sm:text-[40px] font-bold mr-2 bg-gradient-to-tr from-[#034E9A] via-[#2390FC] to-[#2390FC] bg-clip-text text-transparent">
                   3x
                 </div>
-                <div className="text-sm sm:text-lg font-bold bg-gradient-to-tr from-[#034E9A] via-[#2390FC] to-[#2390FC] bg-clip-text text-transparent">
+                <div className="text-[20px] font-bold bg-gradient-to-tr from-[#034E9A] via-[#2390FC] to-[#2390FC] bg-clip-text text-transparent">
                   Higher Default Rates
                 </div>
               </div>
