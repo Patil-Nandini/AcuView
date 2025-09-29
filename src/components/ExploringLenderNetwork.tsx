@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 const ExploringLenderNetwork = () => {
-   const router = useRouter();
+  const router = useRouter();
   const features = [
     {
       icon: "/Data-Powered Protection.png",
@@ -12,7 +12,7 @@ const ExploringLenderNetwork = () => {
         "Access a rapidly growing database of real-time borrower trends and risk patterns across the lending industry — updating every minute!",
       bg: "bg-white shadow-[0px_4px_4px_0px_#00000040]",
       titleColor: "text-[#17012C]",
-      descColor: "black !important",
+      descColor: "!text-black",
     },
     {
       icon: "/Industry-Wide Visibility.png",
@@ -31,7 +31,7 @@ const ExploringLenderNetwork = () => {
         "Maintain strict compliance while benefiting from network-wide intelligence and shared protection that grows stronger every day!",
       bg: "bg-white shadow-[0px_4px_4px_0px_#00000040]",
       titleColor: "text-[#17012C]",
-      descColor: "black !important",
+      descColor: "!text-black",
     },
   ];
 
@@ -93,7 +93,7 @@ const ExploringLenderNetwork = () => {
           aria-label="Join The Network!"
           onClick={() => router.push("/under-renovation")}
         >
-           <Image
+          <Image
             src="/RocketIcon.png"
             alt="Rocket Icon"
             width={20}
@@ -115,13 +115,19 @@ const ExploringLenderNetwork = () => {
             }`}
           >
             <div className="flex flex-col items-start gap-3">
-              <Image src={f.icon} alt={f.title} width={80} height={80} loading="lazy" />
+              <Image
+                src={f.icon}
+                alt={f.title}
+                width={80}
+                height={80}
+                loading="lazy"
+              />
               <h4 className={`text-[20px] font-[800] ${f.titleColor}`}>
                 {f.title}
               </h4>
             </div>
 
-            <p className={`mt-3 text-[16px] ${f.descColor} !important`}>{f.description}</p>
+            <p className={`mt-3 text-[16px] ${f.descColor}`}>{f.description}</p>
 
             <div className="flex-grow" />
           </div>
