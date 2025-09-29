@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 
 const faqs = [
   {
@@ -32,7 +33,8 @@ const faqs = [
 
 export default function FaqSection() {
   const [open, setOpen] = useState(0);
-
+ const router = useRouter();
+ 
   return (
     <section className="relative w-full bg-[#F8F8FC] overflow-hidden font-sarabun px-4 sm:px-6 lg:px-8 py-12 lg:pb-50 pb-40">
       <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-8 md:mb-12 text-[#0F1720] mt-[30px] md:mt-[1px]">
@@ -147,15 +149,14 @@ export default function FaqSection() {
                 paddingBottom: "25px",
               }}
               aria-label="Start Your Free 90-Day Trial"
-              onClick={() =>
-                (window.location.href = "https://acufi.com/acuview-get-started/")
-              }
+             onClick={() => router.push("/under-renovation")}
             >
               <Image
                 src="/RocketIcon.png"
                 alt="Rocket Icon"
                 width={20}
                 height={20}
+                loading="lazy"
               />
               <span className="ml-2 whitespace-nowrap">Get Your Demo!</span>
             </button>
@@ -170,6 +171,7 @@ export default function FaqSection() {
         height={140}
         className="absolute left-0 top-6 w-[60px] sm:w-[80px] md:w-[120px] lg:w-[140px] opacity-80 pointer-events-none select-none"
         draggable={false}
+        loading="lazy"
       />
     </section>
   );

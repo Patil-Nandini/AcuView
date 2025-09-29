@@ -1,8 +1,10 @@
 "use client";
 
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 export default function SetupSteps() {
+   const router = useRouter();
   return (
     <div
       className="flex flex-col items-center justify-center w-full py-20  bg-cover bg-center bg-no-repeat "
@@ -30,21 +32,20 @@ export default function SetupSteps() {
               paddingBottom: "25px",
             }}
             aria-label="Start Your Free 90-Day Trial"
-            onClick={() =>
-              (window.location.href = "https://acufi.com/acuview-get-started/")
-            }
+             onClick={() => router.push("/under-renovation")}
           >
             <Image
               src="/RocketIcon.png"
               alt="Rocket Icon"
               width={20}
               height={20}
+              loading="lazy"
             />
             <span className="ml-2 whitespace-nowrap">Get Your Demo!</span>
           </button>
         </div>
       </div>
-      <div className="relative flex  max-w-full h-full lg:h-full justify-center items-center flex-col lg:flex-row">
+      <div className="relative flex  max-w-full h-full lg:h-full justify-center items-center flex-col lg:flex-row lg:mt-[-80px]">
         {/* Desktop connectors */}
         <Image
           src="/SetUpimage1.png"
@@ -52,6 +53,7 @@ export default function SetupSteps() {
           width={300}
           height={100}
           className="absolute top-[25%] xl:left-[43%] w-[100%] hidden lg:block lg:left-[25%]"
+          loading="lazy"
         />
         <Image
           src="/SetUpimage2.png"
@@ -59,6 +61,7 @@ export default function SetupSteps() {
           width={200}
           height={300}
           className="absolute top-[48%] left-[43%] h-[44%] hidden lg:block lg:left-[25%] xl:left-[43%]"
+          loading="lazy"
         />
 
         {/* Tablet & Mobile connectors  */}
@@ -67,7 +70,8 @@ export default function SetupSteps() {
           alt="Connector for Step 1"
           width={370}
           height={370}
-          className="absolute z-[1] block lg:hidden top-[12%] sm:top-[16%] sm:left-[51%] left-[26%] w-[90%] sm:w-[300px]  "
+          className="absolute z-[1] block lg:hidden top-[12%] sm:top-[16%] sm:left-[51%] left-[26%] w-[90%] sm:w-[300px]"
+          loading="lazy"
         />
         <Image
           src="/TabViewPipeTwo.png"
@@ -75,6 +79,7 @@ export default function SetupSteps() {
           width={370}
           height={370}
           className="absolute z-[1] block lg:hidden top-[50%] sm:top-[51%] sm:left-[-39%] md:left-[-53%] left-[-17%] w-[90%] sm:w-[300px]"
+          loading="lazy"
         />
 
         <div className="relative z-[3] inline-grid lg:gap-[18%] sm:flex sm:flex-col sm:items-center sm:gap-[90px] gap-[50px]">

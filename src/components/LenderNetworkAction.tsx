@@ -1,8 +1,10 @@
 "use client";
 
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 export default function LenderNetworkEffect() {
+   const router = useRouter();
   return (
     <section
       className="relative w-full bg-cover bg-center bg-no-repeat py-16 pt-45"
@@ -29,15 +31,14 @@ export default function LenderNetworkEffect() {
               paddingBottom: "25px",
             }}
             aria-label="Start Your Free 90-Day Trial"
-            onClick={() =>
-              (window.location.href = "https://acufi.com/acuview-get-started/")
-            }
+              onClick={() => router.push("/under-renovation")}
           >
             <Image
               src="/WatchDemo.png"
               alt="Demo Icon"
               width={20}
               height={20}
+              loading="lazy"
             />
             <span className="ml-2">Watch Now!</span>
           </button>

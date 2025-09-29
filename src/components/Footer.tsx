@@ -1,10 +1,11 @@
+"use client";
 import Link from "next/link";
 import Image from "next/image";
 import { FaLinkedin, FaYoutube } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
 export default function Footer() {
-  const icons = [
+  const socialIcons = [
     {
       href: "https://www.linkedin.com/company/acu-fi/",
       icon: <FaLinkedin className="text-[#0A66C2]" size={22} />,
@@ -18,9 +19,10 @@ export default function Footer() {
       icon: <FaYoutube className="text-[#FF0000]" size={22} />,
     },
   ];
+
   return (
     <>
-      <footer className="bg-[#011634] text-gray-300 px-6 md:px-12 py-12 sm:pt-40 rounded-t-[22px] relative md:static top-[-18px] md:top-[0]">
+      <footer className="bg-[#011634] text-gray-300 px-6 md:px-12 py-12 sm:pt-40 rounded-t-[22px] relative lg:static top-[-18px] lg:top-[0]">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10 max-w-7xl mx-auto">
           <div className="flex flex-col items-start md:items-start justify-start lg:justify-center">
             <Image
@@ -29,6 +31,7 @@ export default function Footer() {
               width={200}
               height={60}
               className="object-contain"
+              loading="lazy"
             />
           </div>
 
@@ -36,17 +39,17 @@ export default function Footer() {
             <h3 className="font-semibold mb-3">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="#" className="underline">
+                <Link href="/acuview" className="underline">
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="https://acufi.com/about-us/" className="underline">
+                <Link href="/under-renovation" className="underline">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="https://acufi.com/contact/" className="underline">
+                <Link href="/under-renovation" className="underline">
                   Contact Us
                 </Link>
               </li>
@@ -57,37 +60,21 @@ export default function Footer() {
             <h3 className="font-semibold mb-3">Legal</h3>
             <ul className="space-y-2 mb-6">
               <li>
-                <Link
-                  href="https://acufi.com/acufi-consumer-service-center/"
-                  className="underline"
-                >
+                <Link href="/under-renovation" className="underline">
                   Acufi Consumer Reporting Agency
                 </Link>
               </li>
               <li>
-                <Link
-                  href="https://acufi.com/privacy-policy/"
-                  className="underline"
-                >
+                <Link href="/under-renovation" className="underline">
                   Privacy Policy
                 </Link>
               </li>
               <li>
-                <Link
-                  href="https://acufi.com/privacy-policy/"
-                  className="underline"
-                >
+                <Link href="/under-renovation" className="underline">
                   Verafi User Policy
                 </Link>
               </li>
             </ul>
-            {/* <h3 className="font-semibold mb-2">Newsletter Sign up</h3>
-            <p className="text-sm mb-2">
-              Stay Updated on the Future of Neo Banking
-            </p>
-            <Link href="#" className="hover:underline text-sm">
-              CTA — Subscribe Now!
-            </Link> */}
           </div>
 
           <div>
@@ -98,7 +85,7 @@ export default function Footer() {
             <div>
               <h3 className="font-semibold mt-6 mb-2">Follow us</h3>
               <div className="flex gap-4 mt-3">
-                {icons.map((item, idx) => (
+                {socialIcons.map((item, idx) => (
                   <Link
                     key={idx}
                     href={item.href}

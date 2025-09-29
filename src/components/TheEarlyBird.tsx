@@ -11,6 +11,7 @@ const TheEarlyBird: React.FC = () => {
         height={100}
         className="hidden lg:block absolute top-[-26px] right-12 opacity-70 z-0 pointer-events-none"
         style={{ transform: "translateX(75%)" }}
+        loading="lazy"
       />
 
       <Image
@@ -20,6 +21,7 @@ const TheEarlyBird: React.FC = () => {
         height={100}
         className="hidden lg:block absolute top-76 left-2 opacity-70 z-0 pointer-events-none"
         style={{ transform: "translateX(-25%)" }}
+        loading="lazy"
       />
 
       <Image
@@ -29,6 +31,7 @@ const TheEarlyBird: React.FC = () => {
         height={79}
         className="hidden md:block lg:hidden absolute top-[-24px] right-9 opacity-70 z-0 pointer-events-none"
         style={{ transform: "translateX(75%)" }}
+        loading="lazy"
       />
 
       <Image
@@ -38,6 +41,7 @@ const TheEarlyBird: React.FC = () => {
         height={75}
         className="hidden md:block lg:hidden absolute top-80 left-5 opacity-70 z-0 pointer-events-none"
         style={{ transform: "translateX(-25%)" }}
+        loading="lazy"
       />
 
       <Image
@@ -47,6 +51,7 @@ const TheEarlyBird: React.FC = () => {
         height={56}
         className="block md:hidden absolute top-[-12px] right-6 opacity-80 z-0 pointer-events-none"
         style={{ transform: "translateX(75%)" }}
+        loading="lazy"
       />
 
       <Image
@@ -56,6 +61,7 @@ const TheEarlyBird: React.FC = () => {
         height={56}
         className="hidden absolute top-88 left-1.5 opacity-80 z-0 pointer-events-none"
         style={{ transform: "translateX(-25%)" }}
+        loading="lazy"
       />
 
       <div className="w-full relative z-10">

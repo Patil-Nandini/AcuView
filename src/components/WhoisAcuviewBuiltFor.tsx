@@ -92,12 +92,12 @@ const WhoisAcuViewBuiltFor: React.FC = () => {
           </div>
         </div>
       </div>
-      <section className="relative w-full font-sarabun pb-32 flex flex-col justify-center items-center hidden lg:block">
-        <div className="relative w-full max-w-[1920px] md:h-[637px]  lg:h-auto">
+      <section className="relative w-full font-sarabun pb-12 flex flex-col justify-start items-start hidden lg:block">
+        <div className="relative w-full max-w-[1920px] md:h-[637px]  lg:h-auto lg:mt-[-123px]">
           <object
             type="image/svg+xml"
             data="/Who-is-acuview-built-for.svg"
-            className="w-[100%] h-auto max-w-[1920px]"
+            className="w-[100%] h-auto max-w-[1920px] mb-[40px]"
           >
             Your browser does not support SVG
           </object>

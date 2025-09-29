@@ -1,8 +1,9 @@
 "use client";
 
 import Image from "next/image";
-
+import { useRouter } from "next/navigation";
 const ExploringLenderNetwork = () => {
+   const router = useRouter();
   const features = [
     {
       icon: "/Data-Powered Protection.png",
@@ -54,6 +55,7 @@ const ExploringLenderNetwork = () => {
               width={20}
               height={20}
               className="w-9 h-9"
+              loading="lazy"
             />
             <p className="text-[22px] font-bold text-[#17012C]">
               EVERY DAY MORE LENDERS JOIN!
@@ -89,15 +91,14 @@ const ExploringLenderNetwork = () => {
             paddingBottom: "25px",
           }}
           aria-label="Join The Network!"
-          onClick={() =>
-            (window.location.href = "https://acufi.com/lets-connect/")
-          }
+          onClick={() => router.push("/under-renovation")}
         >
            <Image
             src="/RocketIcon.png"
             alt="Rocket Icon"
             width={20}
             height={20}
+            loading="lazy"
           />
           <span className="ml-2">Join The Network!</span>
         </button>
@@ -114,7 +115,7 @@ const ExploringLenderNetwork = () => {
             }`}
           >
             <div className="flex flex-col items-start gap-3">
-              <Image src={f.icon} alt={f.title} width={80} height={80} />
+              <Image src={f.icon} alt={f.title} width={80} height={80} loading="lazy" />
               <h4 className={`text-[20px] font-[800] ${f.titleColor}`}>
                 {f.title}
               </h4>

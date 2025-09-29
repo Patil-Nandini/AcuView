@@ -1,5 +1,4 @@
 import Image from "next/image";
-
 export default function ComparisonSection() {
   return (
     <section className="w-full pt-16 pb-16 lg:pb-0 px-4 md:px-8 lg:px-16 bg-white h-auto">
@@ -27,6 +26,7 @@ export default function ComparisonSection() {
               alt="Traditional Credit Check Icon"
               width={28}
               height={28}
+              loading="lazy"
             />
             <h3 className="text-lg font-semibold text-[#17012C] h-[80px]">
               Traditional Credit Checks <br /> & Data Companies
@@ -39,6 +39,7 @@ export default function ComparisonSection() {
                 alt="Cancel"
                 width={20}
                 height={20}
+                loading="lazy"
               />
               <span>Show what borrowers did weeks or months ago</span>
             </li>
@@ -48,6 +49,7 @@ export default function ComparisonSection() {
                 alt="Cancel"
                 width={20}
                 height={20}
+                loading="lazy"
               />
               <span>Can&apos;t see multiple applications across lenders</span>
             </li>
@@ -57,6 +59,7 @@ export default function ComparisonSection() {
                 alt="Cancel"
                 width={20}
                 height={20}
+                loading="lazy"
               />
               <span>Can&apos;t detect identity manipulation</span>
             </li>
@@ -66,6 +69,7 @@ export default function ComparisonSection() {
                 alt="Cancel"
                 width={20}
                 height={20}
+                loading="lazy"
               />
               <span>Leave you vulnerable to loan stacking</span>
             </li>
@@ -75,6 +79,7 @@ export default function ComparisonSection() {
                 alt="Cancel"
                 width={20}
                 height={20}
+                loading="lazy"
               />
               <span>Increased bad loans</span>
             </li>
@@ -87,6 +92,7 @@ export default function ComparisonSection() {
             alt="Man"
             width={480}
             height={560}
+            loading="lazy"
             className="object-cover mt-[30px] lg:mt-[108px] xl:mt-[30px]"
           />
         </div>
@@ -102,6 +108,7 @@ export default function ComparisonSection() {
               alt="AcuView Intelligence Icon"
               width={28}
               height={28}
+              loading="lazy"
             />
             <h3 className="text-lg font-semibold text-[#17012C] h-[80px]">
               AcuView&apos;s Real-time <br /> Intelligence
@@ -109,25 +116,25 @@ export default function ComparisonSection() {
           </div>
           <ul className="space-y-3 text-sm text-gray-700">
             <li className="flex items-center gap-2">
-              <Image src="/GreenIcon.png" alt="Check" width={20} height={20} />
+              <Image src="/GreenIcon.png" alt="Check" width={20} height={20} loading="lazy" />
               <span>Shows what borrowers are doing in real time</span>
             </li>
             <li className="flex items-center gap-2">
-              <Image src="/GreenIcon.png" alt="Check" width={20} height={20} />
+              <Image src="/GreenIcon.png" alt="Check" width={20} height={20} loading="lazy" />
               <span>
                 Tracks applications across multiple lenders in real-time
               </span>
             </li>
             <li className="flex items-center gap-2">
-              <Image src="/GreenIcon.png" alt="Check" width={20} height={20} />
+              <Image src="/GreenIcon.png" alt="Check" width={20} height={20} loading="lazy" />
               <span>Detects identity inconsistencies</span>
             </li>
             <li className="flex items-center gap-2">
-              <Image src="/GreenIcon.png" alt="Check" width={20} height={20} />
+              <Image src="/GreenIcon.png" alt="Check" width={20} height={20} loading="lazy" />
               <span>Identify risky borrowers before approval</span>
             </li>
             <li className="flex items-center gap-2">
-              <Image src="/GreenIcon.png" alt="Check" width={20} height={20} />
+              <Image src="/GreenIcon.png" alt="Check" width={20} height={20} loading="lazy" />
               <span>Increase good loans & profitability</span>
             </li>
           </ul>

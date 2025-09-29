@@ -13,6 +13,7 @@ export default function StatsSection() {
               alt="Active Lenders"
               width={25}
               height={25}
+              loading="lazy"
             />
             <h2 className="text-[20px] font-extrabold mt-1">127+</h2>
             <p className="font-semibold text-[11px]">Active Lenders</p>
@@ -24,6 +25,7 @@ export default function StatsSection() {
               alt="Data Points"
               width={25}
               height={25}
+              loading="lazy"
             />
             <h2 className="text-[20px] font-extrabold mt-1">1M+</h2>
             <p className="font-semibold text-[11px]">Data Points</p>
@@ -35,6 +37,7 @@ export default function StatsSection() {
               alt="Real Time"
               width={25}
               height={25}
+              loading="lazy"
             />
             <h2 className="text-[20px] font-extrabold mt-1">24/7</h2>
             <p className="font-semibold text-[11px]">Real-Time</p>
@@ -50,6 +53,7 @@ export default function StatsSection() {
                 alt="Active Lenders"
                 width={50}
                 height={50}
+                loading="lazy"
               />
               <h2 className="text-[40px] font-extrabold mt-2">127+</h2>
               <p className="font-semibold mt-1 text-[16px]">Active Lenders</p>
@@ -64,6 +68,7 @@ export default function StatsSection() {
                 alt="Data Points"
                 width={50}
                 height={50}
+                loading="lazy"
               />
               <h2 className="text-[40px] font-extrabold mt-2">1M+</h2>
               <p className="font-semibold mt-1 text-[16px]">Data Points</p>
@@ -78,6 +83,7 @@ export default function StatsSection() {
                 alt="Real Time"
                 width={50}
                 height={50}
+                loading="lazy"
               />
               <h2 className="text-[40px] font-extrabold mt-2">24/7</h2>
               <p className="font-semibold mt-1 text-[16px]">Real-Time</p>
@@ -93,6 +99,7 @@ export default function StatsSection() {
                   alt="Your Impact"
                   width={50}
                   height={50}
+                  loading="lazy"
                 />
                 <div className="absolute left-0 bottom-0 w-full h-[1px] gradient-border" />
               </div>
@@ -117,6 +124,7 @@ export default function StatsSection() {
               width={30}
               height={30}
               className="mr-3"
+              loading="lazy"
             />
             <div className="flex flex-col">
               <h2 className="text-base font-extrabold bg-gradient-to-r from-[#635AD9] to-[#219BE4] bg-clip-text text-transparent">

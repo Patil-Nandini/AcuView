@@ -1,8 +1,10 @@
 "use client"
 import React from "react";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 const ThirtyDaysFree: React.FC = () => {
+   const router = useRouter();
   return (
     <div className="min-h-screen bg-white px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20 font-sarabun bg-[url('/Indroducing-Section-bg.png')] flex flex-col justtify-center items-center">
       <div className="max-w-7xl mx-auto">
@@ -28,6 +30,7 @@ const ThirtyDaysFree: React.FC = () => {
                 alt="30 Days Icon"
                 fill
                 className="object-contain"
+                loading="lazy"
               />
             </div>
             <h2 className="text-[28px] font-bold text-black text-center w-[90%]">
@@ -158,6 +161,7 @@ const ThirtyDaysFree: React.FC = () => {
               alt="Rocket Icon"
               width={20}
               height={20}
+              loading="lazy"
             />
             Your participation doesn&apos;t just help your business, it helps
             build the infrastructure that will protect the entire industry.
@@ -185,6 +189,7 @@ const ThirtyDaysFree: React.FC = () => {
                   alt="Vision Icon"
                   fill
                   className="object-contain"
+                  loading="lazy"
                 />
               </div>
               <h3 className="text-xl sm:text-2xl font-bold text-[#0F1720]">
@@ -218,15 +223,14 @@ const ThirtyDaysFree: React.FC = () => {
               paddingBottom: "25px",
             }}
             aria-label="Start Your Free 90-Day Trial"
-            onClick={() =>
-              (window.location.href = "https://acufi.com/lets-connect/")
-            }
+              onClick={() => router.push("/under-renovation")}
           >
             <Image
               src="/RocketIcon.png"
               alt="Rocket Icon"
               width={20}
               height={20}
+              loading="lazy"
             />
             <span className="ml-2 whitespace-nowrap">Start Your FREE 30-Day Trial!</span>
           </button>
@@ -249,7 +253,7 @@ interface CardProps {
 const Card: React.FC<CardProps> = ({ icon, alt, title, subtitle }) => (
   <div className="bg-white border-2 border-gray-200 rounded-2xl p-6 w-full h-full flex flex-col items-center justify-center text-center hover:shadow-lg transition-shadow">
     <div className="w-16 h-16 mb-4 relative flex-shrink-0">
-      <Image src={icon} alt={alt} fill className="object-contain" />
+      <Image src={icon} alt={alt} fill className="object-contain" loading="lazy" />
     </div>
     <h3 className="text-[16px] font-semibold text-[#17012C] leading-tight">
       {title}
