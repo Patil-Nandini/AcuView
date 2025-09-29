@@ -58,7 +58,7 @@ export default function HowAcuViewWorks() {
                 className="w-[80] h-[80]"
               />
             </div>
-            <h3 className="text-lg font-bold text-center mb-2 mt-3 border-b border-[#E9E9E9] pb-5">
+            <h3 className="text-lg font-bold text-center mb-2 mt-3 border-b border-[#E9E9E9] pb-5 text-[#000000]" >
               Submit Details
             </h3>
 
@@ -77,7 +77,7 @@ export default function HowAcuViewWorks() {
                 className="w-[80] h-[80]"
               />
             </div>
-            <h3 className="text-lg font-bold text-center mb-2 mt-3 border-b border-[#E9E9E9] pb-5">
+            <h3 className="text-lg font-bold text-center mb-2 mt-3 border-b border-[#E9E9E9] pb-5 text-[#000000]">
               Scan Network
             </h3>
             <p className="text-center text-gray-600 text-base">
@@ -94,7 +94,7 @@ export default function HowAcuViewWorks() {
                  className="w-[80] h-[80]"
               />
             </div>
-            <h3 className="text-lg font-bold text-center mb-2 mt-3 border-b border-[#E9E9E9] pb-5">
+            <h3 className="text-lg font-bold text-center mb-2 mt-3 border-b border-[#E9E9E9] pb-5 text-[#000000]">
               Get Results
             </h3>
             <p className="text-center text-gray-600 text-base">
@@ -111,7 +111,7 @@ export default function HowAcuViewWorks() {
                  className="w-[80] h-[80]"
               />
             </div>
-            <h3 className="text-lg font-bold text-center mb-2 mt-3 border-b border-[#E9E9E9] pb-5">
+            <h3 className="text-lg font-bold text-center mb-2 mt-3 border-b border-[#E9E9E9] pb-5 text-[#000000]">
               Make Decisions
             </h3>
             <p className="text-center text-gray-600 text-base">
