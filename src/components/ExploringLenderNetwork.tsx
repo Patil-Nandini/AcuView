@@ -12,7 +12,7 @@ const ExploringLenderNetwork = () => {
         "Access a rapidly growing database of real-time borrower trends and risk patterns across the lending industry — updating every minute!",
       bg: "bg-white shadow-[0px_4px_4px_0px_#00000040]",
       titleColor: "text-[#17012C]",
-      descColor: "black",
+      descColor: "black !important",
     },
     {
       icon: "/Industry-Wide Visibility.png",
@@ -31,7 +31,7 @@ const ExploringLenderNetwork = () => {
         "Maintain strict compliance while benefiting from network-wide intelligence and shared protection that grows stronger every day!",
       bg: "bg-white shadow-[0px_4px_4px_0px_#00000040]",
       titleColor: "text-[#17012C]",
-      descColor: "black",
+      descColor: "black !important",
     },
   ];
 
